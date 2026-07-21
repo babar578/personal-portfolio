@@ -1,0 +1,46 @@
+[
+  {
+    "id": "t001",
+    "name": "Ahmed Khan",
+    "role": "CTO",
+    "company": "Healthcare Operations Co.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ahmed",
+    "content": "Babar delivered a hospital platform that our wards actually use. He thinks in business outcomes — billing leakage, pharmacy stockouts, report latency — not just tickets.",
+    "rating": 5,
+    "type": "Client",
+    "order": 1
+  },
+  {
+    "id": "t002",
+    "name": "Sara Malik",
+    "role": "Head of Operations",
+    "company": "Textile Manufacturing Group",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sara",
+    "content": "Our dyeing and finishing visibility went from spreadsheets to a live ERP. Babar's textile domain knowledge made the difference.",
+    "rating": 5,
+    "type": "Client",
+    "order": 2
+  },
+  {
+    "id": "t003",
+    "name": "Daniel Brooks",
+    "role": "Engineering Manager",
+    "company": "Enterprise Product Team",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Daniel",
+    "content": "Rare mix of deep .NET craft and product sense. APIs were clean, SQL was intentional, and mentoring lifted the whole squad.",
+    "rating": 5,
+    "type": "Colleague",
+    "order": 3
+  },
+  {
+    "id": "t004",
+    "name": "Fatima Raza",
+    "role": "Finance Lead",
+    "company": "Retail Holdings",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Fatima",
+    "content": "Month-end used to be chaos. The reporting factory and POS reconciliation Babar built gave us one version of the truth.",
+    "rating": 5,
+    "type": "Client",
+    "order": 4
+  }
+]

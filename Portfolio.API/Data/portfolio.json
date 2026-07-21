@@ -1,0 +1,107 @@
+{
+  "profile": {
+    "fullName": "Muhammad Babar Ali",
+    "firstName": "Muhammad Babar",
+    "lastName": "Ali",
+    "title": "Senior Software Engineer • AI-Powered ERP Systems Specialist",
+    "tagline": "Building enterprise ERP systems, secure APIs, and cloud solutions—accelerated by AI-assisted development.",
+    "location": "Lahore, Pakistan",
+    "email": "mbabarali02@gmail.com",
+    "phone": "+92 311 4343115",
+    "whatsApp": "+923114343115",
+    "avatar": "/uploads/general/avatar.svg",
+    "heroImage": "/uploads/general/hero.svg",
+    "yearsExperience": 6,
+    "availability": "Immediate — open to remote, international, and employment visa opportunities"
+  },
+  "rotatingTitles": [
+    "Senior Software Engineer",
+    "AI-Powered ERP Specialist",
+    ".NET / ASP.NET Core Engineer",
+    "Enterprise Systems Architect",
+    "Umbraco CMS Developer",
+    "Azure & API Engineer"
+  ],
+  "social": {
+    "linkedIn": "https://www.linkedin.com/in/muhammad-babar-ali-98021b144",
+    "gitHub": "https://github.com/muhammadbabarali",
+    "twitter": "",
+    "youTube": "",
+    "website": "https://muhammadbabarali.dev"
+  },
+  "resume": {
+    "url": "/uploads/general/Muhammad_Babar_Ali_Resume.pdf",
+    "fileName": "Muhammad_Babar_Ali_Resume.pdf",
+    "updatedAt": "2026-07-21T00:00:00Z"
+  },
+  "about": {
+    "headline": "Senior Software Engineer delivering AI-accelerated enterprise ERP and .NET platforms.",
+    "summary": "Results-driven Senior Software Engineer and AI-Powered ERP Specialist with 6+ years of experience delivering enterprise-grade ERP systems, API integrations, and cloud solutions using ASP.NET Core, C#, and Azure across healthcare, retail, and manufacturing. Actively leverages GitHub Copilot, Cursor, Claude, and OpenAI Codex to accelerate delivery and improve code quality. Proven in building secure, high-performance applications with JWT, OAuth 2.0, microservices, and SOLID principles—currently expanding expertise in Blazor, React, and Azure.",
+    "focusAreas": [
+      "ERP Systems",
+      "ASP.NET Core & C#",
+      "REST APIs & Microservices",
+      "Microsoft Dynamics 365",
+      "Umbraco CMS",
+      "SQL Server Performance",
+      "Azure & CI/CD",
+      "E-Commerce Integrations",
+      "Enterprise Reporting",
+      "AI-Assisted Development",
+      "Security (JWT / OAuth 2.0)",
+      "Windows Services"
+    ],
+    "industries": [
+      "Healthcare",
+      "Retail & Distribution",
+      "Manufacturing",
+      "Textile",
+      "Banking & Finance",
+      "Education",
+      "Oil & Energy",
+      "Legal Technology"
+    ],
+    "highlights": [
+      "Leveraged AI tools (GitHub Copilot, Cursor, Claude) to accelerate ERP development and improve code quality",
+      "Delivered medical ERP meeting healthcare compliance standards for 200+ users across multiple facilities",
+      "Led migration of 5 legacy Windows applications to modern web apps, reducing maintenance costs by 40%",
+      "Integrated Shopify and Daraz platforms handling 1,000+ daily transactions with zero downtime",
+      "Built Umbraco CMS solutions reducing content deployment time by 40%",
+      "Implemented CI/CD with Azure DevOps, Jenkins, and GitHub Actions, cutting release cycles by 50%"
+    ],
+    "aiExperience": {
+      "headline": "AI Experience",
+      "summary": "Actively leverages AI-assisted development tools—including GitHub Copilot, Cursor, Claude, ChatGPT, and OpenAI Codex—to accelerate delivery, improve code quality, and drive R&D innovation while maintaining enterprise-grade standards.",
+      "tools": [
+        "GitHub Copilot",
+        "Cursor IDE",
+        "Claude (Anthropic)",
+        "ChatGPT",
+        "OpenAI Codex"
+      ],
+      "capabilities": [
+        "AI-Assisted Development",
+        "Prompt Engineering",
+        "Code Generation & Review",
+        "Architecture Planning",
+        "Documentation Automation",
+        "R&D Acceleration"
+      ]
+    }
+  },
+  "statistics": [
+    { "id": "years", "label": "Years Experience", "value": 6, "suffix": "+", "icon": "calendar" },
+    { "id": "projects", "label": "Projects Delivered", "value": 50, "suffix": "+", "icon": "briefcase" },
+    { "id": "apis", "label": "REST APIs", "value": 100, "suffix": "+", "icon": "api" },
+    { "id": "reports", "label": "Reports Built", "value": 500, "suffix": "+", "icon": "chart" },
+    { "id": "modules", "label": "Enterprise Modules", "value": 20, "suffix": "+", "icon": "modules" }
+  ],
+  "seo": {
+    "title": "Muhammad Babar Ali | Senior Software Engineer • AI-Powered ERP Specialist",
+    "description": "Senior Software Engineer in Lahore with 6+ years building enterprise ERP, ASP.NET Core APIs, Dynamics 365 integrations, and Umbraco CMS solutions. Available immediately for remote and international roles.",
+    "keywords": "Muhammad Babar Ali, Senior Software Engineer, ASP.NET Core, ERP Specialist, Dynamics 365, Umbraco, SQL Server, Azure, Lahore",
+    "ogImage": "/og-image.png",
+    "siteUrl": "https://muhammadbabarali.dev",
+    "author": "Muhammad Babar Ali"
+  }
+}

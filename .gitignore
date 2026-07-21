@@ -1,0 +1,32 @@
+# Dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+Portfolio.API/bin/
+Portfolio.API/obj/
+
+# IDE / OS
+.vs/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+**/appsettings.*.local.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Uploads (keep folder, ignore files)
+Portfolio.API/Data/uploads/**
+!Portfolio.API/Data/uploads/.gitkeep

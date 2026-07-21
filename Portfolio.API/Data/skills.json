@@ -1,0 +1,55 @@
+[
+  {
+    "id": "backend",
+    "name": "Backend & .NET",
+    "icon": "server",
+    "skills": [
+      { "id": "dotnet", "name": ".NET", "level": 95, "icon": "dotnet", "color": "#512BD4" },
+      { "id": "aspnet", "name": "ASP.NET Core", "level": 95, "icon": "aspnet", "color": "#512BD4" },
+      { "id": "mvc", "name": "ASP.NET MVC", "level": 90, "icon": "mvc", "color": "#136EB4" },
+      { "id": "csharp", "name": "C#", "level": 95, "icon": "csharp", "color": "#239120" },
+      { "id": "webapi", "name": "REST API", "level": 95, "icon": "api", "color": "#0ea5e9" },
+      { "id": "signalr", "name": "SignalR", "level": 85, "icon": "signalr", "color": "#7c3aed" },
+      { "id": "jwt", "name": "JWT", "level": 90, "icon": "jwt", "color": "#f59e0b" },
+      { "id": "caching", "name": "Caching", "level": 88, "icon": "cache", "color": "#10b981" },
+      { "id": "winsvc", "name": "Windows Services", "level": 85, "icon": "windows", "color": "#0078D4" }
+    ]
+  },
+  {
+    "id": "data",
+    "name": "Data & Reporting",
+    "icon": "database",
+    "skills": [
+      { "id": "sql", "name": "SQL Server", "level": 92, "icon": "sql", "color": "#CC2927" },
+      { "id": "ef", "name": "Entity Framework", "level": 90, "icon": "ef", "color": "#512BD4" },
+      { "id": "dapper", "name": "Dapper", "level": 88, "icon": "dapper", "color": "#E76F00" },
+      { "id": "ssrs", "name": "SSRS", "level": 90, "icon": "ssrs", "color": "#CC2927" },
+      { "id": "crystal", "name": "Crystal Reports", "level": 88, "icon": "crystal", "color": "#1B75BB" },
+      { "id": "powerbi", "name": "Power BI", "level": 80, "icon": "powerbi", "color": "#F2C811" }
+    ]
+  },
+  {
+    "id": "frontend",
+    "name": "Frontend",
+    "icon": "layout",
+    "skills": [
+      { "id": "js", "name": "JavaScript", "level": 88, "icon": "js", "color": "#F7DF1E" },
+      { "id": "ts", "name": "TypeScript", "level": 85, "icon": "ts", "color": "#3178C6" },
+      { "id": "react", "name": "React", "level": 85, "icon": "react", "color": "#61DAFB" },
+      { "id": "angular", "name": "Angular", "level": 75, "icon": "angular", "color": "#DD0031" },
+      { "id": "tailwind", "name": "Tailwind", "level": 85, "icon": "tailwind", "color": "#06B6D4" },
+      { "id": "bootstrap", "name": "Bootstrap", "level": 90, "icon": "bootstrap", "color": "#7952B3" }
+    ]
+  },
+  {
+    "id": "cloud",
+    "name": "Cloud & DevOps",
+    "icon": "cloud",
+    "skills": [
+      { "id": "azure", "name": "Azure", "level": 80, "icon": "azure", "color": "#0078D4" },
+      { "id": "docker", "name": "Docker", "level": 78, "icon": "docker", "color": "#2496ED" },
+      { "id": "git", "name": "Git", "level": 90, "icon": "git", "color": "#F05032" },
+      { "id": "d365", "name": "Dynamics 365", "level": 75, "icon": "dynamics", "color": "#002050" }
+    ]
+  }
+]

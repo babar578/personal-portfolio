@@ -1,0 +1,74 @@
+[
+  {
+    "id": "svc001",
+    "title": "Enterprise Software Development",
+    "description": "End-to-end design and delivery of mission-critical business applications with clean architecture and production-grade quality.",
+    "icon": "building",
+    "features": ["Requirements to production", "Modular architecture", "Security & auditability"],
+    "order": 1
+  },
+  {
+    "id": "svc002",
+    "title": "ERP Development",
+    "description": "Custom ERP modules for inventory, production, finance, and operations tailored to industry workflows.",
+    "icon": "layers",
+    "features": ["Textile & manufacturing", "Warehouse & MRP", "Dealer portals"],
+    "order": 2
+  },
+  {
+    "id": "svc003",
+    "title": "Custom Business Applications",
+    "description": "Purpose-built line-of-business apps that replace spreadsheets and fragmented tools.",
+    "icon": "app",
+    "features": ["Workflow automation", "Role-based access", "Integrations"],
+    "order": 3
+  },
+  {
+    "id": "svc004",
+    "title": "API Development",
+    "description": "Secure, versioned REST APIs designed for scale, clarity, and long-term maintainability.",
+    "icon": "api",
+    "features": ["JWT & policies", "OpenAPI docs", "Performance budgets"],
+    "order": 4
+  },
+  {
+    "id": "svc005",
+    "title": "Database Optimization",
+    "description": "SQL Server tuning, indexing strategies, and query redesign for measurable speedups.",
+    "icon": "database",
+    "features": ["Index design", "Query plans", "Partitioning"],
+    "order": 5
+  },
+  {
+    "id": "svc006",
+    "title": "Performance Tuning",
+    "description": "Profiling APIs, caching layers, and background jobs to eliminate bottlenecks.",
+    "icon": "zap",
+    "features": ["Caching", "Async pipelines", "Load testing"],
+    "order": 6
+  },
+  {
+    "id": "svc007",
+    "title": "Reporting Solutions",
+    "description": "Executive and operational reporting with SSRS, Crystal Reports, and Power BI.",
+    "icon": "chart",
+    "features": ["500+ report experience", "Subscriptions", "Semantic models"],
+    "order": 7
+  },
+  {
+    "id": "svc008",
+    "title": "Cloud Migration",
+    "description": "Move workloads to Azure with containers, managed data services, and resilient messaging.",
+    "icon": "cloud",
+    "features": ["Azure readiness", "Docker", "Hybrid integrations"],
+    "order": 8
+  },
+  {
+    "id": "svc009",
+    "title": "Architecture Design",
+    "description": "System design workshops delivering diagrams, ADRs, and implementation roadmaps.",
+    "icon": "compass",
+    "features": ["Domain boundaries", "Integration patterns", "Security posture"],
+    "order": 9
+  }
+]
