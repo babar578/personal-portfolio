@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react'
-import { Mail, MapPin, Phone, Send, Linkedin } from 'lucide-react'
-import { FaWhatsapp } from 'react-icons/fa'
+import { Mail, MapPin, Phone, Send } from 'lucide-react'
+import { FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { GlassPanel } from '@/components/ui/GlassPanel'
 import { Button } from '@/components/ui/Button'
@@ -79,7 +79,7 @@ export function ContactSection() {
             </div>
             {portfolio.social.linkedIn ? (
               <div className="flex items-start gap-3">
-                <Linkedin className="mt-1 text-[var(--accent)]" size={18} />
+                <FaLinkedin className="mt-1 text-[var(--accent)]" size={18} />
                 <div>
                   <p className="text-sm font-semibold">LinkedIn</p>
                   <a
