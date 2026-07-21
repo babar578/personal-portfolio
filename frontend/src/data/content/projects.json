@@ -1,0 +1,795 @@
+[
+  {
+    "id": "proj001",
+    "slug": "homecare",
+    "title": "HomeCare",
+    "company": "SSIT",
+    "industry": "Healthcare",
+    "clientRegion": "Saudi Arabia",
+    "duration": "",
+    "categories": ["Healthcare", "Mobile", "Web Portal"],
+    "shortDescription": "Healthcare platform connecting patients with home healthcare professionals across Saudi Arabia through a mobile app and ASP.NET MVC portal.",
+    "description": "HomeCare is a digital healthcare platform built for the Saudi Arabian market to connect patients with home healthcare professionals through a single, coordinated system. The solution combines a patient-facing mobile application with an ASP.NET MVC web portal for clinical and administrative teams. It supports the full care journey—from registration and service requests through appointments, treatment planning, billing, and medical history tracking—with a primary focus on physiotherapy (DPT) patients and home healthcare providers.",
+    "businessProblem": "Home healthcare delivery was fragmented across phone calls, paper records, and disconnected schedules, making it difficult to assign clinicians, track care progress, and keep patients informed. Providers needed a centralized platform to manage appointments, collaborate on diagnosis, and maintain accurate clinical and financial records.",
+    "solution": "HomeCare introduced a unified digital ecosystem where patients can register, request services, and communicate with doctors, while clinical teams manage assignment, diagnosis, treatment plans, and billing from dedicated portals. A collaborative diagnosis workflow enables doctors to review patient information together before recommending treatment, improving care quality and decision consistency.",
+    "responsibilities": [
+      "Served as Full Stack .NET Developer across web portal and related platform modules",
+      "Built and enhanced ASP.NET MVC application features",
+      "Implemented frontend interfaces using HTML, CSS, JavaScript, and jQuery",
+      "Developed backend business logic for clinical and operational workflows",
+      "Designed and maintained SQL Server database objects",
+      "Resolved defects and optimized existing modules for stability and performance"
+    ],
+    "technicalHighlights": [
+      "Dual-channel delivery via mobile app and ASP.NET MVC web portal",
+      "Role-based portals for administrators and doctors",
+      "Structured clinical workflow for multi-doctor diagnosis review",
+      "Integrated billing and medical history within a shared patient record"
+    ],
+    "database": "Microsoft SQL Server",
+    "deploymentEnvironment": "Internal server deployment",
+    "results": "Delivered a production-ready healthcare platform that streamlined home care operations, improved clinician collaboration, and gave patients a clearer digital path from request to treatment and follow-up.",
+    "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1400&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=80",
+      "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1200&q=80",
+      "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&q=80"
+    ],
+    "videoUrl": null,
+    "gitHubUrl": null,
+    "liveDemoUrl": null,
+    "technologies": ["ASP.NET MVC", "C#", "JavaScript", "HTML", "CSS", "Bootstrap", "jQuery", "SQL Server"],
+    "architecture": "Centralized ASP.NET MVC web application with SQL Server as the system of record, supporting patient, doctor, and admin roles. Business logic orchestrates registration, scheduling, diagnosis collaboration, treatment planning, billing, and notifications across the web portal and mobile application.",
+    "modules": ["Patient Registration", "Appointment Scheduling", "Doctor Assignment", "Auto Diagnosis Workflow", "Treatment Planning", "Patient History", "Billing", "Medical Records", "Notifications", "Admin Portal", "Doctor Portal", "Mobile Application"],
+    "features": [
+      "Patient self-registration and profile management",
+      "Appointment scheduling and doctor assignment",
+      "Collaborative auto diagnosis workflow",
+      "Treatment planning and care coordination",
+      "Patient history and medical records management",
+      "Billing and payment tracking",
+      "Notifications for patients and care teams",
+      "Admin portal, doctor portal, and mobile application"
+    ],
+    "caseStudy": {
+      "problem": "Home healthcare lacked a centralized digital system for patients, doctors, and administrators.",
+      "challenges": [
+        "Coordinating patient, doctor, and admin workflows in one platform",
+        "Supporting collaborative diagnosis with accurate scheduling",
+        "Maintaining reliable medical and billing records"
+      ],
+      "architecture": "ASP.NET MVC with role-based portals and SQL Server-backed clinical and billing workflows.",
+      "database": "Microsoft SQL Server",
+      "api": "Server-side MVC application services supporting portal and mobile workflows.",
+      "performance": "Optimized existing modules and resolved defects to improve platform stability.",
+      "businessValue": "Streamlined home care operations and improved clinician collaboration for physiotherapy and home healthcare providers.",
+      "lessonsLearned": [
+        "Healthcare platforms require clear role separation",
+        "Collaborative clinical workflows improve treatment consistency"
+      ],
+      "flowDiagrams": [],
+      "images": []
+    },
+    "featured": true,
+    "order": 1,
+    "completedAt": null
+  },
+  {
+    "id": "proj002",
+    "slug": "brass-erp",
+    "title": "Brass ERP",
+    "company": "AMC International",
+    "industry": "Manufacturing ERP",
+    "clientRegion": "China",
+    "duration": "",
+    "categories": ["ERP", "Manufacturing", "Angular", "Web API"],
+    "shortDescription": "Complete Enterprise Resource Planning system for a Chinese electric bike manufacturer, covering HR, finance, supply chain, manufacturing, CRM, and operations.",
+    "description": "Brass ERP is a complete Enterprise Resource Planning system developed for a Chinese electric bike manufacturing organization. The platform unifies the full operating model of the business—human resources, payroll, finance, procurement, inventory, warehouse, supply chain, production, quality, CRM, and administration—into one centralized enterprise system. The solution initially launched on ASP.NET MVC and later evolved through a phased modernization of selected modules to Angular with ASP.NET Web APIs, enabling a more scalable and API-driven architecture without disrupting core ERP operations.",
+    "businessProblem": "Manufacturing, finance, HR, inventory, and commercial teams operated through fragmented processes with limited cross-department visibility. Leadership needed a complete ERP platform to standardize workflows, strengthen financial control, improve production planning, and create one reliable source of operational truth.",
+    "solution": "Brass ERP delivered a full-suite ERP architecture that connects people, money, materials, and manufacturing into a single enterprise platform. Shared master data, configurable workflows, role-based security, dashboards, and reporting support end-to-end operations—from recruitment and attendance through procurement, production, warehouse control, sales, and financial close. Selected modules were modernized to Angular with REST APIs to improve maintainability and long-term extensibility.",
+    "responsibilities": [
+      "Developed and maintained complete ERP business modules across HR, finance, inventory, and operations",
+      "Implemented features within the ASP.NET MVC enterprise architecture",
+      "Contributed to Angular migration of selected ERP modules",
+      "Built REST APIs to support modernized frontend workflows",
+      "Optimized SQL Server queries and transactional data access patterns",
+      "Sustained and enhanced existing ERP functionality in production"
+    ],
+    "technicalHighlights": [
+      "Complete ERP coverage across HR, finance, supply chain, manufacturing, and CRM",
+      "Hybrid modernization path from ASP.NET MVC to Angular + Web API",
+      "Configurable workflow, security, and administration framework",
+      "SQL performance improvements for high-volume ERP transactions"
+    ],
+    "database": "Microsoft SQL Server",
+    "deploymentEnvironment": "Enterprise application environment (client infrastructure)",
+    "results": "Enabled a manufacturing organization to operate through one complete ERP platform—improving departmental coordination, financial visibility, inventory control, and production governance while establishing an API-ready foundation for continued modernization.",
+    "coverImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1400&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1200&q=80",
+      "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&q=80",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80"
+    ],
+    "technologies": ["ASP.NET MVC", "Angular", "ASP.NET Web API", "C#", "JavaScript", "SQL Server"],
+    "architecture": "Complete enterprise ERP built initially as an ASP.NET MVC platform with SQL Server as the system of record, later extended with Angular frontends and ASP.NET Web APIs for migrated modules. Shared configuration, security, workflow, and reporting services support cross-department operations spanning HR, finance, supply chain, manufacturing, CRM, and administration.",
+    "modules": [
+      "Human Resource Management (HRM)",
+      "Payroll",
+      "Recruitment",
+      "Employee Management",
+      "Attendance",
+      "Leave Management",
+      "Accounts",
+      "General Ledger",
+      "Accounts Payable",
+      "Accounts Receivable",
+      "Cash Management",
+      "Banking",
+      "Procurement",
+      "Purchase",
+      "Sales",
+      "Inventory",
+      "Warehouse",
+      "Supply Chain Management",
+      "Production Planning",
+      "Manufacturing",
+      "Quality Control",
+      "CRM",
+      "Task Management",
+      "Workflow Management",
+      "Dashboard",
+      "Reporting",
+      "User Management",
+      "Administration",
+      "Security",
+      "Configuration"
+    ],
+    "features": [
+      "End-to-end ERP operations across people, finance, materials, and manufacturing",
+      "Integrated HRM covering recruitment, attendance, leave, and payroll",
+      "Full financial controls including GL, AP, AR, cash, and banking",
+      "Procurement-to-pay and order-to-cash commercial workflows",
+      "Inventory, warehouse, and supply chain visibility",
+      "Production planning, manufacturing, and quality control",
+      "CRM, task, and workflow management",
+      "Executive dashboards, enterprise reporting, and role-based security"
+    ],
+    "caseStudy": {
+      "problem": "A manufacturing enterprise needed one complete ERP to replace fragmented departmental systems.",
+      "challenges": [
+        "Delivering broad ERP module coverage without sacrificing operational continuity",
+        "Maintaining stability during MVC to Angular migration",
+        "Optimizing SQL performance across interconnected ERP domains"
+      ],
+      "architecture": "ASP.NET MVC ERP core with phased Angular + Web API modernization.",
+      "database": "Microsoft SQL Server",
+      "api": "ASP.NET Web API REST endpoints for migrated Angular modules.",
+      "performance": "SQL query optimization across high-volume ERP transactions.",
+      "businessValue": "One complete ERP for manufacturing operations, finance, HR, and supply chain governance.",
+      "lessonsLearned": [
+        "Complete ERP delivery requires strong domain modularization",
+        "Phased modernization reduces risk in live enterprise systems"
+      ],
+      "flowDiagrams": [],
+      "images": []
+    },
+    "featured": true,
+    "order": 2,
+    "completedAt": null
+  },
+  {
+    "id": "proj003",
+    "slug": "shifili-multihead-production-system",
+    "title": "Shifili Multihead Production System",
+    "company": "Safe Tech",
+    "industry": "Textile Manufacturing",
+    "clientRegion": "Pakistan",
+    "duration": "",
+    "categories": ["Textile", "Manufacturing", "Machine Integration", "Quality"],
+    "shortDescription": "Textile manufacturing platform with machine integration, fabric inspection, defect detection, roll tracking, warehouse control, and accounts integration.",
+    "description": "Shifili Multihead Production System is an enterprise textile manufacturing platform designed to digitize the shop floor and connect production reality to warehouse and commercial operations. The software communicates directly with industrial production machines to capture live output, support fabric inspection, detect defects, track rolls, manage grading, and synchronize production outcomes with warehouse, dispatch, and accounts workflows.",
+    "businessProblem": "Textile manufacturers struggled to convert machine output into reliable operational records. Manual inspection notes, delayed roll tracking, and disconnected warehouse or accounts processes created quality risk, inventory gaps, and weak production visibility.",
+    "solution": "The platform creates a closed-loop manufacturing system centered on machine integration and production intelligence. Live machine data feeds production monitoring, fabric inspection, and defect detection. Roll tracking and grade management convert quality outcomes into inventory-ready records, while warehouse, dispatch, and accounts integration extend production data into fulfillment and commercial control.",
+    "responsibilities": [
+      "Led application development for the production platform",
+      "Designed manufacturing workflows from machine capture to dispatch and accounts",
+      "Built backend modules for monitoring, inspection, grading, and inventory",
+      "Designed the SQL Server database structure",
+      "Delivered production and operational reporting",
+      "Integrated industrial machine data into the software stack"
+    ],
+    "technicalHighlights": [
+      "Direct industrial machine integration for live production capture",
+      "Fabric inspection and defect detection workflows",
+      "Roll tracking and grade management for quality-controlled inventory",
+      "Warehouse, dispatch, and accounts integration from production events"
+    ],
+    "database": "Microsoft SQL Server",
+    "deploymentEnvironment": "On-premise / industrial plant environment with machine-connected services",
+    "results": "Transformed textile production from manual recording into a connected manufacturing system—improving machine visibility, inspection consistency, roll-level inventory accuracy, and downstream warehouse, dispatch, and accounts alignment.",
+    "coverImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80",
+      "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=1200&q=80",
+      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1200&q=80",
+      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&q=80",
+      "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&q=80",
+      "https://images.unsplash.com/photo-1618220179428-22790b461013?w=1200&q=80"
+    ],
+    "technologies": ["ASP.NET MVC", "VB.NET", "C#", "JavaScript", "SQL Server", "Windows Services", "Industrial Machine Integration"],
+    "architecture": "ASP.NET MVC application with SQL Server, supported by Windows Services that communicate with industrial textile machines. Production events flow through monitoring, fabric inspection, defect detection, roll and grade management, warehouse, dispatch, and accounts modules—creating an end-to-end manufacturing control loop.",
+    "modules": [
+      "Machine Integration",
+      "Production Monitoring",
+      "Fabric Inspection",
+      "Defect Detection",
+      "Roll Tracking",
+      "Grade Management",
+      "Color Management",
+      "Warehouse",
+      "Dispatch",
+      "Accounts Integration",
+      "Production Reports",
+      "Inventory",
+      "Cutting Department",
+      "Vendor Management",
+      "Billing"
+    ],
+    "features": [
+      "Real-time machine integration and production monitoring",
+      "Fabric inspection and defect detection",
+      "Roll tracking with grade and quality classification",
+      "Warehouse and inventory synchronization from production output",
+      "Dispatch readiness linked to graded rolls and stock",
+      "Accounts integration for commercial follow-through",
+      "Production reporting for operational and management control"
+    ],
+    "caseStudy": {
+      "problem": "Textile production, inspection, and commercial systems were disconnected from live machine activity.",
+      "challenges": [
+        "Reliable machine-to-software communication on the shop floor",
+        "Accurate fabric inspection and defect classification",
+        "Keeping roll tracking, warehouse, dispatch, and accounts aligned"
+      ],
+      "architecture": "ASP.NET MVC + Windows Services for machine data capture and manufacturing operations.",
+      "database": "Microsoft SQL Server",
+      "api": "Service-based machine data ingestion with operational application modules.",
+      "performance": "Continuous machine statistics capture supporting live production monitoring.",
+      "businessValue": "Stronger quality control, roll-level inventory accuracy, and production-to-accounts visibility.",
+      "lessonsLearned": [
+        "Machine integration is the foundation of textile digitalization",
+        "Inspection and grading must connect directly to warehouse and dispatch"
+      ],
+      "flowDiagrams": [],
+      "images": []
+    },
+    "featured": true,
+    "order": 3,
+    "completedAt": null
+  },
+  {
+    "id": "proj004",
+    "slug": "dynamics-365-business-platform",
+    "title": "Dynamics 365 Business Platform",
+    "company": "Service Sales Corporation",
+    "industry": "Retail & Distribution",
+    "clientRegion": "",
+    "duration": "",
+    "categories": ["Dynamics 365", "Reporting", "E-Commerce", "Business Intelligence"],
+    "shortDescription": "Custom applications around Microsoft Dynamics 365 for reporting, BI, marketplace synchronization, and multi-channel operational efficiency.",
+    "description": "Dynamics 365 Business Platform is an enterprise extension layer built around Microsoft Dynamics 365 to improve reporting, business intelligence, data synchronization, and operational efficiency. Custom applications were developed to connect Dynamics with e-commerce and marketplace channels—including Shopify, Daraz, WooCommerce, and Magento—while delivering SQL reporting, Power BI, SSRS, Crystal Reports, dashboards, customer analytics, and return management for retail and distribution leadership.",
+    "businessProblem": "Dynamics 365 alone did not fully satisfy the organization's need for high-performance reporting, multi-channel commerce synchronization, and operational intelligence. Sales, inventory, returns, and financial teams required custom applications that could unify marketplace activity with Dynamics data and present reliable insight through dashboards and enterprise reports.",
+    "solution": "Custom .NET and SQL applications were engineered around Dynamics 365 to synchronize sales and inventory across e-commerce platforms, support marketplace operations, manage returns, and deliver financial reporting with customer analytics. The platform combines Power BI, SSRS, Crystal Reports, SQL reporting, and operational dashboards to improve decision speed and cross-channel control.",
+    "responsibilities": [
+      "Designed and delivered SQL-based enterprise reporting solutions",
+      "Built custom applications around the Dynamics 365 data model",
+      "Implemented e-commerce and marketplace synchronization workflows",
+      "Optimized SQL queries for large enterprise datasets",
+      "Supported dashboards, BI packs, and operational print workflows"
+    ],
+    "technicalHighlights": [
+      "Custom applications extending Microsoft Dynamics 365",
+      "Multi-channel e-commerce and marketplace synchronization",
+      "Sales, inventory, and returns alignment across platforms",
+      "Enterprise BI stack with Power BI, SSRS, Crystal Reports, and SQL reporting"
+    ],
+    "database": "Microsoft SQL Server (Dynamics 365–integrated enterprise data)",
+    "deploymentEnvironment": "Enterprise Microsoft Dynamics 365 / reporting infrastructure",
+    "results": "Improved operational efficiency by connecting Dynamics 365 with major commerce channels and delivering faster, more reliable reporting, analytics, and synchronization for sales, inventory, finance, and returns.",
+    "coverImage": "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=1400&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+      "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=1200&q=80",
+      "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=1200&q=80"
+    ],
+    "technologies": ["Dynamics 365", "SQL Server", "ASP.NET", "Power BI", "SSRS", "Crystal Reports", "Shopify", "Daraz", "WooCommerce", "Magento"],
+    "architecture": "Microsoft Dynamics 365 remains the core business system of record. Surrounding custom ASP.NET applications and SQL Server reporting services handle e-commerce integrations, marketplace synchronization, sales and inventory sync, return management, dashboards, and BI distribution through Power BI, SSRS, Crystal Reports, and SQL reporting packs.",
+    "modules": [
+      "Shopify Integration",
+      "Daraz Integration",
+      "WooCommerce Integration",
+      "Magento Integration",
+      "E-Commerce Integrations",
+      "Marketplace Synchronization",
+      "Sales Synchronization",
+      "Inventory Synchronization",
+      "Return Management",
+      "Financial Reporting",
+      "Customer Analytics",
+      "Dashboard",
+      "SQL Reporting",
+      "Power BI",
+      "SSRS",
+      "Crystal Reports"
+    ],
+    "features": [
+      "Custom applications built around Microsoft Dynamics 365",
+      "Marketplace and e-commerce synchronization across Shopify, Daraz, WooCommerce, and Magento",
+      "Sales and inventory synchronization for multi-channel operations",
+      "Return management connected to operational and financial reporting",
+      "Financial reporting and customer analytics for leadership visibility",
+      "Executive dashboards with SQL reporting, Power BI, SSRS, and Crystal Reports",
+      "Improved data synchronization and operational efficiency across retail channels"
+    ],
+    "caseStudy": {
+      "problem": "Dynamics 365 needed a custom application layer for commerce sync, BI, and operational reporting.",
+      "challenges": [
+        "Synchronizing multiple e-commerce and marketplace platforms",
+        "Maintaining report performance on large Dynamics datasets",
+        "Aligning sales, inventory, returns, and financial insight"
+      ],
+      "architecture": "Dynamics 365 core with custom ASP.NET/SQL integration and multi-tool BI layer.",
+      "database": "Microsoft SQL Server integrated with Dynamics 365",
+      "api": "Integration and synchronization components bridging Dynamics and commerce platforms.",
+      "performance": "SQL optimization for large-dataset reporting and sync workloads.",
+      "businessValue": "Stronger multi-channel control and faster Dynamics-driven decision-making.",
+      "lessonsLearned": [
+        "Commerce platforms must sync cleanly into ERP master and transactional models",
+        "Reporting and synchronization should be designed as first-class enterprise capabilities"
+      ],
+      "flowDiagrams": [],
+      "images": []
+    },
+    "featured": true,
+    "order": 4,
+    "completedAt": null
+  },
+  {
+    "id": "proj005",
+    "slug": "veterinary-erp",
+    "title": "Veterinary ERP",
+    "company": "Neogen",
+    "industry": "Veterinary Healthcare",
+    "clientRegion": "United States",
+    "duration": "",
+    "categories": ["Healthcare", "ERP", "Angular", "ASP.NET Core"],
+    "shortDescription": "Enterprise ERP for veterinary hospitals managing owners, animals, appointments, treatments, billing, and inventory.",
+    "description": "Veterinary ERP is an enterprise platform for veterinary hospitals and animal healthcare providers. It manages the full clinic lifecycle—pet owners, animals, breeds, appointments, treatments, medical records, billing, inventory, and administration—so care teams can operate from a single, consistent system of record.",
+    "businessProblem": "Veterinary practices needed a unified ERP to manage owners, animal profiles, clinical visits, treatment plans, billing, and inventory without fragmented tools. Inefficient workflows and disconnected records slowed care delivery and operational control.",
+    "solution": "The platform provides integrated modules for animal and owner management, clinical appointments and treatment planning, medical records, billing, inventory, reporting, and administration. An Angular frontend with ASP.NET Core REST APIs delivers a modern, maintainable enterprise experience backed by SQL Server.",
+    "responsibilities": [
+      "Served as Senior Full Stack Developer",
+      "Developed core enterprise ERP modules",
+      "Built and enhanced Angular frontend experiences",
+      "Designed and implemented REST APIs on ASP.NET Core",
+      "Improved application performance",
+      "Diagnosed and resolved production issues"
+    ],
+    "technicalHighlights": [
+      "Modern Angular SPA with ASP.NET Core API backend",
+      "REST-based service architecture for clinic operations",
+      "Performance improvements for enterprise clinic workloads",
+      "Production support for stability and continuity of care operations"
+    ],
+    "database": "Microsoft SQL Server",
+    "deploymentEnvironment": "Enterprise cloud / hosted application environment (client deployment)",
+    "results": "Delivered a cohesive veterinary ERP that improved clinic operations, record accuracy, and day-to-day efficiency for animal healthcare providers.",
+    "coverImage": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=1400&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=1200&q=80",
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&q=80"
+    ],
+    "technologies": ["Angular", "ASP.NET Core", "REST API", "C#", "SQL Server"],
+    "architecture": "Angular frontend consuming ASP.NET Core REST APIs, with SQL Server as the persistent store for owners, animals, clinical, billing, inventory, and administrative data across veterinary hospital workflows.",
+    "modules": ["Animal Registration", "Owner Management", "Breed Management", "Medical Records", "Appointments", "Treatment Plans", "Billing", "Inventory", "Reports", "Administration"],
+    "features": [
+      "Animal registration and breed management",
+      "Pet owner management",
+      "Medical records and treatment plans",
+      "Appointment scheduling",
+      "Billing and inventory control",
+      "Operational reports and administration"
+    ],
+    "caseStudy": {
+      "problem": "Veterinary clinics needed one ERP for clinical, billing, and inventory operations.",
+      "challenges": [
+        "Balancing clinical completeness with performance",
+        "Sustaining production reliability across interconnected modules"
+      ],
+      "architecture": "Angular SPA + ASP.NET Core REST APIs + SQL Server.",
+      "database": "Microsoft SQL Server",
+      "api": "ASP.NET Core REST APIs for clinic operations.",
+      "performance": "Application performance improvements for enterprise clinic workloads.",
+      "businessValue": "Improved clinic efficiency and record accuracy for animal healthcare providers.",
+      "lessonsLearned": [
+        "Veterinary workflows require strong owner–animal data relationships",
+        "Production support is critical in healthcare ERP"
+      ],
+      "flowDiagrams": [],
+      "images": []
+    },
+    "featured": true,
+    "order": 5,
+    "completedAt": null
+  },
+  {
+    "id": "proj006",
+    "slug": "pti-feed-management-system",
+    "title": "PTI Feed Management System",
+    "company": "",
+    "industry": "Construction",
+    "clientRegion": "",
+    "duration": "",
+    "categories": ["Construction", "Hardware Integration", "Production"],
+    "shortDescription": "Enterprise feed production software with hardware integration for equipment monitoring, workflows, inventory, and reporting.",
+    "description": "PTI Feed Management System is enterprise software for managing feed production operations with direct hardware integration. The platform monitors production equipment, coordinates production workflows, and supports inventory control, reporting, and day-to-day operational management within a connected industrial environment.",
+    "businessProblem": "Feed production depended on equipment activity that was difficult to monitor and reconcile with inventory and operational records in real time. The organization needed software that could bridge hardware output with production, stock, and reporting processes.",
+    "solution": "The system integrates with production hardware to monitor equipment status and feed production activity, then aligns that data with workflow management, inventory, reporting, and operational controls—creating a practical bridge between plant equipment and business operations.",
+    "responsibilities": [
+      "Contributed to development of production and operations modules",
+      "Supported hardware-integrated production monitoring workflows",
+      "Implemented backend logic for production, inventory, and reporting processes",
+      "Assisted in aligning equipment data with operational system records"
+    ],
+    "technicalHighlights": [
+      "Software–hardware integration for live production visibility",
+      "Workflow orchestration around feed production equipment",
+      "Inventory and reporting tied to production activity"
+    ],
+    "database": "Microsoft SQL Server",
+    "deploymentEnvironment": "Industrial / on-premise production environment with connected equipment",
+    "results": "Improved visibility into feed production equipment and strengthened operational control across production, inventory, and reporting activities.",
+    "coverImage": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1400&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&q=80",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&q=80"
+    ],
+    "technologies": ["ASP.NET", "C#", "SQL Server", "Hardware Integration"],
+    "architecture": "Enterprise production application with hardware integration services feeding operational modules for monitoring, workflow control, inventory, and reporting.",
+    "modules": ["Production Monitoring", "Workflow Management", "Inventory", "Reporting", "Operations"],
+    "features": [
+      "Hardware-integrated production monitoring",
+      "Production workflow management",
+      "Inventory control",
+      "Operational reporting",
+      "Day-to-day plant operations support"
+    ],
+    "caseStudy": {
+      "problem": "Feed production equipment activity was disconnected from inventory and operational records.",
+      "challenges": [
+        "Dependable hardware communication",
+        "Keeping production, inventory, and reporting data consistent under live plant conditions"
+      ],
+      "architecture": "Enterprise application with hardware integration services and operational modules.",
+      "database": "Microsoft SQL Server",
+      "api": "Integration services bridging equipment data and business modules.",
+      "performance": "Live monitoring aligned with operational and inventory workflows.",
+      "businessValue": "Stronger visibility and control across feed production operations.",
+      "lessonsLearned": [
+        "Hardware integration must be validated under live plant conditions"
+      ],
+      "flowDiagrams": [],
+      "images": []
+    },
+    "featured": false,
+    "order": 6,
+    "completedAt": null
+  },
+  {
+    "id": "proj007",
+    "slug": "neogen-enterprise-product-portfolio",
+    "title": "Neogen Multi-Product Enterprise Engagement",
+    "company": "Neogen",
+    "industry": "Cross-Industry Enterprise Software",
+    "clientRegion": "International (including Morocco and other global clients)",
+    "duration": "",
+    "categories": ["Healthcare", "Banking", "Manufacturing", "Government", "Financial Services"],
+    "shortDescription": "Multi-product enterprise delivery across healthcare, banking, manufacturing, government, and financial platforms for international clients.",
+    "description": "At Neogen, I contributed to multiple enterprise products serving international clients across regulated and high-scale domains. Engagements spanned healthcare platforms, banking solutions, manufacturing systems, Morocco government projects, DFC initiatives, healthcare group systems, AGC-related solutions, and enterprise financial platforms—delivered to professional enterprise standards.",
+    "businessProblem": "International clients required reliable, domain-specific enterprise systems that could support complex operational, regulatory, and financial workflows. Delivery demanded consistent engineering quality across diverse products and industries rather than a single fixed platform.",
+    "solution": "Provided full-stack enterprise development across a portfolio of products, applying reusable engineering practices—modular design, API-driven architecture, performance improvement, and production support—to healthcare, banking, manufacturing, government, and financial platforms.",
+    "responsibilities": [
+      "Delivered features and modules across multiple enterprise products",
+      "Supported international client requirements and domain workflows",
+      "Strengthened application stability through performance work and production issue resolution",
+      "Collaborated across product teams on architecture-aligned implementation"
+    ],
+    "technicalHighlights": [
+      "Multi-domain enterprise delivery experience",
+      "Cross-product consistency in quality and maintainability",
+      "Production-focused engineering for international clients"
+    ],
+    "database": "Microsoft SQL Server and product-specific enterprise data stores",
+    "deploymentEnvironment": "Client and product-specific enterprise hosting environments",
+    "results": "Contributed to successful delivery and ongoing enhancement of multiple international enterprise products spanning healthcare, banking, manufacturing, government, and financial services.",
+    "coverImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
+      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&q=80"
+    ],
+    "technologies": ["Angular", "ASP.NET Core", "REST API", "C#", "SQL Server", ".NET"],
+    "architecture": "Varied by product; generally enterprise n-tier / API-oriented architectures with SQL-backed systems tailored to healthcare, financial, manufacturing, and government requirements.",
+    "modules": ["Healthcare Platforms", "Banking Solutions", "Manufacturing Systems", "Morocco Government Projects", "DFC", "Healthcare Groups", "AGC", "Enterprise Financial Platforms"],
+    "features": [
+      "Healthcare platform operations",
+      "Banking and enterprise financial workflows",
+      "Manufacturing system support",
+      "Government project delivery (including Morocco)",
+      "Healthcare group and DFC-related solutions",
+      "AGC and related enterprise systems"
+    ],
+    "caseStudy": {
+      "problem": "International clients needed consistent enterprise quality across diverse regulated domains.",
+      "challenges": [
+        "Adapting quickly across industries and product architectures",
+        "Maintaining delivery speed and production quality"
+      ],
+      "architecture": "Product-specific enterprise n-tier and API-oriented architectures.",
+      "database": "Microsoft SQL Server and product data stores",
+      "api": "REST and service-oriented patterns aligned to each product line.",
+      "performance": "Performance improvements and production issue resolution across products.",
+      "businessValue": "Reliable multi-domain delivery for international enterprise clients.",
+      "lessonsLearned": [
+        "Reusable engineering practices accelerate multi-product delivery",
+        "Production support is essential for regulated enterprise systems"
+      ],
+      "flowDiagrams": [],
+      "images": []
+    },
+    "featured": false,
+    "order": 7,
+    "completedAt": null
+  },
+  {
+    "id": "proj008",
+    "slug": "ifp-legal-operations-platform",
+    "title": "IFP",
+    "company": "SD Solutions",
+    "industry": "Legal Technology",
+    "clientRegion": "",
+    "duration": "",
+    "categories": ["Legal Technology", "Case Management", "Document Management"],
+    "shortDescription": "Enterprise legal operations platform helping law firms digitize clients, cases, hearings, documents, billing, and internal workflows.",
+    "description": "IFP is an enterprise legal technology platform developed for law firms seeking to digitize legal operations and client management. The system centralizes clients, legal cases, court hearings, documents, appointments, advocates, billing, payment tracking, and internal workflows into one coordinated platform—giving legal teams a structured digital operating environment instead of fragmented files and manual follow-ups.",
+    "businessProblem": "Law firms often manage clients, case files, hearings, documents, and billing through disconnected tools and manual processes. This creates visibility gaps, delayed coordination, weak document control, and inefficient financial follow-up across advocates and administrative teams.",
+    "solution": "IFP provides a centralized legal operations system where firms manage the full matter lifecycle—from client onboarding and case creation through hearings, document control, appointments, billing, payments, dashboards, notifications, and reporting—supported by structured user management and operational workflows.",
+    "responsibilities": [
+      "Developed backend modules for legal operations and client management",
+      "Implemented core business logic for cases, hearings, billing, and workflows",
+      "Created REST APIs for platform services and integrations",
+      "Designed and refined the SQL Server database model",
+      "Performed SQL optimization and performance improvements",
+      "Resolved defects and delivered ongoing feature enhancements"
+    ],
+    "technicalHighlights": [
+      "Centralized legal case and client management architecture",
+      "REST API–driven backend services on ASP.NET Core",
+      "Document, hearing, and billing workflows in one platform",
+      "SQL optimization for operational and reporting performance"
+    ],
+    "database": "Microsoft SQL Server",
+    "deploymentEnvironment": "Enterprise application hosting environment",
+    "results": "Enabled law firms to operate through a unified digital platform for clients, cases, hearings, documents, and billing—improving coordination, document control, and operational visibility across legal teams.",
+    "coverImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1400&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80",
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
+      "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1200&q=80"
+    ],
+    "technologies": ["ASP.NET Core", "C#", "SQL Server", "REST API", "JavaScript", "Bootstrap"],
+    "architecture": "ASP.NET Core enterprise application with REST APIs and SQL Server as the system of record. Backend services orchestrate client, case, hearing, document, appointment, billing, notification, and user-management workflows behind a web interface built with JavaScript and Bootstrap.",
+    "modules": [
+      "Client Management",
+      "Case Management",
+      "Legal Documents",
+      "Court Hearings",
+      "Appointment Scheduling",
+      "Billing",
+      "Payment Tracking",
+      "Document Management",
+      "Dashboard",
+      "Notifications",
+      "Reports",
+      "User Management"
+    ],
+    "features": [
+      "Centralized client and matter management for law firms",
+      "Case lifecycle tracking with hearing and appointment coordination",
+      "Legal document management and controlled record keeping",
+      "Billing and payment tracking for operational finance",
+      "Dashboards, notifications, and management reporting",
+      "Role-based user management for internal legal teams"
+    ],
+    "caseStudy": {
+      "problem": "Legal organizations needed a centralized system to digitize clients, cases, documents, and billing.",
+      "challenges": [
+        "Modeling complex legal case and hearing workflows",
+        "Maintaining reliable document and billing integrity",
+        "Optimizing SQL performance for operational reporting"
+      ],
+      "architecture": "ASP.NET Core + REST APIs + SQL Server legal operations platform.",
+      "database": "Microsoft SQL Server",
+      "api": "REST APIs supporting legal operations modules and integrations.",
+      "performance": "SQL optimization and backend performance improvements.",
+      "businessValue": "Digitized legal operations with stronger case, document, and billing control.",
+      "lessonsLearned": [
+        "Legal platforms require precise matter lifecycle modeling",
+        "Document and billing integrity are core trust factors for law firms"
+      ],
+      "flowDiagrams": [],
+      "images": []
+    },
+    "featured": true,
+    "order": 8,
+    "completedAt": null
+  },
+  {
+    "id": "proj009",
+    "slug": "uk-base-cms",
+    "title": "UK Base CMS",
+    "company": "SD Solutions",
+    "industry": "Content Management",
+    "clientRegion": "United Kingdom",
+    "duration": "",
+    "categories": ["CMS", "Content Management", "Publishing"],
+    "shortDescription": "Modern WordPress-style enterprise CMS enabling non-technical administrators to manage pages, media, SEO, blogs, forms, and publishing workflows.",
+    "description": "UK Base CMS is a modern enterprise Content Management System designed to give administrators WordPress-like control over digital content without requiring technical expertise. The platform supports page creation, content editing, media management, blogs, news, navigation, SEO, forms, user roles, permissions, and publishing workflows—enabling organizations to manage and publish website content through a structured administrative experience.",
+    "businessProblem": "Organizations needed a flexible CMS that empowered marketing and content teams to create, edit, and publish website content independently, while still preserving governance through roles, permissions, SEO controls, and structured publishing workflows.",
+    "solution": "UK Base CMS delivers an administration-first content platform where authorized users manage pages, blogs, news, media libraries, menus, forms, and SEO settings through governed publishing workflows. Role-based permissions protect sensitive actions while keeping day-to-day content operations accessible to non-technical administrators.",
+    "responsibilities": [
+      "Developed CMS modules for pages, media, blogs, and publishing workflows",
+      "Implemented backend business logic and content governance rules",
+      "Built ASP.NET Core MVC features for administration and content delivery",
+      "Designed SQL Server structures for content, media, and permissions",
+      "Enhanced SEO, forms, menus, and role-based access capabilities"
+    ],
+    "technicalHighlights": [
+      "WordPress-style content administration for non-technical users",
+      "Governed publishing workflows with roles and permissions",
+      "Media library, SEO, menus, forms, blogs, and news in one CMS",
+      "ASP.NET Core MVC architecture with SQL Server content storage"
+    ],
+    "database": "Microsoft SQL Server",
+    "deploymentEnvironment": "Enterprise web hosting environment",
+    "results": "Enabled content teams to manage and publish website experiences independently while retaining enterprise control through roles, permissions, SEO management, and structured publishing workflows.",
+    "coverImage": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1400&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&q=80",
+      "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1200&q=80",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80"
+    ],
+    "technologies": ["ASP.NET Core", "MVC", "SQL Server", "JavaScript"],
+    "architecture": "ASP.NET Core MVC application with SQL Server as the content and permissions store. Administrative modules manage pages, blogs, news, media, menus, forms, SEO, roles, and publishing workflows, while the public-facing delivery layer renders published content to website visitors.",
+    "modules": [
+      "Pages",
+      "Blogs",
+      "News",
+      "Media Library",
+      "Menus",
+      "Forms",
+      "SEO",
+      "User Roles",
+      "Permissions",
+      "Publishing Workflow"
+    ],
+    "features": [
+      "Non-technical content editing and page management",
+      "Media library for assets and digital content",
+      "Blogs and news publishing",
+      "Navigation and menu management",
+      "SEO controls for pages and content entities",
+      "Forms and structured user input capture",
+      "Role-based permissions and governed publishing workflows"
+    ],
+    "caseStudy": {
+      "problem": "Organizations needed a modern CMS that non-technical teams could operate with enterprise governance.",
+      "challenges": [
+        "Balancing ease of use with permissions and publishing control",
+        "Supporting SEO, media, menus, and forms in one coherent CMS",
+        "Keeping administration intuitive while preserving technical reliability"
+      ],
+      "architecture": "ASP.NET Core MVC CMS with SQL Server content and security models.",
+      "database": "Microsoft SQL Server",
+      "api": "MVC application services supporting admin and content delivery workflows.",
+      "performance": "Optimized content retrieval and administrative operations.",
+      "businessValue": "Faster content publishing with stronger governance and SEO control.",
+      "lessonsLearned": [
+        "CMS success depends on administrator usability",
+        "Publishing workflows and permissions are core enterprise requirements"
+      ],
+      "flowDiagrams": [],
+      "images": []
+    },
+    "featured": true,
+    "order": 9,
+    "completedAt": null
+  },
+  {
+    "id": "proj010",
+    "slug": "umbraco-base-cms-spark",
+    "title": "Umbraco Base CMS",
+    "company": "Spark",
+    "industry": "Enterprise Digital Platforms",
+    "clientRegion": "Multi-sector / International",
+    "duration": "Current",
+    "categories": ["CMS", "Enterprise Portals", "Integrations", "Banking", "Education"],
+    "shortDescription": "Current Umbraco-based enterprise CMS and digital platform work across banking, finance, investment, education, and oil-sector client implementations.",
+    "description": "Currently contributing to Umbraco-based enterprise CMS and digital platform solutions for multiple organizations across banking, finance, investment, education, and oil sectors. Engagements include custom portals, enterprise integrations, business automation, dashboards, and client-specific platforms. Client implementations include Itmare, AFG, Onco Clinics, AJC, Meem, and SPPC, presented here at a portfolio level without disclosing confidential system details.",
+    "businessProblem": "Multi-sector organizations require secure, extensible digital platforms that can support content operations, client portals, integrations, automation, and reporting—while adapting to industry-specific workflows in banking, finance, investment, education, and energy.",
+    "solution": "An Umbraco-based enterprise CMS foundation combined with ASP.NET Core services, SQL Server, and REST APIs enables tailored portals, integrations, dashboards, and automation for each client implementation. The approach balances reusable platform capabilities with organization-specific business workflows and reporting needs.",
+    "responsibilities": [
+      "Enterprise software development across CMS and digital platform solutions",
+      "Client integrations and cross-system connectivity",
+      "Backend architecture and service design",
+      "Performance optimization for enterprise workloads",
+      "Business workflow implementation for sector-specific operations",
+      "Reporting and operational dashboard support"
+    ],
+    "technicalHighlights": [
+      "Umbraco-based enterprise CMS foundation",
+      "ASP.NET Core and REST API services for portals and integrations",
+      "Multi-sector delivery across banking, finance, investment, education, and oil",
+      "Client implementations including Itmare, AFG, Onco Clinics, AJC, Meem, and SPPC"
+    ],
+    "database": "Microsoft SQL Server",
+    "deploymentEnvironment": "Enterprise client hosting environments",
+    "results": "Supporting ongoing delivery of enterprise digital platforms that help organizations publish content, automate workflows, integrate systems, and operate client-specific portals with stronger architectural consistency and performance.",
+    "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1400&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&q=80",
+      "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80",
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&q=80"
+    ],
+    "technologies": ["Umbraco", "ASP.NET Core", "SQL Server", "REST APIs", "C#"],
+    "architecture": "Umbraco CMS as the content and presentation foundation, extended with ASP.NET Core services, REST APIs, and SQL Server for integrations, business automation, dashboards, and client-specific portal capabilities across multiple enterprise implementations.",
+    "modules": [
+      "Enterprise CMS",
+      "Custom Portals",
+      "Enterprise Integrations",
+      "Business Automation",
+      "Dashboards",
+      "Client-Specific Platforms",
+      "Reporting"
+    ],
+    "features": [
+      "Umbraco-based content and digital experience management",
+      "Custom portals tailored to organizational workflows",
+      "Enterprise integrations across client systems",
+      "Business automation for operational efficiency",
+      "Dashboards and reporting for management visibility",
+      "Multi-sector platform delivery without exposing confidential client internals"
+    ],
+    "caseStudy": {
+      "problem": "Multi-sector enterprises needed adaptable CMS and portal platforms with strong integration and reporting capabilities.",
+      "challenges": [
+        "Supporting diverse industries on a shared technical foundation",
+        "Delivering integrations and automation without compromising security",
+        "Maintaining performance across client-specific implementations"
+      ],
+      "architecture": "Umbraco + ASP.NET Core + REST APIs + SQL Server enterprise platform model.",
+      "database": "Microsoft SQL Server",
+      "api": "REST APIs supporting integrations, portals, and automation services.",
+      "performance": "Ongoing performance optimization across enterprise workloads.",
+      "businessValue": "Reusable enterprise digital foundation adapted to banking, finance, investment, education, and oil-sector clients.",
+      "lessonsLearned": [
+        "Shared platform patterns accelerate multi-client delivery",
+        "Client implementations should be presented without exposing confidential detail"
+      ],
+      "flowDiagrams": [],
+      "images": []
+    },
+    "featured": true,
+    "order": 10,
+    "completedAt": null
+  }
+]

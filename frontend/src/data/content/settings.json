@@ -1,0 +1,24 @@
+{
+  "siteName": "Muhammad Babar Ali",
+  "defaultTheme": "dark",
+  "enableAnimations": true,
+  "enableCursor": true,
+  "enableParticles": true,
+  "primaryColor": "#0ea5e9",
+  "accentColor": "#22d3ee",
+  "contact": {
+    "email": "mbabarali02@gmail.com",
+    "formEndpoint": "/api/contact",
+    "enableForm": true
+  },
+  "map": {
+    "latitude": 31.5204,
+    "longitude": 74.3587,
+    "embedUrl": "https://maps.google.com/maps?q=Lahore,+Pakistan&t=&z=13&ie=UTF8&iwloc=&output=embed",
+    "address": "Lahore, Pakistan"
+  },
+  "admin": {
+    "username": "admin",
+    "passwordHash": ""
+  }
+}

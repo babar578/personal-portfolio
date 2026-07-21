@@ -1,0 +1,44 @@
+[
+  {
+    "id": "blog001",
+    "slug": "designing-idempotent-dotnet-apis",
+    "title": "Designing Idempotent .NET APIs for Enterprise Integrations",
+    "excerpt": "Patterns for safe retries, outbox messaging, and reconciliation when integrating ERP and Dynamics 365 workloads.",
+    "content": "# Designing Idempotent .NET APIs for Enterprise Integrations\n\nEnterprise integrations fail in the real world — networks drop, partners retry, and partial commits happen. Idempotency is how you survive that reality.\n\n## Why it matters\nWhen a Dynamics 365 or ERP client retries a POST, you must not create duplicate invoices or stock movements.\n\n## Practical approach\n1. Accept a client-generated `Idempotency-Key`\n2. Persist request fingerprints in an integration store\n3. Use an outbox for reliable downstream publish\n4. Expose reconciliation reports for finance\n\n## Takeaway\nTreat idempotency as a product requirement, not an afterthought.",
+    "coverImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&q=80",
+    "category": "Architecture",
+    "tags": [".NET", "API", "Integrations", "Dynamics 365"],
+    "author": "Muhammad Babar Ali",
+    "publishedAt": "2025-11-12T10:00:00Z",
+    "published": true,
+    "readTimeMinutes": 8
+  },
+  {
+    "id": "blog002",
+    "slug": "sql-server-indexing-for-erp-reports",
+    "title": "SQL Server Indexing Strategies for Heavy ERP Reports",
+    "excerpt": "How covering indexes, indexed views, and curated marts turn 45-second reports into interactive ones.",
+    "content": "# SQL Server Indexing Strategies for Heavy ERP Reports\n\nReporting is often the silent performance killer in ERP systems.\n\n## Patterns that work\n- Separate OLTP from reporting schemas\n- Use indexed views for stable aggregates\n- Prefer covering indexes for filter + include columns used by SSRS\n- Schedule heavy packs asynchronously\n\n## Result\nTeams stop fearing month-end because reports become predictable.",
+    "coverImage": "https://images.unsplash.com/photo-1551281044-8b87a5003334?w=1200&q=80",
+    "category": "Database",
+    "tags": ["SQL Server", "SSRS", "Performance", "ERP"],
+    "author": "Muhammad Babar Ali",
+    "publishedAt": "2025-08-03T10:00:00Z",
+    "published": true,
+    "readTimeMinutes": 6
+  },
+  {
+    "id": "blog003",
+    "slug": "clean-architecture-for-modular-erp",
+    "title": "Clean Architecture for Modular ERP Systems",
+    "excerpt": "Bounding contexts for inventory, production, and finance without drowning in ceremony.",
+    "content": "# Clean Architecture for Modular ERP Systems\n\nERP systems grow until boundaries blur. Clean Architecture helps — if applied pragmatically.\n\n## Guidance\n- Align modules with business capabilities\n- Keep domain logic free of UI and infrastructure\n- Allow pragmatic shared kernels for cross-cutting concerns\n\nArchitecture should accelerate delivery, not slow it down.",
+    "coverImage": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1200&q=80",
+    "category": "Architecture",
+    "tags": ["Clean Architecture", "ERP", ".NET"],
+    "author": "Muhammad Babar Ali",
+    "publishedAt": "2025-03-20T10:00:00Z",
+    "published": true,
+    "readTimeMinutes": 7
+  }
+]

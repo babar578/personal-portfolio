@@ -1,0 +1,24 @@
+[
+  {
+    "id": "cert001",
+    "title": "Microsoft Azure Fundamentals (AZ-900)",
+    "issuer": "Microsoft",
+    "issueDate": "2026",
+    "expiryDate": null,
+    "credentialId": "In Progress",
+    "credentialUrl": "https://learn.microsoft.com/credentials/certifications/azure-fundamentals/",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80",
+    "downloadUrl": null
+  },
+  {
+    "id": "cert002",
+    "title": "Microsoft Azure Developer Associate (AZ-204)",
+    "issuer": "Microsoft",
+    "issueDate": "2026",
+    "expiryDate": null,
+    "credentialId": "Planned",
+    "credentialUrl": "https://learn.microsoft.com/credentials/certifications/azure-developer/",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+    "downloadUrl": null
+  }
+]
