@@ -16,12 +16,13 @@ interface ThemeContextValue {
 }
 
 const ThemeContext = createContext<ThemeContextValue | null>(null)
+const THEME_KEY = 'portfolio_theme_v2'
 
 function getInitialTheme(): Theme {
-  if (typeof window === 'undefined') return 'dark'
-  const stored = localStorage.getItem('portfolio_theme') as Theme | null
+  if (typeof window === 'undefined') return 'light'
+  const stored = localStorage.getItem(THEME_KEY) as Theme | null
   if (stored === 'light' || stored === 'dark') return stored
-  return 'dark'
+  return 'light'
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
@@ -31,7 +32,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     const root = document.documentElement
     root.classList.toggle('dark', theme === 'dark')
     root.classList.toggle('light', theme === 'light')
-    localStorage.setItem('portfolio_theme', theme)
+    localStorage.setItem(THEME_KEY, theme)
   }, [theme])
 
   const setTheme = useCallback((next: Theme) => setThemeState(next), [])

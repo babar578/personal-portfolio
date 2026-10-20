@@ -63,7 +63,7 @@ export function ProjectsGrid({ featuredOnly = false, limit, showFilters = true }
               className={cn(
                 'rounded-full border px-3 py-1.5 text-xs capitalize transition',
                 active === cat
-                  ? 'border-cyan-400/40 bg-cyan-400/10 text-[var(--accent)]'
+                  ? 'border-[color-mix(in_oklab,var(--accent)_40%,transparent)] bg-[color-mix(in_oklab,var(--accent)_10%,transparent)] text-[var(--accent)]'
                   : 'border-[var(--border)] text-[var(--text-muted)] hover:text-[var(--text)]',
               )}
             >
@@ -89,8 +89,8 @@ export function ProjectsGrid({ featuredOnly = false, limit, showFilters = true }
                         'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1400&q=80'
                     }}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
-                  <span className="absolute bottom-3 left-3 rounded-md bg-black/40 px-2 py-1 text-[11px] text-cyan-200 backdrop-blur">
+                  <div className="absolute inset-0 bg-gradient-to-t from-stone-950/75 via-transparent to-transparent" />
+                  <span className="absolute bottom-3 left-3 rounded-md bg-black/45 px-2 py-1 text-[11px] text-stone-100 backdrop-blur">
                     {project.industry}
                   </span>
                 </div>

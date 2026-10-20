@@ -7,14 +7,28 @@
     "startDate": "2026-02",
     "endDate": null,
     "isCurrent": true,
-    "description": "Building and customizing Umbraco CMS solutions and scalable ASP.NET Core applications for enterprise clients across banking, finance, investment, education, and oil sectors.",
+    "description": "Building Umbraco CMS and ASP.NET Core platforms for Gulf enterprise clients—bilingual EN/AR sites, secure public forms (reCAPTCHA, consent, CV upload), Mailchimp/gtag marketing ops, SEO Toolkit, and AI-assisted delivery with Cursor.",
     "achievements": [
-      "Built and customized CMS-based solutions using Umbraco CMS, reducing content deployment time by 40%",
-      "Developed scalable web applications and RESTful APIs using ASP.NET Core serving 10,000+ users",
-      "Optimized SQL Server databases with complex stored procedures and indexing, improving query performance by 35%",
-      "Implemented CI/CD pipelines using Azure DevOps, Jenkins, and GitHub Actions, cutting release cycles by 50%"
+      "Delivered bilingual EN/AR Umbraco sites for finance, healthcare, and corporate Gulf clients (AJC, SPPC, Onco, Meem, Ithmaar, and more)",
+      "Hardened public careers/contact forms with Google reCAPTCHA, privacy consent, and CV upload flows",
+      "Integrated Mailchimp newsletter and Google Tag (gtag) conversion tracking for marketing operations",
+      "Applied SEO Toolkit, sitemap/robots, Block List, ModelsBuilder, and Surface Controller patterns across SparkUmb clients",
+      "Accelerated CMS/ERP delivery using Cursor, Copilot, and Claude while maintaining enterprise review standards",
+      "Implemented CI/CD with Azure DevOps and GitHub Actions, improving release reliability"
     ],
-    "technologies": ["Umbraco CMS", "ASP.NET Core", "C#", "SQL Server", "REST APIs", "Azure DevOps", "GitHub Actions"],
+    "technologies": [
+      "Umbraco CMS",
+      "ASP.NET Core",
+      "C#",
+      "SQL Server",
+      "Surface Controllers",
+      "Google reCAPTCHA",
+      "Mailchimp",
+      "SEO Toolkit",
+      "Google Tag (gtag)",
+      "Azure DevOps",
+      "GitHub Actions"
+    ],
     "logo": null,
     "order": 1
   },
@@ -33,7 +47,15 @@
       "Integrated QuickBooks Online (QBO) and Stripe, automating billing workflows and reducing manual effort by 60%",
       "Built InstallShield-based installers enabling hardware-software communication across 50+ client sites"
     ],
-    "technologies": ["ASP.NET Core", "C#", "SQL Server", "JWT", "QuickBooks Online", "Stripe", "InstallShield"],
+    "technologies": [
+      "ASP.NET Core",
+      "C#",
+      "SQL Server",
+      "JWT",
+      "QuickBooks Online",
+      "Stripe",
+      "InstallShield"
+    ],
     "logo": null,
     "order": 2
   },
@@ -51,7 +73,16 @@
       "Built Windows services with Shopify and Daraz API integrations handling 1,000+ daily e-commerce transactions",
       "Designed analytical reporting tools using Dynamics 365 enabling data-driven forecasting for 5 business units"
     ],
-    "technologies": ["Dynamics 365", "ASP.NET", "SQL Server", "Windows Services", "Shopify", "Daraz", "Power BI", "SSRS"],
+    "technologies": [
+      "Dynamics 365",
+      "ASP.NET",
+      "SQL Server",
+      "Windows Services",
+      "Shopify",
+      "Daraz",
+      "Power BI",
+      "SSRS"
+    ],
     "logo": null,
     "order": 3
   },
@@ -70,7 +101,14 @@
       "Led migration of 5 legacy Windows desktop applications to scalable web applications",
       "Implemented Efficiency Monitoring Portal with advanced SQL reporting, improving KPI visibility by 70%"
     ],
-    "technologies": ["ASP.NET MVC", "C#", "SQL Server", "JavaScript", "Crystal Reports", "SSRS"],
+    "technologies": [
+      "ASP.NET MVC",
+      "C#",
+      "SQL Server",
+      "JavaScript",
+      "Crystal Reports",
+      "SSRS"
+    ],
     "logo": null,
     "order": 4
   },
@@ -88,7 +126,14 @@
       "Contributed to HR, Task Management, Inventory, and Financial Accounting modules for 100+ concurrent users",
       "Participated in migration from ASP.NET MVC to .NET Core and Angular, improving performance by 30%"
     ],
-    "technologies": ["ASP.NET MVC", "ASP.NET Core", "Angular", "C#", "SQL Server", "Web API"],
+    "technologies": [
+      "ASP.NET MVC",
+      "ASP.NET Core",
+      "Angular",
+      "C#",
+      "SQL Server",
+      "Web API"
+    ],
     "logo": null,
     "order": 5
   },
@@ -105,7 +150,14 @@
       "Developed OAuth 2.0-secured APIs and web applications using ASP.NET MVC for the medical sector",
       "Built home healthcare service platform enabling providers to manage services for 500+ patients"
     ],
-    "technologies": ["ASP.NET MVC", "C#", "SQL Server", "OAuth 2.0", "JavaScript", "Bootstrap"],
+    "technologies": [
+      "ASP.NET MVC",
+      "C#",
+      "SQL Server",
+      "OAuth 2.0",
+      "JavaScript",
+      "Bootstrap"
+    ],
     "logo": null,
     "order": 6
   }

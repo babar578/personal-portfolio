@@ -158,7 +158,7 @@ export default function ProjectDetailPage() {
           {project.technologies.map((tech) => (
             <span
               key={tech}
-              className="rounded-full border border-cyan-400/20 bg-cyan-400/5 px-3.5 py-1.5 text-xs font-medium text-[var(--accent)]"
+              className="chip-accent rounded-lg px-3.5 py-1.5 text-xs font-medium"
             >
               {tech}
             </span>

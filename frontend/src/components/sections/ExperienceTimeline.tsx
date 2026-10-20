@@ -19,7 +19,7 @@ export function ExperienceTimeline() {
         {experience.map((item, index) => (
           <ScrollReveal key={item.id} delay={index * 0.05}>
             <div className={`relative md:flex ${index % 2 === 0 ? 'md:justify-start' : 'md:justify-end'}`}>
-              <div className="absolute left-4 top-6 h-3 w-3 -translate-x-1/2 rounded-full bg-[var(--accent)] shadow-[0_0_16px_rgba(34,211,238,0.7)] md:left-1/2" />
+              <div className="absolute left-4 top-6 h-3 w-3 -translate-x-1/2 rounded-full bg-[var(--accent)] shadow-[0_0_14px_color-mix(in_oklab,var(--accent)_55%,transparent)] md:left-1/2" />
               <GlassPanel className="ml-10 md:ml-0 md:w-[calc(50%-2rem)]">
                 <div className="flex flex-wrap items-center gap-2 text-xs text-[var(--accent)]">
                   <span>

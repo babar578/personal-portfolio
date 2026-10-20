@@ -14,14 +14,25 @@ export default function AboutPage() {
     })
   }, [portfolio])
 
+  const photo = portfolio.profile.avatar || portfolio.profile.heroImage
+
   return (
     <main className="pt-24">
-      <div className="mx-auto max-w-7xl px-4 pb-8 md:px-6">
-        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">About</p>
-        <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight md:text-5xl">
-          {portfolio.profile.fullName}
-        </h1>
-        <p className="mt-3 text-lg text-[var(--text-muted)]">{portfolio.profile.title}</p>
+      <div className="mx-auto grid max-w-7xl items-center gap-8 px-4 pb-8 md:grid-cols-[auto_1fr] md:px-6">
+        <img
+          src={photo}
+          alt={`${portfolio.profile.fullName} professional portrait`}
+          className="profile-photo h-28 w-28 rounded-2xl border border-[var(--border)] object-cover shadow-[var(--shadow)] md:h-36 md:w-36"
+          width={144}
+          height={144}
+        />
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">About</p>
+          <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight md:text-5xl">
+            {portfolio.profile.fullName}
+          </h1>
+          <p className="mt-3 text-lg text-[var(--text-muted)]">{portfolio.profile.title}</p>
+        </div>
       </div>
       <About />
       <Stats />

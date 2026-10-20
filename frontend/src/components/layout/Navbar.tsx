@@ -23,6 +23,7 @@ export function Navbar() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
   const { portfolio } = usePortfolio()
+  const avatar = portfolio.profile.avatar || portfolio.profile.heroImage
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24)
@@ -41,9 +42,18 @@ export function Navbar() {
       )}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:h-20 md:px-6">
-        <Link to="/" className="font-display text-lg font-semibold tracking-tight md:text-xl">
-          <span className="text-[var(--text)]">{portfolio.profile.firstName}</span>{' '}
-          <span className="gradient-text">{portfolio.profile.lastName}</span>
+        <Link to="/" className="flex items-center gap-3">
+          <img
+            src={avatar}
+            alt=""
+            className="profile-photo h-9 w-9 rounded-full border border-[var(--border)] object-cover md:h-10 md:w-10"
+            width={40}
+            height={40}
+          />
+          <span className="font-display text-lg font-semibold tracking-tight md:text-xl">
+            <span className="text-[var(--text)]">{portfolio.profile.firstName}</span>{' '}
+            <span className="gradient-text">{portfolio.profile.lastName}</span>
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
@@ -68,7 +78,7 @@ export function Navbar() {
           <ThemeToggle />
           <Link
             to="/contact"
-            className="hidden rounded-xl bg-gradient-to-r from-sky-500 to-cyan-400 px-4 py-2 text-sm font-semibold text-slate-950 md:inline-flex"
+            className="btn-primary hidden rounded-xl px-4 py-2 text-sm font-semibold md:inline-flex"
           >
             Hire Me
           </Link>

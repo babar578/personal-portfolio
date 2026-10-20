@@ -4,15 +4,83 @@
     "name": "Backend & .NET",
     "icon": "server",
     "skills": [
-      { "id": "dotnet", "name": ".NET", "level": 95, "icon": "dotnet", "color": "#512BD4" },
-      { "id": "aspnet", "name": "ASP.NET Core", "level": 95, "icon": "aspnet", "color": "#512BD4" },
-      { "id": "mvc", "name": "ASP.NET MVC", "level": 90, "icon": "mvc", "color": "#136EB4" },
-      { "id": "csharp", "name": "C#", "level": 95, "icon": "csharp", "color": "#239120" },
-      { "id": "webapi", "name": "REST API", "level": 95, "icon": "api", "color": "#0ea5e9" },
-      { "id": "signalr", "name": "SignalR", "level": 85, "icon": "signalr", "color": "#7c3aed" },
-      { "id": "jwt", "name": "JWT", "level": 90, "icon": "jwt", "color": "#f59e0b" },
-      { "id": "caching", "name": "Caching", "level": 88, "icon": "cache", "color": "#10b981" },
-      { "id": "winsvc", "name": "Windows Services", "level": 85, "icon": "windows", "color": "#0078D4" }
+      {
+        "id": "dotnet",
+        "name": ".NET",
+        "level": 95,
+        "icon": "dotnet",
+        "color": "#512BD4"
+      },
+      {
+        "id": "aspnet",
+        "name": "ASP.NET Core",
+        "level": 95,
+        "icon": "aspnet",
+        "color": "#512BD4"
+      },
+      {
+        "id": "mvc",
+        "name": "ASP.NET MVC",
+        "level": 90,
+        "icon": "mvc",
+        "color": "#136EB4"
+      },
+      {
+        "id": "csharp",
+        "name": "C#",
+        "level": 95,
+        "icon": "csharp",
+        "color": "#239120"
+      },
+      {
+        "id": "umbraco",
+        "name": "Umbraco CMS",
+        "level": 90,
+        "icon": "umbraco",
+        "color": "#3544B1"
+      },
+      {
+        "id": "webapi",
+        "name": "REST API",
+        "level": 95,
+        "icon": "api",
+        "color": "#0ea5e9"
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "level": 78,
+        "icon": "python",
+        "color": "#3776AB"
+      },
+      {
+        "id": "signalr",
+        "name": "SignalR",
+        "level": 85,
+        "icon": "signalr",
+        "color": "#7c3aed"
+      },
+      {
+        "id": "jwt",
+        "name": "JWT",
+        "level": 90,
+        "icon": "jwt",
+        "color": "#f59e0b"
+      },
+      {
+        "id": "caching",
+        "name": "Caching",
+        "level": 88,
+        "icon": "cache",
+        "color": "#10b981"
+      },
+      {
+        "id": "winsvc",
+        "name": "Windows Services",
+        "level": 85,
+        "icon": "windows",
+        "color": "#0078D4"
+      }
     ]
   },
   {
@@ -20,12 +88,62 @@
     "name": "Data & Reporting",
     "icon": "database",
     "skills": [
-      { "id": "sql", "name": "SQL Server", "level": 92, "icon": "sql", "color": "#CC2927" },
-      { "id": "ef", "name": "Entity Framework", "level": 90, "icon": "ef", "color": "#512BD4" },
-      { "id": "dapper", "name": "Dapper", "level": 88, "icon": "dapper", "color": "#E76F00" },
-      { "id": "ssrs", "name": "SSRS", "level": 90, "icon": "ssrs", "color": "#CC2927" },
-      { "id": "crystal", "name": "Crystal Reports", "level": 88, "icon": "crystal", "color": "#1B75BB" },
-      { "id": "powerbi", "name": "Power BI", "level": 80, "icon": "powerbi", "color": "#F2C811" }
+      {
+        "id": "sql",
+        "name": "SQL Server",
+        "level": 92,
+        "icon": "sql",
+        "color": "#CC2927"
+      },
+      {
+        "id": "postgres",
+        "name": "PostgreSQL",
+        "level": 75,
+        "icon": "postgres",
+        "color": "#336791"
+      },
+      {
+        "id": "sqlite",
+        "name": "SQLite",
+        "level": 78,
+        "icon": "sqlite",
+        "color": "#003B57"
+      },
+      {
+        "id": "ef",
+        "name": "Entity Framework",
+        "level": 90,
+        "icon": "ef",
+        "color": "#512BD4"
+      },
+      {
+        "id": "dapper",
+        "name": "Dapper",
+        "level": 88,
+        "icon": "dapper",
+        "color": "#E76F00"
+      },
+      {
+        "id": "ssrs",
+        "name": "SSRS",
+        "level": 90,
+        "icon": "ssrs",
+        "color": "#CC2927"
+      },
+      {
+        "id": "crystal",
+        "name": "Crystal Reports",
+        "level": 88,
+        "icon": "crystal",
+        "color": "#1B75BB"
+      },
+      {
+        "id": "powerbi",
+        "name": "Power BI",
+        "level": 80,
+        "icon": "powerbi",
+        "color": "#F2C811"
+      }
     ]
   },
   {
@@ -33,12 +151,139 @@
     "name": "Frontend",
     "icon": "layout",
     "skills": [
-      { "id": "js", "name": "JavaScript", "level": 88, "icon": "js", "color": "#F7DF1E" },
-      { "id": "ts", "name": "TypeScript", "level": 85, "icon": "ts", "color": "#3178C6" },
-      { "id": "react", "name": "React", "level": 85, "icon": "react", "color": "#61DAFB" },
-      { "id": "angular", "name": "Angular", "level": 75, "icon": "angular", "color": "#DD0031" },
-      { "id": "tailwind", "name": "Tailwind", "level": 85, "icon": "tailwind", "color": "#06B6D4" },
-      { "id": "bootstrap", "name": "Bootstrap", "level": 90, "icon": "bootstrap", "color": "#7952B3" }
+      {
+        "id": "js",
+        "name": "JavaScript",
+        "level": 88,
+        "icon": "js",
+        "color": "#F7DF1E"
+      },
+      {
+        "id": "ts",
+        "name": "TypeScript",
+        "level": 85,
+        "icon": "ts",
+        "color": "#3178C6"
+      },
+      {
+        "id": "react",
+        "name": "React.js",
+        "level": 88,
+        "icon": "react",
+        "color": "#61DAFB"
+      },
+      {
+        "id": "reactnative",
+        "name": "React Native",
+        "level": 70,
+        "icon": "react",
+        "color": "#61DAFB"
+      },
+      {
+        "id": "angular",
+        "name": "Angular",
+        "level": 75,
+        "icon": "angular",
+        "color": "#DD0031"
+      },
+      {
+        "id": "tailwind",
+        "name": "Tailwind",
+        "level": 85,
+        "icon": "tailwind",
+        "color": "#06B6D4"
+      },
+      {
+        "id": "bootstrap",
+        "name": "Bootstrap",
+        "level": 90,
+        "icon": "bootstrap",
+        "color": "#7952B3"
+      }
+    ]
+  },
+  {
+    "id": "ai",
+    "name": "AI & Intelligent Systems",
+    "icon": "cpu",
+    "skills": [
+      {
+        "id": "rag",
+        "name": "RAG Chatbots",
+        "level": 80,
+        "icon": "ai",
+        "color": "#10b981"
+      },
+      {
+        "id": "chunking",
+        "name": "Document Upload & Chunking",
+        "level": 78,
+        "icon": "ai",
+        "color": "#14b8a6"
+      },
+      {
+        "id": "retrieval",
+        "name": "LLM Retrieval",
+        "level": 78,
+        "icon": "ai",
+        "color": "#06b6d4"
+      },
+      {
+        "id": "assistants",
+        "name": "AI Assistants",
+        "level": 80,
+        "icon": "ai",
+        "color": "#8b5cf6"
+      },
+      {
+        "id": "brandqa",
+        "name": "Brand Color QA Tooling",
+        "level": 72,
+        "icon": "ai",
+        "color": "#f43f5e"
+      }
+    ]
+  },
+  {
+    "id": "security-marketing",
+    "name": "Security, SEO & Marketing Ops",
+    "icon": "shield",
+    "skills": [
+      {
+        "id": "appsec",
+        "name": "Application Security",
+        "level": 82,
+        "icon": "shield",
+        "color": "#ef4444"
+      },
+      {
+        "id": "recaptcha",
+        "name": "Google reCAPTCHA",
+        "level": 85,
+        "icon": "shield",
+        "color": "#4285F4"
+      },
+      {
+        "id": "mailchimp",
+        "name": "Mailchimp",
+        "level": 82,
+        "icon": "mail",
+        "color": "#FFE01B"
+      },
+      {
+        "id": "seotoolkit",
+        "name": "SEO Toolkit",
+        "level": 80,
+        "icon": "seo",
+        "color": "#22c55e"
+      },
+      {
+        "id": "gtag",
+        "name": "Google Tag (gtag)",
+        "level": 80,
+        "icon": "analytics",
+        "color": "#EA4335"
+      }
     ]
   },
   {
@@ -46,10 +291,41 @@
     "name": "Cloud & DevOps",
     "icon": "cloud",
     "skills": [
-      { "id": "azure", "name": "Azure", "level": 80, "icon": "azure", "color": "#0078D4" },
-      { "id": "docker", "name": "Docker", "level": 78, "icon": "docker", "color": "#2496ED" },
-      { "id": "git", "name": "Git", "level": 90, "icon": "git", "color": "#F05032" },
-      { "id": "d365", "name": "Dynamics 365", "level": 75, "icon": "dynamics", "color": "#002050" }
+      {
+        "id": "azure",
+        "name": "Azure",
+        "level": 82,
+        "icon": "azure",
+        "color": "#0078D4"
+      },
+      {
+        "id": "cicd",
+        "name": "Azure CI/CD Pipelines",
+        "level": 85,
+        "icon": "azure",
+        "color": "#0078D4"
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "level": 78,
+        "icon": "docker",
+        "color": "#2496ED"
+      },
+      {
+        "id": "git",
+        "name": "Git",
+        "level": 90,
+        "icon": "git",
+        "color": "#F05032"
+      },
+      {
+        "id": "d365",
+        "name": "Dynamics 365",
+        "level": 75,
+        "icon": "dynamics",
+        "color": "#002050"
+      }
     ]
   }
 ]

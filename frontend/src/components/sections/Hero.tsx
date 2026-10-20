@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowDown, ArrowRight, Download, Mail } from 'lucide-react'
+import { ArrowDown, ArrowRight, Download } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { ParticleBackground } from '@/components/layout/ParticleBackground'
 import { MagneticButton } from '@/components/ui/MagneticButton'
@@ -12,6 +12,7 @@ export function Hero() {
   const { portfolio, settings } = usePortfolio()
   const isDesktop = useMediaQuery('(pointer: fine) and (min-width: 768px)')
   const glow = useMouseGlow(isDesktop && settings.enableAnimations)
+  const photo = portfolio.profile.heroImage || portfolio.profile.avatar
 
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden pt-20">
@@ -20,7 +21,7 @@ export function Hero() {
         <div className="mouse-glow" style={{ left: glow.x, top: glow.y }} />
       ) : null}
 
-      <div className="relative z-10 mx-auto grid w-full max-w-7xl gap-10 px-4 py-16 md:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+      <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-10 px-4 py-12 md:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 lg:py-16">
         <div>
           <motion.p
             initial={{ opacity: 0, y: 16 }}
@@ -47,15 +48,13 @@ export function Hero() {
             className="mt-4 text-lg font-medium text-[var(--text)] md:text-xl"
           >
             {portfolio.profile.title}
-            <span className="mx-2 text-[var(--text-muted)]">·</span>
-            <span className="text-[var(--accent)]">{portfolio.profile.yearsExperience}+ Years Experience</span>
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55, delay: 0.14 }}
-            className="mt-4 font-display text-2xl font-medium text-[var(--text-muted)] md:text-3xl"
+            className="mt-3 font-display text-xl font-medium text-[var(--text-muted)] md:text-2xl"
           >
             <TypingText texts={portfolio.rotatingTitles} />
           </motion.div>
@@ -78,7 +77,7 @@ export function Hero() {
             <MagneticButton>
               <Link
                 to="/contact"
-                className="inline-flex h-12 items-center gap-2 rounded-xl bg-gradient-to-r from-sky-500 to-cyan-400 px-6 text-sm font-semibold text-slate-950 shadow-[0_0_30px_rgba(14,165,233,0.28)]"
+                className="btn-primary inline-flex h-12 items-center gap-2 rounded-xl px-6 text-sm font-semibold"
               >
                 Hire Me <ArrowRight size={16} />
               </Link>
@@ -99,35 +98,42 @@ export function Hero() {
                 View Projects
               </Link>
             </MagneticButton>
-            <MagneticButton>
-              <Link
-                to="/contact"
-                className="glass inline-flex h-12 items-center gap-2 rounded-xl px-5 text-sm font-semibold text-[var(--text)]"
-              >
-                <Mail size={16} /> Contact Me
-              </Link>
-            </MagneticButton>
           </motion.div>
         </div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.96 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.7, delay: 0.2 }}
-          className="relative hidden lg:block"
+          initial={{ opacity: 0, scale: 0.97, y: 12 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.15 }}
+          className="relative mx-auto w-full max-w-md lg:max-w-none"
         >
-          <div className="glass relative aspect-[4/5] overflow-hidden rounded-[2rem] p-2">
-            <div className="absolute inset-0 bg-gradient-to-br from-sky-500/20 via-transparent to-cyan-400/10" />
-            <div className="relative flex h-full flex-col justify-between rounded-[1.6rem] bg-gradient-to-b from-slate-900/40 to-slate-950/60 p-8">
-              <div>
-                <p className="text-xs uppercase tracking-[0.24em] text-cyan-300/80">Senior Engineer</p>
-                <p className="mt-4 font-display text-3xl font-semibold text-white">
-                  Enterprise .NET systems that scale with the business.
+          <div
+            className="absolute -inset-3 rounded-[2rem] opacity-70 blur-2xl"
+            style={{
+              background:
+                'radial-gradient(circle at 40% 30%, color-mix(in oklab, var(--accent) 22%, transparent), transparent 62%)',
+            }}
+          />
+          <div
+            className="relative overflow-hidden rounded-[1.75rem] border border-[var(--border)] bg-[var(--bg-elevated)] shadow-[var(--shadow)]"
+            style={{ boxShadow: `0 0 0 1px var(--photo-ring), var(--shadow)` }}
+          >
+            <div className="relative aspect-[4/5] w-full overflow-hidden">
+              <img
+                src={photo}
+                alt={`${portfolio.profile.fullName} — professional portrait`}
+                className="profile-photo h-full w-full"
+                width={720}
+                height={900}
+                fetchPriority="high"
+              />
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-[color-mix(in_oklab,var(--bg)_92%,#000)] via-[color-mix(in_oklab,var(--bg)_35%,transparent)] to-transparent px-5 pb-5 pt-24">
+                <p className="font-display text-lg font-semibold text-[var(--text)]">
+                  {portfolio.profile.firstName} {portfolio.profile.lastName}
                 </p>
-              </div>
-              <div className="space-y-3 text-sm text-slate-300">
-                <p>ERP · Medical · Supply Chain · Reporting</p>
-                <p className="text-cyan-300">{portfolio.profile.yearsExperience}+ years shipping production software</p>
+                <p className="mt-1 text-sm text-[var(--text-muted)]">
+                  {portfolio.profile.yearsExperience}+ years · {portfolio.profile.location}
+                </p>
               </div>
             </div>
           </div>

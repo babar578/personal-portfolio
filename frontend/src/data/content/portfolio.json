@@ -9,8 +9,8 @@
     "email": "mbabarali02@gmail.com",
     "phone": "+92 311 4343115",
     "whatsApp": "+923114343115",
-    "avatar": "/uploads/general/avatar.svg",
-    "heroImage": "/uploads/general/hero.svg",
+    "avatar": "/uploads/general/avatar.jpg",
+    "heroImage": "/uploads/general/hero.jpg",
     "yearsExperience": 6,
     "availability": "Immediate — open to remote, international, and employment visa opportunities"
   },
@@ -18,8 +18,8 @@
     "Senior Software Engineer",
     "AI-Powered ERP Specialist",
     ".NET / ASP.NET Core Engineer",
-    "Enterprise Systems Architect",
     "Umbraco CMS Developer",
+    "RAG & AI Assistant Builder",
     "Azure & API Engineer"
   ],
   "social": {
@@ -36,20 +36,20 @@
   },
   "about": {
     "headline": "Senior Software Engineer delivering AI-accelerated enterprise ERP and .NET platforms.",
-    "summary": "Results-driven Senior Software Engineer and AI-Powered ERP Specialist with 6+ years of experience delivering enterprise-grade ERP systems, API integrations, and cloud solutions using ASP.NET Core, C#, and Azure across healthcare, retail, and manufacturing. Actively leverages GitHub Copilot, Cursor, Claude, and OpenAI Codex to accelerate delivery and improve code quality. Proven in building secure, high-performance applications with JWT, OAuth 2.0, microservices, and SOLID principles—currently expanding expertise in Blazor, React, and Azure.",
+    "summary": "Results-driven Senior Software Engineer and AI-Powered ERP Specialist with 6+ years delivering enterprise ERP, Umbraco CMS platforms, secure APIs, and cloud solutions using ASP.NET Core, C#, and Azure across healthcare, finance, retail, and manufacturing. Currently shipping bilingual Gulf CMS platforms (secure forms, Mailchimp, SEO/gtag) at SPARK while building RAG chatbots and AI assistant MVPs. Actively leverages Cursor, GitHub Copilot, Claude, and OpenAI Codex to accelerate delivery—proven with JWT, OAuth 2.0, microservices, and SOLID principles.",
     "focusAreas": [
       "ERP Systems",
-      "ASP.NET Core & C#",
-      "REST APIs & Microservices",
-      "Microsoft Dynamics 365",
       "Umbraco CMS",
-      "SQL Server Performance",
-      "Azure & CI/CD",
-      "E-Commerce Integrations",
-      "Enterprise Reporting",
-      "AI-Assisted Development",
-      "Security (JWT / OAuth 2.0)",
-      "Windows Services"
+      "ASP.NET Core & C#",
+      "RAG Chatbots & AI Assistants",
+      "REST APIs & Microservices",
+      "Application Security (reCAPTCHA / Consent)",
+      "SEO Toolkit & Google Tag",
+      "Mailchimp & Marketing Ops",
+      "SQL Server / PostgreSQL / SQLite",
+      "Azure CI/CD",
+      "React.js",
+      "AI-Assisted Development"
     ],
     "industries": [
       "Healthcare",
@@ -59,14 +59,18 @@
       "Banking & Finance",
       "Education",
       "Oil & Energy",
-      "Legal Technology"
+      "Legal Technology",
+      "Investment & Capital Markets",
+      "Islamic Finance",
+      "Oncology / Healthcare Clinics",
+      "Events & Logistics"
     ],
     "highlights": [
-      "Leveraged AI tools (GitHub Copilot, Cursor, Claude) to accelerate ERP development and improve code quality",
+      "Shipping SPARK Gulf Umbraco platforms with bilingual EN/AR, reCAPTCHA, Mailchimp, and SEO/gtag",
+      "Building RAG chatbots (upload → chunk → retrieve → generate) and AI personal assistant MVPs",
+      "Delivered EME event inventory ERP and SubTrack subscription product side projects",
+      "Leveraged Cursor, Copilot, and Claude to accelerate CMS/ERP delivery with enterprise review discipline",
       "Delivered medical ERP meeting healthcare compliance standards for 200+ users across multiple facilities",
-      "Led migration of 5 legacy Windows applications to modern web apps, reducing maintenance costs by 40%",
-      "Integrated Shopify and Daraz platforms handling 1,000+ daily transactions with zero downtime",
-      "Built Umbraco CMS solutions reducing content deployment time by 40%",
       "Implemented CI/CD with Azure DevOps, Jenkins, and GitHub Actions, cutting release cycles by 50%"
     ],
     "aiExperience": {
@@ -81,26 +85,58 @@
       ],
       "capabilities": [
         "AI-Assisted Development",
+        "RAG Architecture",
+        "Document Chunking & Retrieval",
+        "AI Assistants / Persistent Memory Concepts",
         "Prompt Engineering",
         "Code Generation & Review",
         "Architecture Planning",
-        "Documentation Automation",
-        "R&D Acceleration"
+        "Documentation Automation"
       ]
     }
   },
   "statistics": [
-    { "id": "years", "label": "Years Experience", "value": 6, "suffix": "+", "icon": "calendar" },
-    { "id": "projects", "label": "Projects Delivered", "value": 50, "suffix": "+", "icon": "briefcase" },
-    { "id": "apis", "label": "REST APIs", "value": 100, "suffix": "+", "icon": "api" },
-    { "id": "reports", "label": "Reports Built", "value": 500, "suffix": "+", "icon": "chart" },
-    { "id": "modules", "label": "Enterprise Modules", "value": 20, "suffix": "+", "icon": "modules" }
+    {
+      "id": "years",
+      "label": "Years Experience",
+      "value": 6,
+      "suffix": "+",
+      "icon": "calendar"
+    },
+    {
+      "id": "projects",
+      "label": "Projects Delivered",
+      "value": 65,
+      "suffix": "+",
+      "icon": "briefcase"
+    },
+    {
+      "id": "apis",
+      "label": "REST APIs",
+      "value": 100,
+      "suffix": "+",
+      "icon": "api"
+    },
+    {
+      "id": "reports",
+      "label": "Reports Built",
+      "value": 500,
+      "suffix": "+",
+      "icon": "chart"
+    },
+    {
+      "id": "modules",
+      "label": "Enterprise Modules",
+      "value": 20,
+      "suffix": "+",
+      "icon": "modules"
+    }
   ],
   "seo": {
     "title": "Muhammad Babar Ali | Senior Software Engineer • AI-Powered ERP Specialist",
-    "description": "Senior Software Engineer in Lahore with 6+ years building enterprise ERP, ASP.NET Core APIs, Dynamics 365 integrations, and Umbraco CMS solutions. Available immediately for remote and international roles.",
-    "keywords": "Muhammad Babar Ali, Senior Software Engineer, ASP.NET Core, ERP Specialist, Dynamics 365, Umbraco, SQL Server, Azure, Lahore",
-    "ogImage": "/og-image.png",
+    "description": "Senior Software Engineer delivering Umbraco Gulf CMS platforms, ASP.NET Core ERP, RAG chatbots, and AI assistants. 6+ years across healthcare, finance, and manufacturing. Available for remote and international roles.",
+    "keywords": "Muhammad Babar Ali, Senior Software Engineer, ASP.NET Core, Umbraco, RAG Chatbot, AI Assistant, ERP Specialist, Dynamics 365, SQL Server, Azure, Bahrain, Lahore",
+    "ogImage": "/uploads/general/profile.jpg",
     "siteUrl": "https://muhammadbabarali.dev",
     "author": "Muhammad Babar Ali"
   }

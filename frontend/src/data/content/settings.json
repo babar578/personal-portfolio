@@ -1,11 +1,11 @@
 {
   "siteName": "Muhammad Babar Ali",
-  "defaultTheme": "dark",
+  "defaultTheme": "light",
   "enableAnimations": true,
   "enableCursor": true,
   "enableParticles": true,
-  "primaryColor": "#0ea5e9",
-  "accentColor": "#22d3ee",
+  "primaryColor": "#8b1e3f",
+  "accentColor": "#a63455",
   "contact": {
     "email": "mbabarali02@gmail.com",
     "formEndpoint": "/api/contact",

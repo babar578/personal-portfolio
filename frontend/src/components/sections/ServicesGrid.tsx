@@ -42,7 +42,10 @@ export function ServicesGrid() {
           return (
             <ScrollReveal key={service.id} delay={i * 0.04}>
               <GlassPanel className="h-full">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-sky-500/10 text-[var(--accent)]">
+                <div
+                  className="flex h-11 w-11 items-center justify-center rounded-xl text-[var(--accent)]"
+                  style={{ background: 'color-mix(in oklab, var(--accent) 12%, transparent)' }}
+                >
                   <Icon size={18} />
                 </div>
                 <h3 className="mt-4 font-display text-lg font-semibold">{service.title}</h3>

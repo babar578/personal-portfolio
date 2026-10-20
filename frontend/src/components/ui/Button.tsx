@@ -8,7 +8,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          'bg-gradient-to-r from-sky-500 to-cyan-400 text-slate-950 shadow-[0_0_30px_rgba(14,165,233,0.25)] hover:shadow-[0_0_40px_rgba(34,211,238,0.35)] hover:brightness-110',
+          'btn-primary hover:brightness-110',
         secondary:
           'glass text-[var(--text)] hover:border-[color-mix(in_oklab,var(--accent)_40%,transparent)]',
         ghost: 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-white/5',

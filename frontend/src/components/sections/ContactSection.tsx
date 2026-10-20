@@ -35,7 +35,7 @@ export function ContactSection() {
     <section id="contact" className="mx-auto max-w-7xl px-4 py-24 md:px-6">
       <SectionHeading
         eyebrow="Contact"
-        title="Let’s build the next enterprise system together."
+        title="Get in touch"
         description="Available immediately for remote, international, and employment-visa opportunities."
       />
 

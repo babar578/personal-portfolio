@@ -10,8 +10,8 @@ export function SkillsCloud() {
     <section id="skills" className="mx-auto max-w-7xl px-4 py-24 md:px-6">
       <SectionHeading
         eyebrow="Skills"
-        title="A toolkit built for enterprise .NET systems."
-        description="Backend depth, data craft, and frontend fluency for end-to-end delivery."
+        title="A toolkit built for enterprise .NET, CMS, and AI systems."
+        description="Backend depth, Umbraco CMS, secure forms & SEO ops, RAG/AI assistants, and frontend fluency for end-to-end delivery."
       />
 
       <div className="mt-12 grid gap-6 lg:grid-cols-2">
@@ -28,8 +28,11 @@ export function SkillsCloud() {
                     </div>
                     <div className="h-1.5 overflow-hidden rounded-full bg-white/5">
                       <div
-                        className="h-full rounded-full bg-gradient-to-r from-sky-500 to-cyan-400"
-                        style={{ width: `${skill.level}%` }}
+                        className="h-full rounded-full"
+                        style={{
+                          width: `${skill.level}%`,
+                          background: 'linear-gradient(90deg, var(--accent), var(--accent-soft))',
+                        }}
                       />
                     </div>
                   </div>

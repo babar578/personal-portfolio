@@ -11,9 +11,18 @@ export function Footer() {
     <footer className="relative mt-24 border-t border-[var(--border)]">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:grid-cols-[1.4fr_1fr_1fr] md:px-6">
         <div>
-          <p className="font-display text-2xl font-semibold">
-            {portfolio.profile.fullName}
-          </p>
+          <div className="flex items-center gap-3">
+            <img
+              src={portfolio.profile.avatar || portfolio.profile.heroImage}
+              alt=""
+              className="profile-photo h-12 w-12 rounded-full border border-[var(--border)] object-cover"
+              width={48}
+              height={48}
+            />
+            <p className="font-display text-2xl font-semibold">
+              {portfolio.profile.fullName}
+            </p>
+          </div>
           <p className="mt-3 max-w-md text-sm leading-relaxed text-[var(--text-muted)]">
             {portfolio.profile.tagline}
           </p>
