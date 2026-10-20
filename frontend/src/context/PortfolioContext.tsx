@@ -19,6 +19,7 @@ import {
   defaultTestimonials,
 } from '@/data/defaults'
 import { api } from '@/services/api'
+import { withPortfolioAssetBase } from '@/utils/assetUrl'
 import type {
   BlogPost,
   Certificate,
@@ -49,7 +50,9 @@ interface PortfolioContextValue {
 const PortfolioContext = createContext<PortfolioContextValue | null>(null)
 
 export function PortfolioProvider({ children }: { children: ReactNode }) {
-  const [portfolio, setPortfolio] = useState<PortfolioData>(defaultPortfolio)
+  const [portfolio, setPortfolio] = useState<PortfolioData>(() =>
+    withPortfolioAssetBase(defaultPortfolio),
+  )
   const [projects, setProjects] = useState<Project[]>(defaultProjects)
   const [experience, setExperience] = useState<Experience[]>(defaultExperience)
   const [skills, setSkills] = useState<SkillCategory[]>(defaultSkills)
@@ -78,7 +81,7 @@ export function PortfolioProvider({ children }: { children: ReactNode }) {
       ])
 
       const [p, pr, ex, sk, sv, te, ce, bl, se] = results
-      if (p.status === 'fulfilled') setPortfolio(p.value)
+      if (p.status === 'fulfilled') setPortfolio(withPortfolioAssetBase(p.value))
       if (pr.status === 'fulfilled') setProjects(pr.value)
       if (ex.status === 'fulfilled') setExperience(ex.value)
       if (sk.status === 'fulfilled') setSkills(sk.value)

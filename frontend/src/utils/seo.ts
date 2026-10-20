@@ -1,3 +1,5 @@
+import { assetUrl } from '@/utils/assetUrl'
+
 export interface SeoPayload {
   title?: string
   description?: string
@@ -12,7 +14,7 @@ const DEFAULTS: Required<SeoPayload> = {
   description:
     'Senior Full Stack .NET Engineer with 7+ years building enterprise ERP, medical, supply chain, and cloud-ready systems.',
   keywords: 'Senior .NET Developer, ASP.NET Core, ERP Specialist, Full Stack Engineer, SQL Server, React',
-  image: '/og-image.png',
+  image: '/uploads/general/profile.jpg',
   url: typeof window !== 'undefined' ? window.location.href : 'https://muhammadbabarali.dev',
   author: 'Muhammad Babar Ali',
 }
@@ -29,17 +31,18 @@ function setMeta(attr: 'name' | 'property', key: string, content: string) {
 
 export function applySeo(payload: SeoPayload = {}) {
   const seo = { ...DEFAULTS, ...payload }
+  const image = assetUrl(seo.image)
   document.title = seo.title
   setMeta('name', 'description', seo.description)
   setMeta('name', 'keywords', seo.keywords)
   setMeta('name', 'author', seo.author)
   setMeta('property', 'og:title', seo.title)
   setMeta('property', 'og:description', seo.description)
-  setMeta('property', 'og:image', seo.image)
+  setMeta('property', 'og:image', image)
   setMeta('property', 'og:url', seo.url)
   setMeta('name', 'twitter:title', seo.title)
   setMeta('name', 'twitter:description', seo.description)
-  setMeta('name', 'twitter:image', seo.image)
+  setMeta('name', 'twitter:image', image)
 }
 
 export function formatDate(value?: string | null, fallback = 'Present') {
