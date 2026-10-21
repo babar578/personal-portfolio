@@ -6,10 +6,8 @@ import { ExperienceTimeline } from '@/components/sections/ExperienceTimeline'
 import { ProjectsGrid } from '@/components/sections/ProjectsGrid'
 import { SkillsCloud } from '@/components/sections/SkillsCloud'
 import { ServicesGrid } from '@/components/sections/ServicesGrid'
-import { TestimonialsCarousel } from '@/components/sections/TestimonialsCarousel'
 import { CertificatesGrid } from '@/components/sections/CertificatesGrid'
 import { BlogPreview } from '@/components/sections/BlogPreview'
-import { ContactSection } from '@/components/sections/ContactSection'
 import { usePortfolio } from '@/hooks/usePortfolio'
 import { applySeo } from '@/utils/seo'
 
@@ -31,14 +29,12 @@ export default function Home() {
       <Hero />
       <About />
       <Stats />
-      <ProjectsGrid featuredOnly limit={6} showFilters={false} />
+      <ProjectsGrid featuredOnly limit={6} showFilters />
       <ExperienceTimeline />
       <SkillsCloud />
       <ServicesGrid />
-      <TestimonialsCarousel />
       <CertificatesGrid />
       <BlogPreview />
-      <ContactSection />
     </>
   )
 }

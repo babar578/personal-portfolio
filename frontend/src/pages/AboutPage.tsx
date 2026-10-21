@@ -22,7 +22,7 @@ export default function AboutPage() {
         <img
           src={photo}
           alt={`${portfolio.profile.fullName} professional portrait`}
-          className="profile-photo h-28 w-28 rounded-2xl border border-[var(--border)] object-cover shadow-[var(--shadow)] md:h-36 md:w-36"
+          className="profile-photo h-24 w-24 bg-[var(--bg)] object-cover md:h-28 md:w-28"
           width={144}
           height={144}
         />

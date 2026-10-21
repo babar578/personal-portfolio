@@ -15,7 +15,7 @@ export function Footer() {
             <img
               src={portfolio.profile.avatar || portfolio.profile.heroImage}
               alt=""
-              className="profile-photo h-12 w-12 rounded-full border border-[var(--border)] object-cover"
+              className="profile-photo h-10 w-10 rounded-full bg-[var(--bg)] object-cover"
               width={48}
               height={48}
             />

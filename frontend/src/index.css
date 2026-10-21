@@ -158,6 +158,13 @@ img {
 .profile-photo {
   object-fit: cover;
   object-position: center 18%;
+  background-color: var(--bg);
+}
+
+/* Large portraits: soft bottom fade into page bg (no hard frame) */
+.profile-photo--hero {
+  -webkit-mask-image: linear-gradient(#000 78%, transparent);
+  mask-image: linear-gradient(#000 78%, transparent);
 }
 
 .noise {

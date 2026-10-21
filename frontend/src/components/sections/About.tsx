@@ -19,29 +19,19 @@ export function About() {
 
       <div className="mt-12 grid items-start gap-8 lg:grid-cols-[0.85fr_1.15fr]">
         <ScrollReveal>
-          <div className="relative mx-auto max-w-sm lg:mx-0">
-            <div
-              className="absolute -inset-2 rounded-[1.5rem] opacity-60 blur-xl"
-              style={{
-                background:
-                  'radial-gradient(circle at 50% 30%, color-mix(in oklab, var(--accent) 20%, transparent), transparent 70%)',
-              }}
-            />
-            <figure
-              className="relative overflow-hidden rounded-[1.35rem] border border-[var(--border)] bg-[var(--bg-elevated)]"
-              style={{ boxShadow: `0 0 0 1px var(--photo-ring), var(--shadow)` }}
-            >
+          <div className="relative mx-auto max-w-[240px] lg:mx-0 md:max-w-[260px]">
+            <figure className="relative overflow-hidden bg-[var(--bg)]">
               <img
                 src={photo}
                 alt={`${profile.fullName} professional headshot`}
-                className="profile-photo aspect-[4/5] w-full"
-                width={480}
-                height={600}
+                className="profile-photo profile-photo--hero aspect-[4/5] w-full"
+                width={360}
+                height={450}
                 loading="lazy"
               />
-              <figcaption className="border-t border-[var(--border)] px-4 py-3">
-                <p className="font-display text-base font-semibold">{profile.fullName}</p>
-                <p className="mt-0.5 text-sm text-[var(--text-muted)]">{profile.title}</p>
+              <figcaption className="relative -mt-14 bg-gradient-to-t from-[var(--bg)] via-[color-mix(in_oklab,var(--bg)_70%,transparent)] to-transparent px-3 pb-3 pt-10">
+                <p className="font-display text-sm font-semibold">{profile.fullName}</p>
+                <p className="mt-0.5 text-xs text-[var(--text-muted)]">{profile.title}</p>
               </figcaption>
             </figure>
           </div>

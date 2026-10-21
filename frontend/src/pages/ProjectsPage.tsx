@@ -9,7 +9,7 @@ export default function ProjectsPage() {
   useEffect(() => {
     applySeo({
       title: `Projects | ${portfolio.profile.fullName}`,
-      description: 'Enterprise ERP, medical, and supply chain case studies.',
+      description: 'Portfolio by subject — banking, AI, medical, home care, ERP, CMS, biotech, and legal.',
     })
   }, [portfolio.profile.fullName])
 

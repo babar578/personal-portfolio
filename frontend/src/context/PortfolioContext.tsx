@@ -19,7 +19,7 @@ import {
   defaultTestimonials,
 } from '@/data/defaults'
 import { api } from '@/services/api'
-import { withPortfolioAssetBase } from '@/utils/assetUrl'
+import { assetUrl, withPortfolioAssetBase } from '@/utils/assetUrl'
 import type {
   BlogPost,
   Certificate,
@@ -53,7 +53,14 @@ export function PortfolioProvider({ children }: { children: ReactNode }) {
   const [portfolio, setPortfolio] = useState<PortfolioData>(() =>
     withPortfolioAssetBase(defaultPortfolio),
   )
-  const [projects, setProjects] = useState<Project[]>(defaultProjects)
+  const withProjectAssets = (items: Project[]) =>
+    items.map((project) => ({
+      ...project,
+      coverImage: assetUrl(project.coverImage),
+      gallery: (project.gallery || []).map((g) => assetUrl(g)),
+    }))
+
+  const [projects, setProjects] = useState<Project[]>(() => withProjectAssets(defaultProjects))
   const [experience, setExperience] = useState<Experience[]>(defaultExperience)
   const [skills, setSkills] = useState<SkillCategory[]>(defaultSkills)
   const [services, setServices] = useState<Service[]>(defaultServices)
@@ -82,7 +89,7 @@ export function PortfolioProvider({ children }: { children: ReactNode }) {
 
       const [p, pr, ex, sk, sv, te, ce, bl, se] = results
       if (p.status === 'fulfilled') setPortfolio(withPortfolioAssetBase(p.value))
-      if (pr.status === 'fulfilled') setProjects(pr.value)
+      if (pr.status === 'fulfilled') setProjects(withProjectAssets(pr.value))
       if (ex.status === 'fulfilled') setExperience(ex.value)
       if (sk.status === 'fulfilled') setSkills(sk.value)
       if (sv.status === 'fulfilled') setServices(sv.value)

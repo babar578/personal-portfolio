@@ -2,47 +2,48 @@
   {
     "id": "proj011",
     "slug": "ajc-al-jazeera-capital",
-    "title": "Al Jazeera Capital (AJC)",
+    "title": "Aljazira Capital (AJC)",
     "company": "SPARK",
     "industry": "Investment / Capital Markets",
-    "clientRegion": "GCC / Middle East",
+    "clientRegion": "Saudi Arabia · Riyadh",
     "duration": "Current",
     "categories": [
       "CMS",
       "Finance",
       "Umbraco",
-      "Security"
+      "Saudi",
+      "CMA Regulated"
     ],
-    "shortDescription": "Enterprise bilingual corporate website for Al Jazeera Capital with secure careers/contact lead capture, consent/privacy controls, CV upload, reCAPTCHA, and Mailchimp newsletter integration.",
-    "description": "Al Jazeera Capital (AJC) is a Gulf investment and capital-markets digital presence built on Umbraco CMS and ASP.NET Core. The platform delivers a bilingual English/Arabic corporate experience with production-hardened public forms for careers and contact, privacy/consent validation, Google reCAPTCHA protection, CV upload for applicants, and Mailchimp-powered newsletter subscription—supporting compliance-minded lead capture without exposing internal systems.",
-    "businessProblem": "An investment firm needed a polished bilingual corporate site that could capture careers and contact leads securely, document privacy consent, accept CV uploads, and grow newsletter audiences—while meeting Gulf market expectations for Arabic/English localization and public-form security.",
-    "solution": "Delivered an Umbraco-based bilingual corporate platform with Surface Controller–driven secure forms, Google reCAPTCHA, privacy/consent validation, careers CV upload, Mailchimp newsletter integration, form loaders and validation UX, and production hardening for reliable public submissions.",
+    "shortDescription": "Aljazira Capital (aljaziracapital.com.sa) — CMA-regulated Saudi investment company, 100% owned by Bank Al Jazira; mainstream Umbraco CMS website with secure bilingual forms, reports/systems support, and server deployment.",
+    "description": "Aljazira Capital (الجزيرة كابيتال) is a CMA-regulated Saudi investment firm fully owned by Bank Al Jazira as a One Person Saudi Closed Joint Stock Company subsidiary, headquartered in Riyadh (https://www.aljaziracapital.com.sa/). With SPARK, the engagement covered the mainstream corporate website and Umbraco CMS — bilingual EN/AR content, secure careers/contact/consent forms (reCAPTCHA, CV upload), Mailchimp newsletter flows, reporting/system touchpoints, and production server deployment tooling — presented without confidential internals.",
+    "businessProblem": "Aljazira Capital — a Bank Al Jazira subsidiary regulated by the Saudi Capital Market Authority — needed a production-grade mainstream website and CMS that reflects a Riyadh-based investment brand, supports bilingual audiences, and captures compliant leads with reliable enterprise deployment.",
+    "solution": "Delivered and hardened the Umbraco-based mainstream site and CMS for Aljazira Capital: Surface Controller forms (reCAPTCHA, consent, CV upload), Mailchimp, EN/AR localization, reporting/system support areas, and server deployment tooling aligned to a CMA-regulated Saudi investment digital presence.",
     "responsibilities": [
-      "Implemented careers, contact, and consent form workflows on Umbraco Surface Controllers",
-      "Integrated Google reCAPTCHA and privacy/consent validation for public submissions",
-      "Enabled CV upload for careers applications with production-safe handling",
-      "Connected Mailchimp newsletter subscription for marketing operations",
-      "Supported English/Arabic localization and bilingual content delivery",
-      "Hardened form UX with validation, loaders, and production reliability fixes"
+      "Contributed to mainstream Aljazira Capital website and Umbraco CMS delivery",
+      "Implemented secure public forms (careers, contact, consent) with reCAPTCHA and CV upload",
+      "Supported bilingual EN/AR localization and production content workflows",
+      "Worked on reporting/system-related delivery areas and server deployment tooling",
+      "Hardened form UX, validation, and production reliability"
     ],
     "technicalHighlights": [
-      "Umbraco + ASP.NET Core Surface Controllers for secure public forms",
-      "Google reCAPTCHA and consent/privacy validation",
-      "Careers CV upload with hardened submission flow",
-      "Mailchimp newsletter integration and EN/AR localization"
+      "CMA-regulated Saudi investment brand (Bank Al Jazira subsidiary)",
+      "Mainstream corporate website + Umbraco CMS (Riyadh HQ)",
+      "Secure forms, reCAPTCHA, consent, CV upload",
+      "EN/AR bilingual investment digital experience",
+      "Server deployment tooling and production hardening"
     ],
     "database": "Microsoft SQL Server",
     "deploymentEnvironment": "Enterprise client hosting (GCC)",
-    "results": "Enabled AJC to capture careers and contact leads with stronger compliance posture, bilingual UX, spam protection, and newsletter growth—while keeping public forms production-ready.",
-    "coverImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1400&q=80",
+    "results": "Helped ship Aljazira Capital’s mainstream web/CMS presence with secure lead capture, bilingual UX, and production-ready deployment practices for the Saudi market.",
+    "coverImage": "/uploads/brands/ajc-logo.png",
     "gallery": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&q=80"
+      "/uploads/brands/ajc-logo.png",
+      "/uploads/brands/ajc-logo-white.svg",
+      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
     ],
     "videoUrl": null,
     "gitHubUrl": null,
-    "liveDemoUrl": null,
+    "liveDemoUrl": "https://www.aljaziracapital.com.sa/",
     "technologies": [
       "Umbraco",
       "ASP.NET Core",
@@ -63,7 +64,9 @@
       "CV Upload",
       "Newsletter (Mailchimp)",
       "reCAPTCHA Security",
-      "EN/AR Localization"
+      "EN/AR Localization",
+      "Reports / System Support",
+      "Server Deployment"
     ],
     "features": [
       "Bilingual English/Arabic corporate website",
@@ -75,24 +78,24 @@
       "Form validation, loaders, and production hardening"
     ],
     "caseStudy": {
-      "flowDiagrams": [],
-      "images": [],
-      "problem": "Investment firm needed bilingual corporate presence with secure, compliance-aware public forms and newsletter capture.",
+      "problem": "Bank Al Jazira’s CMA-regulated investment subsidiary needed a mainstream CMS website with secure forms and reliable deployment for the Saudi market.",
       "challenges": [
-        "Balancing bilingual UX with secure form submission flows",
-        "Hardening CV upload and consent validation for production",
-        "Integrating Mailchimp and reCAPTCHA without degrading UX"
+        "Enterprise bilingual delivery for a CMA-regulated finance brand",
+        "Hardening public forms and uploads for production",
+        "Supporting deployment tooling alongside CMS feature work"
       ],
-      "architecture": "Umbraco CMS + Surface Controllers + reCAPTCHA + Mailchimp + SQL Server.",
+      "architecture": "Umbraco CMS + ASP.NET Core Surface Controllers + SQL Server + Mailchimp/reCAPTCHA integrations.",
       "database": "Microsoft SQL Server",
-      "api": "Surface Controllers and third-party integrations (Mailchimp, reCAPTCHA).",
-      "performance": "Production hardening of form loaders, validation, and submission reliability.",
-      "businessValue": "Trusted bilingual lead capture for careers, contact, and newsletter growth in capital markets.",
+      "api": "Surface Controllers and third-party marketing/security integrations.",
+      "performance": "Production hardening and deployment tooling for stable releases.",
+      "businessValue": "Trusted Riyadh-based Aljazira Capital digital presence with compliant lead capture for a Bank Al Jazira subsidiary.",
       "lessonsLearned": [
-        "Public-form security (reCAPTCHA, consent, upload hardening) is mandatory for Gulf finance sites",
-        "EN/AR localization must be designed into forms and content models from the start",
-        "Marketing ops (Mailchimp) pairs best with clear consent UX"
-      ]
+        "CMA-regulated Saudi investment sites need security and localization as first-class delivery items",
+        "Parent-bank subsidiary branding (Bank Al Jazira / Aljazira Capital) must stay accurate in portfolio storytelling",
+        "Server deployment tooling is part of CMS success, not an afterthought"
+      ],
+      "flowDiagrams": [],
+      "images": []
     },
     "featured": true,
     "order": 1,
@@ -112,8 +115,8 @@
       "Chatbot",
       "Python"
     ],
-    "shortDescription": "Document-grounded RAG chatbot that lets users upload files, retrieve relevant chunks, and ask questions answered by an LLM with citations from their own knowledge.",
-    "description": "Smart RAG Chatbot is a retrieval-augmented generation assistant built to turn personal or operational documents into a searchable knowledge base. Users upload files; the system extracts text, chunks content, stores embeddings, retrieves the most relevant passages, and generates grounded answers through an LLM—bridging study notes, ops docs, and chat in one pipeline.",
+    "shortDescription": "Document-grounded RAG chatbot — upload files, retrieve relevant chunks, and chat with answers grounded in your own knowledge base.",
+    "description": "Smart RAG Chatbot is a retrieval-augmented chatbot built so users can upload documents and ask questions against their own files. The pipeline extracts text, chunks content, stores embeddings, retrieves relevant passages, and generates grounded LLM answers in a chat UI — clearly positioned as a chatbot product, not a generic dashboard.",
     "businessProblem": "People and teams hold knowledge in PDFs and documents but cannot ask reliable questions against that corpus. Generic chatbots hallucinate; users needed answers grounded in their own uploaded files.",
     "solution": "Implemented a full RAG pipeline—upload → extract → chunk → store → retrieve → generate—with a chat UI for iterative Q&A over user documents, focusing on retrieval quality and grounded responses.",
     "responsibilities": [
@@ -132,11 +135,10 @@
     "database": "Vector / document store (embeddings + chunk metadata)",
     "deploymentEnvironment": "Local / R&D development environment",
     "results": "Delivered a working knowledge assistant pattern that answers questions from user-uploaded documents—demonstrating practical RAG engineering beyond FAQ chatbots.",
-    "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1400&q=80",
+    "coverImage": "/uploads/brands/chatbot-logo.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
-      "https://images.unsplash.com/photo-1676277791608-ac54525aa94d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&q=80"
+      "/uploads/brands/chatbot-logo.jpg",
+      "/uploads/brands/chatbot-cover.svg"
     ],
     "technologies": [
       "Python",
@@ -222,11 +224,10 @@
     "database": "Microsoft SQL Server",
     "deploymentEnvironment": "Azure / CI-CD enabled hosting",
     "results": "Gave event operators a structured ERP path from dispatch to settlement—improving accountability for transfers, returns, and financial impact of inventory loss or damage.",
-    "coverImage": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1400&q=80",
+    "coverImage": "/uploads/brands/eme-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
-      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1200&q=80"
+      "/uploads/brands/eme-cover.jpg",
+      "/uploads/brands/eme-flow.png"
     ],
     "technologies": [
       "ASP.NET Core",
@@ -287,124 +288,151 @@
     "id": "proj014",
     "slug": "subtrack-subscription-tracker",
     "title": "SubTrack — Subscription Tracker",
-    "company": "Product / Side Project",
-    "industry": "Personal Finance / Productivity",
-    "clientRegion": "Independent",
+    "company": "Personal Product (Live)",
+    "industry": "Personal Finance / SaaS",
+    "clientRegion": "Live — mintsubs.com",
     "duration": "",
     "categories": [
+      "Personal Product",
       "SaaS",
-      "Web App",
-      "SQLite",
-      "PostgreSQL"
+      "Subscriptions",
+      "Finance",
+      "Live",
+      "AI",
+      "Python",
+      "LLM",
+      "Agents"
     ],
-    "shortDescription": "Web app that helps people capture, track, and manage recurring subscriptions—reducing forgotten renewals for services like streaming and SaaS tools.",
-    "description": "SubTrack is a subscription tracking web application built to solve a simple but costly problem: forgotten recurring charges. Users capture subscriptions, track renewals, and manage reminders in a clean web experience designed for SQLite locally and PostgreSQL in production deployments.",
-    "businessProblem": "People lose track of recurring subscriptions across streaming, cloud tools, and memberships—leading to surprise renewals and wasted spend.",
-    "solution": "Delivered a focused web app for capturing and tracking subscriptions with a pragmatic data design (SQLite for local/dev, PostgreSQL-ready for production) and deployment analysis for reliable hosting.",
+    "shortDescription": "Live at mintsubs.com — subscription manager with Python + LLM agent assistance for renewals, multi-currency spend, calendar sync, and privacy-first tracking.",
+    "description": "SubTrack (live at https://mintsubs.com/) is a focused personal subscription manager for recurring services — streaming, SaaS tools, cloud, and memberships. Beyond classic tracking, the product uses Python with LLM-powered assistance and a custom AI agent to help users manage subscriptions smarter (insights, reminders context, and agent workflows), alongside renewal radar alerts (7d / 3d / 1d), 45+ currency conversion, RFC 5545 calendar feed sync to Apple Calendar / Google / Outlook, and zero-telemetry privacy (Argon2id, portable SQLite/CSV backups).",
+    "businessProblem": "People forget recurring subscriptions across cards and apps — surprise renewals and wasted spend with no single command center for renewals and costs.",
+    "solution": "Shipped SubTrack live on mintsubs.com as a high-precision subscription command center: capture and track services, timezone-aware renewal reminders, multi-currency totals, calendar sync feeds, privacy-first multi-tenant records — plus Python/LLM agent capabilities for intelligent subscription assistance.",
     "responsibilities": [
-      "Designed subscription capture and tracking workflows",
-      "Implemented web application features for manage/remind flows",
-      "Modeled local SQLite and production PostgreSQL data approach",
-      "Analyzed deployment options for production readiness"
+      "Designed and shipped subscription capture, dashboard, and renewal workflows",
+      "Built Python-based LLM agent assistance for smarter subscription management",
+      "Integrated LLM capabilities into product workflows (agent + AI-assisted features)",
+      "Built renewal radar alerts (7 / 3 / 1 day) and multi-currency aggregation",
+      "Implemented RFC 5545 calendar feed sync for Apple / Google / Outlook",
+      "Delivered privacy-first auth (Argon2id) and SQLite/CSV portability",
+      "Launched the live product at mintsubs.com"
     ],
     "technicalHighlights": [
-      "Subscription lifecycle capture and tracking UX",
-      "SQLite for local development; PostgreSQL production design",
-      "Lightweight SaaS-style product focus",
-      "Deployment-aware architecture decisions"
+      "Live product: https://mintsubs.com/",
+      "Python + LLM agent for subscription assistance",
+      "AI agent workflows alongside core tracking",
+      "Renewal Radar notifications (7d · 3d · 1d)",
+      "RFC 5545 calendar sync (Apple · Google · Outlook)",
+      "45+ currencies with unified spend view",
+      "Argon2id security + zero-telemetry privacy"
     ],
-    "database": "SQLite (local) / PostgreSQL (production design)",
-    "deploymentEnvironment": "Local development with production hosting design",
-    "results": "Created a practical product MVP for subscription awareness—helping users see recurring costs and manage renewals before they surprise them.",
-    "coverImage": "https://images.unsplash.com/photo-1467232004584-a241c7c54c85?w=1400&q=80",
+    "database": "SQLite (portable) / cloud production store",
+    "deploymentEnvironment": "Live production — mintsubs.com",
+    "results": "Live subscription manager at mintsubs.com — fewer surprise charges, clearer monthly/yearly spend, and renewals visible where people already look (calendar + web).",
+    "coverImage": "/uploads/brands/subtrack-hero.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80"
+      "/uploads/brands/subtrack-hero.jpg",
+      "/uploads/brands/subtrack-apple-touch-icon.png",
+      "/uploads/brands/subtrack-cover.svg"
     ],
     "technologies": [
+      "Python",
+      "LLM",
+      "AI Agents",
       "Web App",
       "SQLite",
-      "PostgreSQL",
-      "JavaScript",
+      "RFC 5545 iCal",
+      "Multi-currency",
+      "Argon2id",
+      "SaaS",
       "Product Design"
     ],
-    "architecture": "Web application with subscription domain model stored in SQLite for local use and designed for PostgreSQL in production, focusing on capture, listing, renewal awareness, and management workflows.",
+    "architecture": "Live SaaS at mintsubs.com with subscription domain model, renewal scheduling/alerts, multi-currency aggregation, RFC 5545 calendar feeds, Argon2id-secured multi-tenant records, and a Python/LLM agent layer for intelligent subscription assistance — plus SQLite/CSV export for data portability.",
     "modules": [
       "Subscription Capture",
       "Tracking Dashboard",
-      "Renewal Awareness",
-      "Management",
-      "Data Store"
+      "Renewal Radar",
+      "Python LLM Agent",
+      "AI Assistance",
+      "Multi-currency Totals",
+      "Calendar Feed Sync",
+      "Privacy / Auth",
+      "Backup Export"
     ],
     "features": [
-      "Capture recurring subscriptions quickly",
-      "Track and manage active subscriptions",
-      "Renewal visibility to reduce forgotten charges",
-      "Local SQLite with production Postgres path"
+      "Live at mintsubs.com",
+      "Python + LLM agent assistance",
+      "AI agent for smarter subscription workflows",
+      "Track renewals, cycles, and subscription costs",
+      "7d / 3d / 1d renewal notifications",
+      "Apple Calendar, Google Calendar, Outlook sync",
+      "45+ currencies with unified aggregation",
+      "Zero-telemetry privacy and portable backups"
     ],
     "caseStudy": {
       "flowDiagrams": [],
       "images": [],
-      "problem": "Recurring subscriptions are easy to forget and hard to audit without a dedicated tracker.",
+      "problem": "Recurring subscriptions are easy to forget without a focused renewal command center.",
       "challenges": [
-        "Keeping the product focused without overbuilding",
-        "Choosing portable local storage with a clear production path"
+        "Shipping a live SaaS with real renewal reminders and calendar sync",
+        "Multi-currency clarity without spreadsheet bloat",
+        "Privacy-first design with portable backups"
       ],
-      "architecture": "Web app + SQLite/Postgres data design for subscription records.",
-      "database": "SQLite locally; PostgreSQL for production design",
-      "api": "Application services for CRUD and tracking workflows.",
-      "performance": "Lightweight reads/writes suitable for personal subscription volumes.",
-      "businessValue": "Fewer surprise renewals and clearer personal subscription spend visibility.",
+      "architecture": "Live mintsubs.com SaaS — subscriptions, renewal radar, iCal feeds, multi-currency, Argon2id auth, plus Python/LLM agent assistance.",
+      "database": "SQLite portable + production cloud store",
+      "api": "Application APIs for subscriptions, calendar feeds, and account workflows.",
+      "performance": "Fast setup (<2 min) with focused UX over expense-sheet complexity.",
+      "businessValue": "Fewer surprise card charges and clearer personal subscription spend — live in production.",
       "lessonsLearned": [
         "Narrow product scope ships faster than multi-feature finance suites",
-        "SQLite-to-Postgres design keeps local DX and production readiness aligned"
+        "Calendar sync puts renewals where users already look",
+        "Privacy and portability build trust for personal finance tools",
+        "LLM agents add leverage when tied to concrete subscription workflows, not generic chat"
       ]
     },
     "featured": true,
     "order": 4,
-    "completedAt": null
+    "completedAt": null,
+    "liveDemoUrl": "https://mintsubs.com/"
   },
   {
     "id": "proj015",
     "slug": "onco-clinics",
-    "title": "Onco Clinics",
+    "title": "OncoClinic",
     "company": "SPARK",
     "industry": "Healthcare / Oncology",
-    "clientRegion": "GCC / Middle East",
+    "clientRegion": "Saudi Arabia (Riyadh)",
     "duration": "Current",
     "categories": [
       "Healthcare",
       "CMS",
       "Umbraco",
-      "Localization"
+      "Security",
+      "Gulf"
     ],
-    "shortDescription": "Gulf oncology clinic digital presence with Umbraco blocks, appointment/referral forms, doctor/specialty filtering, multilingual medical content, and analytics hardening.",
-    "description": "Onco Clinics is a patient-facing oncology clinic website delivered on Umbraco for Gulf healthcare audiences. The platform supports appointment and referral forms, dependent specialty dropdowns, doctor/specialty filtering, multilingual medical content, cookie/gtag analytics domain fixes, build/deploy reliability, and security-scan follow-ups—presented at portfolio level without confidential clinical internals.",
-    "businessProblem": "Oncology clinics needed a trustworthy digital front door for patients to discover specialties and doctors, request appointments/referrals, and consume multilingual medical content—while keeping forms and analytics production-safe.",
-    "solution": "Implemented Umbraco Block List experiences with appointment forms, dependent specialty filtering, contact form migration/cleanup, localization-ready medical content, Google Tag (gtag) domain/cookie corrections, deploy fixes, and security scan remediation.",
+    "shortDescription": "OncoClinic (oncoclinicgroup.com) — Al Faisaliah partnership outpatient oncology site for KSA: Umbraco CMS, consultations, specialists, multilingual patient experience, and secure clinic communications.",
+    "description": "OncoClinic (https://www.oncoclinicgroup.com/) is a Riyadh outpatient oncology platform backed by one of Latin America’s leading oncology groups through partnership with Al Faisaliah, connecting local multidisciplinary teams with global expertise in precision medicine, genomics, and advanced radiotherapy (including collaborations such as Dana-Farber). Delivered on Umbraco for SPARK: CMS blocks, consultation/appointment and referral intake, specialty/doctor discovery, website security hardening, reporting, analytics (gtag), and bilingual patient–clinic communication flows.",
+    "businessProblem": "OncoClinic needed a production-ready digital front door for Saudi patients—consultation booking, specialist discovery, trustworthy medical content, and secure communications aligned with an international oncology brand.",
+    "solution": "Built and hardened the live Umbraco experience at oncoclinicgroup.com: content models and blocks, consultation/referral forms, specialty-aware UX, security scan follow-ups, reporting/communication support, and deploy/analytics reliability for the Riyadh clinic site.",
     "responsibilities": [
-      "Built Umbraco blocks and specialty/doctor filtering experiences",
-      "Implemented appointment and referral form workflows",
-      "Migrated and cleaned contact form implementations",
-      "Resolved cookie/gtag domain issues for analytics accuracy",
-      "Supported build/deploy fixes and security scan follow-ups",
-      "Contributed attendance-management proposal documentation where required"
+      "Developed CMS blocks and specialty/doctor filtering experiences",
+      "Implemented appointment, referral, and contact form handling for patient in/out flows",
+      "Worked on website security scan follow-ups and production hardening",
+      "Supported reporting and client–clinic communication related delivery",
+      "Resolved analytics/cookie (gtag) domain issues and deploy fixes"
     ],
     "technicalHighlights": [
-      "Healthcare CMS with Block List and ModelsBuilder patterns",
-      "Dependent specialty dropdowns for appointment UX",
-      "gtag/cookie domain hardening for analytics",
-      "Production deploy and security-scan remediation"
+      "Gulf oncology CMS with patient/clinic intake flows",
+      "Website security and production hardening",
+      "Appointment/referral forms and specialty filtering",
+      "Reporting and communication support between clinic and clients"
     ],
     "database": "Microsoft SQL Server",
     "deploymentEnvironment": "Enterprise healthcare client hosting (GCC)",
-    "results": "Improved patient discovery and appointment intake for oncology clinics while stabilizing analytics, forms, and production CMS delivery.",
-    "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1400&q=80",
+    "results": "Live patient-facing oncology site at oncoclinicgroup.com with stronger CMS intake, secure public forms, and clinic–patient communication/reporting readiness.",
+    "coverImage": "/uploads/brands/onco-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1200&q=80",
-      "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&q=80"
+      "/uploads/brands/onco-logo.svg",
+      "/uploads/brands/onco-cover.jpg"
     ],
     "technologies": [
       "Umbraco",
@@ -426,9 +454,9 @@
       "Localization"
     ],
     "features": [
-      "Patient-facing oncology clinic website",
-      "Appointment and referral form intake",
-      "Dependent specialty dropdowns",
+      "Live site: oncoclinicgroup.com",
+      "Patient consultation / appointment intake",
+      "Referral and contact form workflows",
       "Doctor and specialty filtering",
       "Multilingual medical content readiness",
       "Analytics and cookie domain corrections",
@@ -437,7 +465,7 @@
     "caseStudy": {
       "flowDiagrams": [],
       "images": [],
-      "problem": "Oncology clinics needed digital appointment/referral intake and specialty discovery with reliable analytics.",
+      "problem": "International oncology JV needed a Saudi digital front door for consultation booking, specialist discovery, and secure patient communications.",
       "challenges": [
         "Dependent specialty UX without breaking form flows",
         "Correcting gtag/cookie domains in production",
@@ -447,7 +475,7 @@
       "database": "Microsoft SQL Server",
       "api": "CMS form controllers and analytics integrations.",
       "performance": "Deploy reliability and form cleanup for production stability.",
-      "businessValue": "Clearer patient pathways from specialty discovery to appointment request.",
+      "businessValue": "Patients can discover specialists and request consultations on the live OncoClinic site while clinics retain CMS control and secure form flows.",
       "lessonsLearned": [
         "Healthcare CMS forms need specialty-aware UX, not generic contact boxes",
         "Analytics (gtag) breaks silently when cookie domains are wrong",
@@ -456,26 +484,28 @@
     },
     "featured": true,
     "order": 5,
-    "completedAt": null
+    "completedAt": null,
+    "liveDemoUrl": "https://www.oncoclinicgroup.com/"
   },
   {
     "id": "proj016",
     "slug": "sppc-corporate-cms",
-    "title": "SPPC Corporate Digital Platform",
+    "title": "SPPC — Principal Buyer (Saudi Power Procurement)",
     "company": "SPARK",
-    "industry": "Corporate / Energy & Projects",
-    "clientRegion": "Saudi Arabia / GCC",
+    "industry": "Energy / Power Procurement",
+    "clientRegion": "Saudi Arabia (Riyadh)",
     "duration": "Current",
     "categories": [
       "CMS",
+      "Energy",
       "SEO",
       "Umbraco",
-      "ASP.NET Core"
+      "Saudi"
     ],
-    "shortDescription": "Saudi-facing corporate Umbraco platform with searchable content, contact forms, SEO/sitemap/robots improvements, and renewable/projects page updates.",
-    "description": "SPPC is a corporate digital presence delivered through Umbraco CMS for Saudi/GCC audiences. Work covered CMS page delivery, contact forms, SEO Toolkit action points (sitemap/robots), content/search UX, renewable and projects page updates, and ongoing production CMS maintenance—kept at portfolio-safe detail.",
-    "businessProblem": "A corporate organization needed a searchable, SEO-ready digital presence with reliable contact capture and maintainable project/renewable content for Gulf audiences.",
-    "solution": "Delivered and maintained Umbraco pages and forms, improved SEO foundations (sitemap/robots/tagging concepts), enhanced content/search UX, and updated renewable/projects content modules for production.",
+    "shortDescription": "Principal Buyer / SPPC (pb.com.sa) — Saudi power procurement corporate Umbraco CMS: IPP/BESS announcements, renewable & conventional projects content, SEO, and management-facing site operations.",
+    "description": "Principal Buyer (pb.com.sa), also known as SPPC / Saudi Power Procurement Company, is the Kingdom’s power procurement digital presence — covering IPP qualification rounds, BESS storage agreements, renewable milestones (e.g. Shuaiba solar, Dawadmi wind), and corporate communications. SPARK delivery on Umbraco covered corporate CMS pages, contact/forms, SEO/sitemap/robots, renewable and projects content modules, search UX, and production maintenance for the live Principal Buyer site.",
+    "businessProblem": "Saudi Arabia’s Principal Buyer needed a searchable, SEO-ready CMS for procurement announcements, project pipelines (conventional IPP, BESS, renewables), and corporate outreach from Riyadh.",
+    "solution": "Maintained and enhanced the live Umbraco platform at pb.com.sa with SEO foundations, forms, content/search UX, renewable and IPP/BESS project modules, and management-oriented content operations.",
     "responsibilities": [
       "Built and maintained Umbraco CMS pages and contact forms",
       "Executed SEO/sitemap/robots improvement action points",
@@ -491,12 +521,11 @@
     ],
     "database": "Microsoft SQL Server",
     "deploymentEnvironment": "Enterprise client hosting (Saudi / GCC)",
-    "results": "Strengthened corporate discoverability and content operations through SEO foundations, forms, and maintainable Umbraco project pages.",
-    "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1400&q=80",
+    "results": "Live Principal Buyer site at pb.com.sa with stronger SEO, maintainable project/renewable content, and reliable CMS operations for procurement communications.",
+    "coverImage": "/uploads/brands/sppc-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&q=80",
-      "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80",
-      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1200&q=80"
+      "/uploads/brands/sppc-logo.png",
+      "/uploads/brands/sppc-cover.jpg"
     ],
     "technologies": [
       "Umbraco",
@@ -514,114 +543,122 @@
       "SEO Toolkit",
       "Sitemap / Robots",
       "Content Search",
-      "Projects / Renewable Pages"
+      "Projects / Renewable / IPP / BESS"
     ],
     "features": [
+      "Live site: pb.com.sa",
       "Corporate CMS content delivery",
+      "IPP / BESS / renewable project pages",
       "Contact form capture",
       "SEO sitemap and robots improvements",
       "Content search UX enhancements",
-      "Renewable and projects page updates",
       "Production CMS maintenance"
     ],
     "caseStudy": {
-      "flowDiagrams": [],
-      "images": [],
-      "problem": "Corporate site needed SEO-ready content operations and reliable public contact capture.",
+      "problem": "Principal Buyer needed CMS + SEO + project/announcement content operations for Saudi power procurement digital presence.",
       "challenges": [
-        "Balancing SEO technical debt with live content updates",
-        "Keeping project/renewable pages maintainable in CMS"
+        "Energy-sector content accuracy",
+        "SEO technical foundations on a live CMS",
+        "Management reporting/content surfaces"
       ],
       "architecture": "Umbraco + SEO Toolkit + ASP.NET Core content delivery.",
       "database": "Microsoft SQL Server",
       "api": "CMS forms and SEO publishing tooling.",
-      "performance": "Search and content UX improvements for discoverability.",
-      "businessValue": "Stronger Saudi/GCC digital presence with searchable, SEO-aware content.",
+      "performance": "Search/content UX improvements for discoverability.",
+      "businessValue": "Clearer public access to IPP qualification, BESS agreements, and renewable project communications on the live pb.com.sa site.",
       "lessonsLearned": [
-        "Sitemap/robots and SEO Toolkit are delivery work, not afterthoughts",
-        "Corporate CMS success depends on maintainable project content models"
-      ]
+        "Energy giants need CMS work tied to SEO and management content clarity",
+        "Renewable/projects pages must stay maintainable in the CMS model"
+      ],
+      "flowDiagrams": [],
+      "images": []
     },
     "featured": true,
     "order": 6,
-    "completedAt": null
+    "completedAt": null,
+    "liveDemoUrl": "https://pb.com.sa/"
   },
   {
     "id": "proj017",
     "slug": "aira-ai-assistant",
-    "title": "Aira — AI Personal Assistant MVP",
-    "company": "Personal / R&D",
+    "title": "Aira — AI Human Clone (Learning / In Progress)",
+    "company": "Personal / Learning",
     "industry": "Artificial Intelligence",
     "clientRegion": "Independent",
-    "duration": "",
+    "duration": "In progress",
     "categories": [
       "AI",
-      "Assistants",
       "LLM",
-      "Product"
+      "Python",
+      "OpenAI",
+      "Learning",
+      "Human Clone"
     ],
-    "shortDescription": "Persistent AI assistant MVP designed as a personal “second brain”—secretary, coach, and planner with memory and personalized behavior beyond FAQ chatbots.",
-    "description": "Aira is an AI Personal Assistant MVP exploring persistent assistant product design: not a disposable chatbot, but a second-brain experience that acts like a secretary, coach, and planner. The work focuses on memory concepts, personalized behavior, and LLM product architecture for long-running assistance—presented without confidential product internals.",
-    "businessProblem": "Typical chatbots reset context and behave like FAQ search. Users need a persistent assistant that remembers preferences, plans, and ongoing goals across sessions.",
-    "solution": "Prototyped an AI assistant MVP emphasizing persistent memory concepts, personalized behavior, and product architecture for secretary/coach/planner workflows—using LLM capabilities with deliberate product thinking.",
+    "shortDescription": "Personal learning project (in progress): building an AI “human clone” — a Python + multi-LLM assistant using OpenAI / GPT, exploring clone-like memory, personality, and self-built agent behavior.",
+    "description": "Aira is a personal learning R&D project focused on creating an AI human clone: not a one-shot chatbot, but an evolving digital twin that can remember, speak, and act more like a personal self. Stack is Python-first with multiple LLMs and OpenAI GPT APIs; parts of the clone layer are being built in-house. Status: under process — portfolio entry documents direction and stack without confidential internals.",
+    "businessProblem": "Generic chatbots do not feel like a personal clone: they lack persistent identity, memory, and self-owned behavior loops that mirror how a person thinks and plans.",
+    "solution": "Building Aira as a Python + OpenAI/GPT multi-LLM learning system toward a human-clone experience — memory, personality, and agent workflows — still under active development.",
     "responsibilities": [
-      "Defined assistant product goals beyond single-turn Q&A",
-      "Explored persistent memory and personalization concepts",
-      "Planned .NET/web MVP architecture for assistant experiences",
-      "Iterated LLM interaction patterns for coach/planner behavior"
+      "Defined human-clone product direction (identity, memory, personality)",
+      "Implemented Python-based LLM orchestration with OpenAI / GPT",
+      "Experimenting with multi-LLM setups and custom clone layers",
+      "Iterating agent behavior while keeping the project as learning / R&D"
     ],
     "technicalHighlights": [
-      "Assistant-as-product thinking (memory + personalization)",
-      "LLM architecture beyond FAQ bots",
-      "MVP planning for .NET/web delivery paths",
-      "Workflow focus: secretary, coach, planner"
+      "Python + OpenAI GPT / multi-LLM stack",
+      "Human-clone concept: memory + personality + agent loops",
+      "In-progress custom layers on top of GPT",
+      "Learning project focused on real AI product craft"
     ],
-    "database": "Application memory / profile stores (MVP design)",
-    "deploymentEnvironment": "Local / R&D MVP environment",
-    "results": "Established a clear assistant MVP direction: persistent memory and personalized planning behavior as differentiators from generic chatbots.",
-    "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1400&q=80",
+    "database": "Local / experimental memory stores (learning MVP)",
+    "deploymentEnvironment": "Local R&D — under process",
+    "results": "Active learning build toward an AI human-clone assistant; stack and direction established, features still evolving.",
+    "coverImage": "/uploads/brands/aira-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
-      "https://images.unsplash.com/photo-1676277791608-ac54525aa94d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&q=80"
+      "/uploads/brands/aira-cover.jpg"
     ],
     "technologies": [
+      "Python",
+      "OpenAI API",
+      "GPT",
       "LLM",
-      "AI Assistants",
-      "Persistent Memory Concepts",
-      "Product Architecture",
-      ".NET / Web MVP Planning"
+      "AI Agents",
+      "Multi-LLM",
+      "Human Clone Concepts"
     ],
-    "architecture": "MVP assistant architecture combining LLM conversation layers with memory/profile concepts and planner/coach workflow surfaces—designed for iterative product evolution rather than one-shot FAQ responses.",
+    "architecture": "Python orchestration layer calling OpenAI GPT and other LLMs, with evolving in-house clone modules for memory, personality, and agent behavior — learning architecture still under process.",
     "modules": [
       "Conversation",
-      "Memory Concepts",
-      "Personalization",
-      "Planner / Coach Flows",
-      "MVP Shell"
+      "Memory / Identity",
+      "Personality Clone Layer",
+      "Multi-LLM Router",
+      "OpenAI GPT Integration",
+      "Agent Loops"
     ],
     "features": [
-      "Persistent assistant persona beyond FAQ chat",
-      "Memory-oriented personalization concepts",
-      "Secretary / coach / planner style workflows",
-      "LLM product architecture for MVP iteration"
+      "AI human-clone learning direction",
+      "Python + OpenAI / GPT integration",
+      "Multi-LLM experimentation",
+      "Custom clone layers under development",
+      "In-progress personal R&D project"
     ],
     "caseStudy": {
       "flowDiagrams": [],
       "images": [],
-      "problem": "Users need persistent AI help, not reset-every-time chatbots.",
+      "problem": "Wanted a personal AI that behaves more like a human clone than a disposable chatbot.",
       "challenges": [
-        "Defining memory without oversharing product secrets",
-        "Keeping MVP scope focused on assistant value"
+        "Clone identity and memory without oversharing internals",
+        "Balancing learning scope while building real GPT/agent loops",
+        "Keeping multi-LLM experiments coherent"
       ],
-      "architecture": "LLM conversation layer + memory/personalization concepts + MVP shell.",
-      "database": "Memory/profile store design for MVP",
-      "api": "Assistant interaction services (MVP).",
-      "performance": "Iterative UX and prompt/product experimentation.",
-      "businessValue": "A differentiated “second brain” assistant direction for personal productivity.",
+      "architecture": "Python + OpenAI GPT / multi-LLM + evolving human-clone modules.",
+      "database": "Experimental local memory for learning MVP",
+      "api": "OpenAI API and other LLM providers.",
+      "performance": "Iterative prompt, agent, and clone-layer experimentation.",
+      "businessValue": "Hands-on mastery of Python LLM products toward a personal AI clone.",
       "lessonsLearned": [
-        "AI products need memory and behavior design, not only model calls",
-        "Assistant workflows (coach/planner) beat generic chat for retention"
+        "Human-clone AI needs identity and memory design, not only model calls",
+        "Building custom layers on GPT teaches real agent product craft"
       ]
     },
     "featured": true,
@@ -631,21 +668,22 @@
   {
     "id": "proj018",
     "slug": "meem-islamic-finance-cms",
-    "title": "Meem Digital Platform",
+    "title": "meem Digital Banking",
     "company": "SPARK",
-    "industry": "Islamic Finance",
-    "clientRegion": "GCC / Middle East",
+    "industry": "Digital Banking / Islamic Finance",
+    "clientRegion": "Saudi Arabia (KSA)",
     "duration": "Current",
     "categories": [
       "CMS",
       "Banking",
       "Umbraco",
-      "Finance"
+      "Islamic Finance",
+      "Saudi"
     ],
-    "shortDescription": "Brand-aligned Umbraco digital platform for Islamic/Muslim-market finance presence—delivered at portfolio level without confidential banking internals.",
-    "description": "Meem is a Gulf Islamic finance digital platform implementation on Umbraco CMS. The engagement focuses on brand-aligned content experiences and enterprise CMS delivery for Muslim-market finance audiences, presented professionally without disclosing confidential product or system details.",
-    "businessProblem": "Islamic finance brands need digital platforms that respect brand tone, market expectations, and enterprise CMS operations for Gulf audiences.",
-    "solution": "Delivered Umbraco-based client implementation aligned to brand and Islamic finance digital presence requirements within SPARK’s multi-client CMS model.",
+    "shortDescription": "meem Digital Banking (meem.com.sa) by Gulf International Bank — 24/7 Shariah-compliant digital bank for KSA; Umbraco/enterprise CMS digital experience delivery under SPARK.",
+    "description": "meem (https://meem.com.sa/) is Gulf International Bank’s retail digital bank for the Kingdom of Saudi Arabia — “the 24/7 bank that fits in your pocket,” delivering total Shariah-compliant digital banking (cards, offers, on-the-go services). SPARK portfolio work covered Umbraco/enterprise CMS digital platform delivery for the live brand experience — content, publishing, and Gulf banking UX — without disclosing confidential banking systems.",
+    "businessProblem": "meem needed a brand-faithful, mobile-first digital banking web presence for Saudi audiences that stays maintainable under enterprise CMS operations.",
+    "solution": "Delivered Umbraco-based digital platform work for the live meem.com.sa experience under SPARK’s multi-client CMS model — brand-aligned content and publishing for GIB’s Shariah-compliant digital bank.",
     "responsibilities": [
       "Contributed to Umbraco client implementation for Islamic finance digital presence",
       "Supported content/platform delivery under SPARK enterprise standards",
@@ -658,11 +696,11 @@
     ],
     "database": "Microsoft SQL Server",
     "deploymentEnvironment": "Enterprise client hosting (GCC)",
-    "results": "Supported a brand-aligned Islamic finance digital presence with maintainable Umbraco CMS delivery.",
-    "coverImage": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1400&q=80",
+    "results": "Supported the live meem.com.sa digital banking presence with maintainable Umbraco/enterprise CMS delivery for Saudi audiences.",
+    "coverImage": "/uploads/brands/meem-cover.png",
     "gallery": [
-      "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80"
+      "/uploads/brands/meem-logo.svg",
+      "/uploads/brands/meem-cover.png"
     ],
     "technologies": [
       "Umbraco",
@@ -676,53 +714,59 @@
       "Brand Content",
       "Enterprise CMS",
       "Localization Readiness",
-      "Publishing"
+      "Publishing",
+      "Offers / Campaign Content"
     ],
     "features": [
-      "Brand-aligned Islamic finance digital platform",
-      "Umbraco content management for Gulf audiences",
-      "Enterprise CMS delivery under SPARK multi-client model"
+      "Live site: meem.com.sa",
+      "GIB Shariah-compliant digital banking brand presence",
+      "Umbraco / enterprise CMS content delivery",
+      "Mobile-first Gulf banking digital experience",
+      "Offers and product content publishing support"
     ],
     "caseStudy": {
-      "flowDiagrams": [],
-      "images": [],
-      "problem": "Islamic finance brand needed a trustworthy, brand-aligned digital platform.",
+      "problem": "GIB’s meem digital bank needed enterprise CMS presence aligned to modern Saudi mobile banking UX.",
       "challenges": [
-        "Respecting market/brand tone while using shared CMS patterns",
-        "Keeping confidential banking detail out of public descriptions"
+        "Regulated banking tone",
+        "Bilingual Gulf digital expectations",
+        "Confidentiality in portfolio storytelling"
       ],
-      "architecture": "Umbraco + ASP.NET Core enterprise CMS.",
+      "architecture": "Umbraco + ASP.NET Core enterprise CMS for banking digital experience.",
       "database": "Microsoft SQL Server",
-      "api": "CMS and platform services as required by client implementation.",
-      "performance": "Standard enterprise CMS publishing and delivery practices.",
-      "businessValue": "Credible Islamic finance digital presence with maintainable CMS operations.",
+      "api": "CMS/platform services per client implementation.",
+      "performance": "Enterprise CMS publishing practices.",
+      "businessValue": "Credible live meem.com.sa brand presence with maintainable CMS operations for Shariah-compliant digital banking.",
       "lessonsLearned": [
-        "Gulf finance tone and localization expectations are part of engineering quality",
-        "Portfolio storytelling must stay high-level for regulated finance clients"
-      ]
+        "meem is a GIB digital Islamic bank — treat finance tone as engineering quality",
+        "Saudi/Bahrain bilingual delivery is non-negotiable for Gulf banking CMS"
+      ],
+      "flowDiagrams": [],
+      "images": []
     },
     "featured": true,
     "order": 8,
-    "completedAt": null
+    "completedAt": null,
+    "liveDemoUrl": "https://meem.com.sa/"
   },
   {
     "id": "proj019",
     "slug": "ithmaar-banking-cms",
-    "title": "Ithmaar Banking Digital Experience",
+    "title": "Ithmaar Bank",
     "company": "SPARK",
-    "industry": "Banking / Islamic Banking",
-    "clientRegion": "GCC / Middle East",
+    "industry": "Islamic Banking",
+    "clientRegion": "Bahrain (CBB)",
     "duration": "Current",
     "categories": [
       "CMS",
       "Banking",
       "Umbraco",
-      "Enterprise Portals"
+      "Islamic Banking",
+      "Enterprise"
     ],
-    "shortDescription": "Umbraco enterprise CMS portal for Gulf banking audiences—supporting bank digital experience delivery without disclosing confidential systems.",
-    "description": "Ithmaar banking digital experience work covers Umbraco enterprise CMS implementation for a Gulf banking audience. The focus is reliable content/portal delivery and enterprise CMS patterns under SPARK, described at portfolio level only.",
-    "businessProblem": "Banks need controlled digital experiences that publish accurately, support Gulf audiences, and integrate with enterprise CMS operations.",
-    "solution": "Contributed to Umbraco enterprise CMS client implementation for banking digital experience and portal content delivery.",
+    "shortDescription": "Ithmaar Bank (ithmaarbank.com) — CBB-licensed Islamic retail bank in Bahrain; Umbraco enterprise CMS for corporate banking, Modaraba, e-services, and investor content.",
+    "description": "Ithmaar Bank (https://www.ithmaarbank.com/) is a Bahrain-based Islamic retail bank licensed by the Central Bank of Bahrain — corporate banking, Modaraba investment accounts, SME/Tamkeen financing, eBanking/mobile services, and investor relations. SPARK delivery covered Umbraco enterprise CMS / digital experience for the live bank presence (content, portal pages, publishing) without disclosing confidential banking systems.",
+    "businessProblem": "Ithmaar needed a governed digital CMS experience that accurately publishes Sharia-compliant corporate and retail banking content for Bahrain/GCC audiences.",
+    "solution": "Contributed to Umbraco enterprise CMS implementation for the live ithmaarbank.com digital experience — corporate, Modaraba, e-services, and investor-facing content under SPARK multi-client standards.",
     "responsibilities": [
       "Supported Umbraco enterprise CMS implementation for banking digital experience",
       "Delivered content/portal updates under enterprise standards",
@@ -735,11 +779,11 @@
     ],
     "database": "Microsoft SQL Server",
     "deploymentEnvironment": "Enterprise banking client hosting (GCC)",
-    "results": "Helped sustain a reliable banking digital CMS experience for Gulf audiences through enterprise Umbraco delivery.",
-    "coverImage": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1400&q=80",
+    "results": "Supported the live Ithmaar Bank digital presence with reliable enterprise Umbraco CMS publishing for Bahrain Islamic banking audiences.",
+    "coverImage": "/uploads/brands/ithmaar-cover.svg",
     "gallery": [
-      "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80"
+      "/uploads/brands/ithmaar-logo.png",
+      "/uploads/brands/ithmaar-cover.svg"
     ],
     "technologies": [
       "Umbraco",
@@ -751,36 +795,43 @@
     "architecture": "Umbraco-based enterprise CMS and portal content architecture for banking digital experience, extended with ASP.NET Core as required.",
     "modules": [
       "Banking Content",
+      "Corporate Banking",
+      "Modaraba",
+      "e-Services",
+      "Investor Relations",
       "Enterprise CMS",
-      "Portal Pages",
       "Publishing"
     ],
     "features": [
-      "Bank digital experience CMS delivery",
-      "Enterprise Umbraco content operations",
-      "Gulf banking audience readiness"
+      "Live site: ithmaarbank.com",
+      "CBB-licensed Islamic retail bank digital presence",
+      "Corporate / Modaraba / SME content modules",
+      "e-services and investor relations publishing",
+      "Enterprise Umbraco CMS delivery"
     ],
     "caseStudy": {
-      "flowDiagrams": [],
-      "images": [],
-      "problem": "Banking digital experience required enterprise CMS reliability for Gulf audiences.",
+      "problem": "Islamic banking digital experience required enterprise CMS reliability for Bahrain corporate and retail audiences.",
       "challenges": [
-        "Operating within regulated banking delivery constraints",
-        "Reusable CMS patterns without leaking confidential detail"
+        "Regulated banking constraints",
+        "Confidentiality",
+        "Reusable CMS patterns"
       ],
-      "architecture": "Umbraco enterprise CMS for banking digital experience.",
+      "architecture": "Umbraco enterprise CMS for banking digital experience (ithmaarbank.com).",
       "database": "Microsoft SQL Server",
-      "api": "CMS/platform services per client implementation.",
+      "api": "CMS/platform services per implementation.",
       "performance": "Stable publishing and portal content delivery.",
-      "businessValue": "Consistent banking digital presence with enterprise CMS governance.",
+      "businessValue": "Consistent live ithmaarbank.com presence with governed CMS publishing for Sharia-compliant banking.",
       "lessonsLearned": [
-        "Banking CMS work rewards discipline and confidentiality",
-        "Shared Umbraco patterns accelerate multi-bank delivery when governed well"
-      ]
+        "Ithmaar is Bahrain CBB-regulated Islamic banking — accuracy and confidentiality first",
+        "Shared Umbraco patterns accelerate bank digital delivery when governed well"
+      ],
+      "flowDiagrams": [],
+      "images": []
     },
     "featured": true,
     "order": 9,
-    "completedAt": null
+    "completedAt": null,
+    "liveDemoUrl": "https://www.ithmaarbank.com/"
   },
   {
     "id": "proj020",
@@ -863,10 +914,10 @@
   {
     "id": "proj010",
     "slug": "umbraco-base-cms-spark",
-    "title": "Umbraco Enterprise CMS (SPARK)",
-    "company": "SPARK",
-    "industry": "Enterprise Digital Platforms",
-    "clientRegion": "Bahrain / GCC / Middle East",
+    "title": "SPARK — Designing Intelligence. Delivering Impact.",
+    "company": "SPARK (wearespark.me)",
+    "industry": "Digital Agency / AI & Platforms",
+    "clientRegion": "Bahrain · KSA (Riyadh) · Pakistan (Lahore)",
     "duration": "Current",
     "categories": [
       "CMS",
@@ -876,10 +927,10 @@
       "Security",
       "SEO"
     ],
-    "shortDescription": "Umbraco enterprise CMS foundation for multi-client Gulf delivery—bilingual EN/AR, secure forms (reCAPTCHA, consent, CV upload), Mailchimp, SEO Toolkit, gtag analytics, CI/CD, and AI-assisted delivery with Cursor.",
-    "description": "Umbraco Enterprise CMS (SPARK) is the shared digital platform foundation powering multi-client Gulf implementations across banking, finance, investment, healthcare, education, and energy. The platform combines Umbraco CMS with ASP.NET Core, SQL Server, Razor/Block List, Surface Controllers, SEO Toolkit, Google Tag (gtag), Mailchimp, Google reCAPTCHA, bilingual EN/AR localization, and secure public forms—accelerated by AI-assisted development with Cursor, Copilot, and Claude. Client implementations include Al Jazeera Capital (AJC), SPPC, Onco Clinics, AFG, Meem, Ithmaar, SAR, MGC, and related SparkUmb work—presented without confidential internals.",
-    "businessProblem": "Gulf enterprises need a reusable, secure CMS foundation that supports bilingual EN/AR experiences, compliant public forms, marketing ops (Mailchimp/gtag), SEO, and multi-sector portals—without rebuilding security and localization patterns per client.",
-    "solution": "An Umbraco + ASP.NET Core enterprise foundation with Block List/ModelsBuilder content models, Surface Controllers for secure forms (reCAPTCHA, consent, CV upload), Mailchimp newsletter ops, SEO Toolkit and gtag analytics, bilingual localization dictionaries, CI/CD, and AI-assisted delivery workflows for faster multi-client shipping.",
+    "shortDescription": "SPARK (wearespark.me) — Bahrain-headquartered agency for AI, brand, UX, and digital platforms (.NET, Umbraco, Kentico, React); enterprise CMS delivery across Gulf banking, energy, healthcare, and investment clients.",
+    "description": "SPARK (https://wearespark.me/) designs intelligence and delivers impact — AI innovation, digital growth, technology infrastructure, and user-centric experiences for ambitious organizations. Headquartered in Bahrain (Manama) with KSA Riyadh and Pakistan Lahore. Capabilities span strategy & transformation, brand & experience design, digital products & platforms (.NET, Umbraco, Kentico, React, Node.js), data intelligence & AI, strategic reporting, and growth systems. This portfolio entry covers the shared Umbraco + ASP.NET Core enterprise CMS foundation used across SPARK Gulf clients — Block List/ModelsBuilder, Surface Controllers, SEO Toolkit, reCAPTCHA, Mailchimp, gtag, bilingual EN/AR, secure forms, CI/CD, and AI-assisted delivery — powering Aljazira Capital, SPPC / Principal Buyer, OncoClinic, meem, Ithmaar, SAR, AFG.",
+    "businessProblem": "Ambitious Gulf organizations need systems, stories, and experiences that scale — from brand and UX to secure bilingual enterprise platforms — without rebuilding foundations per client.",
+    "solution": "SPARK’s multi-capability model (AI, brand, platforms, reporting) plus a reusable Umbraco + .NET CMS foundation for multi-client Gulf delivery: secure forms, SEO/marketing ops, bilingual EN/AR, and AI-assisted shipping.",
     "responsibilities": [
       "Enterprise Umbraco CMS development across multi-client Gulf implementations",
       "Secure public forms: reCAPTCHA, consent/privacy validation, CV upload hardening",
@@ -897,27 +948,30 @@
     ],
     "database": "Microsoft SQL Server",
     "deploymentEnvironment": "Enterprise client hosting environments",
-    "results": "Supporting ongoing delivery of enterprise digital platforms that help organizations publish content, automate workflows, integrate systems, and operate client-specific portals with stronger architectural consistency and performance.",
-    "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1400&q=80",
+    "results": "Ongoing enterprise digital delivery from the live SPARK practice (wearespark.me) across banking, energy, healthcare, and investment brands — with stronger architectural consistency and bilingual Gulf readiness.",
+    "coverImage": "/uploads/brands/spark-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&q=80",
-      "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80",
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&q=80"
+      "/uploads/brands/spark-logo.svg",
+      "/uploads/brands/spark-cover.jpg"
     ],
     "technologies": [
       "Umbraco",
       "ASP.NET Core",
+      ".NET",
+      "Kentico",
+      "React",
+      "Node.js",
       "SQL Server",
-      "REST APIs",
       "C#",
-      "Razor / Block List",
+      "Block List",
       "Surface Controllers",
       "Google reCAPTCHA",
       "Mailchimp",
       "SEO Toolkit",
       "Google Tag (gtag)",
       "EN/AR Localization",
-      "Azure CI/CD"
+      "Azure CI/CD",
+      "AI Assistants"
     ],
     "architecture": "Umbraco CMS as the content and presentation foundation (Block List, ModelsBuilder), extended with ASP.NET Core Surface Controllers for secure forms, SQL Server for content/data, SEO Toolkit and gtag for discoverability/analytics, Mailchimp for newsletter ops, and bilingual localization—deployed with CI/CD across multi-client Gulf implementations.",
     "modules": [
@@ -934,12 +988,12 @@
       "CI/CD"
     ],
     "features": [
-      "Reusable Umbraco foundation for multi-client Gulf delivery",
-      "Secure careers/contact forms with reCAPTCHA and consent",
-      "CV upload hardening for public applications",
-      "Mailchimp newsletter and gtag conversion tracking",
-      "SEO Toolkit, sitemap/robots, and bilingual EN/AR",
-      "AI-assisted CMS delivery workflow (Cursor, Copilot, Claude)"
+      "Live agency: wearespark.me",
+      "AI innovation + digital products & platforms",
+      "Umbraco / .NET / Kentico / React delivery",
+      "Reusable Gulf CMS foundation (EN/AR)",
+      "Secure forms, SEO Toolkit, Mailchimp, gtag",
+      "Multi-office: Bahrain, KSA, Pakistan"
     ],
     "caseStudy": {
       "problem": "Multi-sector Gulf enterprises needed a secure, bilingual CMS foundation with marketing ops and form security built in.",
@@ -966,46 +1020,48 @@
     },
     "featured": true,
     "order": 11,
-    "completedAt": null
+    "completedAt": null,
+    "liveDemoUrl": "https://wearespark.me/"
   },
   {
     "id": "proj021",
     "slug": "bxm-smartx-platform",
-    "title": "BXM / bmSmartX API + React Web",
+    "title": "BMX / bmSmartX — Complete ERP & Shopify Management",
     "company": "Enterprise / Product",
-    "industry": "Enterprise Software",
+    "industry": "Retail ERP / E-commerce Operations",
     "clientRegion": "Multi-region",
-    "duration": "",
+    "duration": "Complete",
     "categories": [
-      "API",
+      "ERP",
+      "Shopify",
+      "Accounts",
+      "Inventory",
       "React",
       ".NET 8",
-      "Enterprise"
+      "Retail"
     ],
-    "shortDescription": "Modern enterprise API and React web platform for business modules—users, currency, reporting, and Windows publish/deploy workflows.",
-    "description": "BXM / bmSmartX is an enterprise modernization effort combining a .NET 8 API with a React web frontend for business modules such as users, currency, and reporting. The platform emphasizes clean API contracts, React admin/web experiences, SQL-backed data, and Windows publish/deploy readiness—described without confidential schemas.",
-    "businessProblem": "Legacy enterprise modules needed a modern API + React front door for users, currency, reporting, and reliable publish/deploy operations.",
-    "solution": "Delivered a .NET 8 API with React web surfaces for core business modules and Windows publish workflows suitable for enterprise distribution.",
+    "shortDescription": "Complete retail ERP and Shopify accounts/management system — end-to-end operations like a full store chain (inventory, accounts, orders, reporting), built as .NET 8 API + React web.",
+    "description": "BMX / bmSmartX is a complete ERP-style management platform for Shopify and retail operations — accounts, inventory, orders, users, currency, and reporting in one system (IKEA-like full store operations mindset). Delivered as a .NET 8 API with React web/admin surfaces and SQL Server, covering the full management loop from store accounts through operational reporting — without exposing confidential schemas.",
+    "businessProblem": "Retail and Shopify sellers needed one complete management system — not scattered tools — for accounts, inventory, orders, and financial/ops reporting across the business.",
+    "solution": "Built BMX / bmSmartX as a full ERP + Shopify management platform: accounts and store ops, inventory/order workflows, users/currency, and reporting on .NET 8 + React with Windows publish/deploy readiness.",
     "responsibilities": [
-      "Built and extended .NET 8 API modules for enterprise workflows",
-      "Implemented React web/admin experiences for business modules",
-      "Supported users, currency, and reporting feature areas",
-      "Prepared Windows publish/deploy packaging paths"
+      "Designed and delivered complete ERP/management modules for retail and Shopify ops",
+      "Built .NET 8 API for accounts, inventory, orders, users, currency, and reporting",
+      "Implemented React web/admin experiences for day-to-day store management",
+      "Prepared Windows publish/deploy packaging for enterprise distribution"
     ],
     "technicalHighlights": [
-      ".NET 8 API + React enterprise stack",
-      "Business modules for users, currency, reporting",
-      "Windows publish/deploy readiness",
-      "SQL-backed enterprise data access"
+      "Complete ERP-style management (accounts → inventory → reporting)",
+      "Shopify / retail store operations focus",
+      ".NET 8 API + React admin web",
+      "SQL-backed enterprise data and Windows publish readiness"
     ],
     "database": "Microsoft SQL Server",
     "deploymentEnvironment": "Windows publish / enterprise hosting",
-    "results": "Advanced enterprise modernization with a maintainable API-first and React web architecture for core business modules.",
-    "coverImage": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1400&q=80",
+    "results": "A complete ERP and Shopify accounts/management system covering end-to-end retail operations on a maintainable API-first + React architecture.",
+    "coverImage": "/uploads/brands/bxm-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
-      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1200&q=80"
+      "/uploads/brands/bxm-cover.jpg"
     ],
     "technologies": [
       ".NET 8",
@@ -1013,427 +1069,304 @@
       "React",
       "SQL Server",
       "C#",
+      "Shopify Ops",
+      "ERP Modules",
       "Windows Publish"
     ],
-    "architecture": ".NET 8 REST API backend with React SPA/admin frontend and SQL Server persistence, packaged for Windows publish/deploy enterprise workflows.",
+    "architecture": "Complete ERP + Shopify management stack: .NET 8 REST API for accounts, inventory, orders, users, currency, and reporting; React SPA/admin for store operations; SQL Server persistence; Windows publish/deploy packaging.",
     "modules": [
+      "Accounts / Shopify Store Management",
+      "Inventory",
+      "Orders",
       "Users",
       "Currency",
-      "Reporting",
+      "Reporting / Dashboards",
       "API Services",
-      "React Web",
+      "React Web Admin",
       "Publish / Deploy"
     ],
     "features": [
-      "Enterprise API for business modules",
-      "React web/admin interfaces",
-      "Users, currency, and reporting capabilities",
+      "Complete ERP-style retail management",
+      "Shopify accounts and store operations",
+      "Inventory and order workflows",
+      "Users, currency, and financial/ops reporting",
+      "React admin + .NET 8 API",
       "Windows publish and deploy support"
     ],
     "caseStudy": {
       "flowDiagrams": [],
       "images": [],
-      "problem": "Enterprise modules required modernization to API + React without disrupting business operations.",
+      "problem": "Needed one complete management system for Shopify/retail accounts and operations — IKEA-like end-to-end ERP coverage.",
       "challenges": [
-        "Clean API contracts for React consumers",
-        "Publish/deploy reliability on Windows targets"
+        "Unifying accounts, inventory, orders, and reporting in one ERP surface",
+        "Clean API contracts for React store-admin consumers",
+        "Publish/deploy reliability for enterprise Windows targets"
       ],
-      "architecture": ".NET 8 API + React + SQL Server.",
+      "architecture": ".NET 8 ERP API + React admin + SQL Server for Shopify/retail ops.",
       "database": "Microsoft SQL Server",
-      "api": ".NET 8 REST APIs for business modules.",
-      "performance": "API-first structure for maintainable module growth.",
-      "businessValue": "Modern admin/web platform foundation for enterprise business modules.",
+      "api": ".NET 8 REST APIs for ERP and Shopify management modules.",
+      "performance": "API-first module growth for complete retail operations.",
+      "businessValue": "One platform to run store accounts and full ERP management instead of fragmented tools.",
       "lessonsLearned": [
-        "API-first React delivery improves long-term maintainability",
-        "Publish/deploy must be treated as a product feature in enterprise stacks"
+        "Complete ERP value comes from accounts-to-reporting continuity, not isolated modules",
+        "Shopify/retail ops need inventory and order flows tied to accounts from day one"
       ]
     },
-    "featured": false,
+    "featured": true,
     "order": 12,
     "completedAt": null
   },
   {
-    "id": "proj022",
-    "slug": "spark-studio-umbraco-platform",
-    "title": "Spark Studio / SparkUmb Platform",
-    "company": "SPARK",
-    "industry": "Agency / Enterprise CMS Platform",
-    "clientRegion": "Bahrain / GCC",
-    "duration": "Current",
-    "categories": [
-      "CMS",
-      "Umbraco",
-      "Platform",
-      "SEO"
-    ],
-    "shortDescription": "Reusable Umbraco base platform (SparkUmb) for multi-client delivery—SEO Toolkit, content models, plugins, ModelsBuilder, and .NET/Umbraco upgrades.",
-    "description": "Spark Studio / SparkUmb is the reusable Umbraco base platform used to accelerate multi-client CMS delivery. Work includes SeoToolkit setup, content models, plugin/asset troubleshooting, ModelsBuilder patterns, projects page capabilities, and .NET/Umbraco upgrade support so client sites share a stronger foundation.",
-    "businessProblem": "Agency multi-client delivery is slow when every Umbraco site reinvents SEO, content models, and plugin/upgrade patterns from scratch.",
-    "solution": "Strengthened a shared SparkUmb platform with SEO Toolkit, reusable content models, ModelsBuilder practices, plugin/asset reliability, and upgrade-ready .NET/Umbraco baselines.",
-    "responsibilities": [
-      "Contributed to SparkUmb builds and shared platform capabilities",
-      "Configured and supported SeoToolkit and content model patterns",
-      "Resolved plugin/asset issues affecting multi-site delivery",
-      "Supported ModelsBuilder and .NET/Umbraco upgrade work"
-    ],
-    "technicalHighlights": [
-      "Reusable Umbraco multi-client platform (SparkUmb)",
-      "SEO Toolkit and shared content models",
-      "ModelsBuilder and plugin/asset reliability",
-      ".NET/Umbraco upgrade readiness"
-    ],
-    "database": "Microsoft SQL Server",
-    "deploymentEnvironment": "Agency multi-site enterprise hosting",
-    "results": "Accelerated SPARK multi-client delivery by improving the shared Umbraco foundation used across Gulf enterprise sites.",
-    "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1400&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&q=80",
-      "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80",
-      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1200&q=80"
-    ],
-    "technologies": [
-      "Umbraco",
-      "ASP.NET Core",
-      "SEO Toolkit",
-      "ModelsBuilder",
-      "Block List",
-      "C#",
-      "SQL Server"
-    ],
-    "architecture": "Shared Umbraco base (SparkUmb) with reusable content models, SEO Toolkit, ModelsBuilder-generated models, and plugin/asset conventions consumed by multiple client sites.",
-    "modules": [
-      "SparkUmb Base",
-      "SEO Toolkit",
-      "Content Models",
-      "ModelsBuilder",
-      "Plugins / Assets",
-      "Projects Pages",
-      "Upgrades"
-    ],
-    "features": [
-      "Reusable multi-client Umbraco foundation",
-      "SEO Toolkit integration patterns",
-      "Shared content models and ModelsBuilder usage",
-      "Plugin/asset issue resolution",
-      ".NET/Umbraco upgrade support"
-    ],
-    "caseStudy": {
-      "flowDiagrams": [],
-      "images": [],
-      "problem": "Multi-client CMS delivery needed a reusable Umbraco platform instead of one-off sites.",
-      "challenges": [
-        "Keeping shared platform upgrades safe for live clients",
-        "Stabilizing plugins/assets across sites"
-      ],
-      "architecture": "SparkUmb shared Umbraco base + SEO Toolkit + ModelsBuilder.",
-      "database": "Microsoft SQL Server",
-      "api": "Platform CMS services and shared packages.",
-      "performance": "Faster client spin-up via reusable platform patterns.",
-      "businessValue": "Higher delivery speed and consistency across SPARK Gulf clients.",
-      "lessonsLearned": [
-        "Platform investment pays off across every subsequent client site",
-        "SEO Toolkit and ModelsBuilder belong in the base, not as late add-ons"
-      ]
-    },
-    "featured": false,
-    "order": 13,
-    "completedAt": null
-  },
-  {
     "id": "proj023",
-    "slug": "afg-clinic-cms",
-    "title": "AFG Clinic Digital CMS",
+    "slug": "afg-investment-platform",
+    "title": "AFG — Al Faisaliah Group",
     "company": "SPARK",
-    "industry": "Healthcare / Clinics",
-    "clientRegion": "GCC / Middle East",
+    "industry": "Investment / Operating Group",
+    "clientRegion": "Saudi Arabia (Riyadh)",
     "duration": "Current",
     "categories": [
-      "Healthcare",
       "CMS",
-      "Umbraco"
+      "Investment",
+      "Umbraco",
+      "Saudi",
+      "Enterprise",
+      "Holding"
     ],
-    "shortDescription": "Clinic digital CMS implementation focused on reliability, content operations, form/data support, and security-scan remediation under SPARK live delivery.",
-    "description": "AFG covers clinic digital platform work under SPARK—CMS maintenance, form/data operations support, and security scan-report fixes. Described confidentially as clinic digital CMS implementation without exposing private operational detail.",
-    "businessProblem": "Clinic groups need reliable digital CMS platforms where content, forms, and data operations stay stable under production scrutiny and security scanning.",
-    "solution": "Provided Umbraco CMS maintenance, form/data support, and scan-report remediation to keep the clinic digital platform reliable.",
+    "shortDescription": "Al Faisaliah Group / AFG (alfaisaliah.com) — leading Saudi investment & operating group (dairy, electronics, healthcare, consumer); Umbraco enterprise CMS for portfolio companies, strategic investments, and venture storytelling.",
+    "description": "Al Faisaliah Group (AFG) at https://www.alfaisaliah.com/ is a leading Saudi investment and operating group founded in 1970 by HRH Abdullah Al Faisal — portfolio companies, strategic/capital investments, and venture capital (incl. Nuwa Capital), with partnerships such as Sony, Danone, Philips, and Oncoclinicas&Co. SPARK delivery covered Umbraco/enterprise CMS for the live investment-group digital presence — portfolio, JV partners, and corporate content — clearly an investment holding platform, not a clinic system.",
+    "businessProblem": "AFG needed a professional digital CMS presence that communicates engaged ownership across portfolio companies, strategic investments, and ventures for Saudi and global audiences.",
+    "solution": "Delivered Umbraco/enterprise CMS work for the live alfaisaliah.com investment-group experience — portfolio/strategic content, forms/data ops, and production reliability under SPARK.",
     "responsibilities": [
-      "Maintained clinic CMS content and platform reliability",
-      "Supported form/data operations under live project delivery",
-      "Addressed security scan-report findings with portfolio-safe fixes"
+      "Maintained AFG investment-group CMS/digital platform reliability",
+      "Supported portfolio and corporate content/forms operations",
+      "Addressed production/security follow-ups under SPARK live delivery"
     ],
     "technicalHighlights": [
-      "Clinic digital CMS reliability under SPARK live delivery",
-      "Form/data operations support",
-      "Security scan follow-up remediation"
+      "Saudi investment group CMS — alfaisaliah.com",
+      "Portfolio companies + strategic investments storytelling",
+      "Enterprise Umbraco delivery under SPARK",
+      "Production CMS reliability (non-clinical)"
     ],
     "database": "Microsoft SQL Server",
-    "deploymentEnvironment": "Enterprise clinic client hosting (GCC)",
-    "results": "Improved clinic digital CMS reliability through maintenance, form/data support, and security remediation.",
-    "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1400&q=80",
+    "deploymentEnvironment": "Enterprise client hosting (Saudi / GCC)",
+    "results": "Supported the live AFG digital presence at alfaisaliah.com with clear investment-holding positioning and maintainable Umbraco CMS operations.",
+    "coverImage": "/uploads/brands/afg-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1200&q=80",
-      "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&q=80"
+      "/uploads/brands/afg-logo.png",
+      "/uploads/brands/afg-cover.jpg"
     ],
     "technologies": [
       "Umbraco",
       "ASP.NET Core",
       "SQL Server",
+      "C#",
+      "Enterprise CMS",
       "Application Security"
     ],
-    "architecture": "Umbraco clinic CMS with form/data workflows and production hardening based on security scan findings.",
+    "architecture": "Umbraco enterprise CMS for Al Faisaliah Group investment digital presence — portfolio/strategic content modules, forms/data workflows, and production hardening.",
     "modules": [
-      "Clinic Content",
+      "Investment Content",
+      "Portfolio Companies",
+      "Strategic Investments",
+      "Venture Capital",
+      "Corporate CMS",
       "Forms / Data Ops",
-      "CMS Maintenance",
+      "Publishing",
       "Security Remediation"
     ],
     "features": [
-      "Clinic digital CMS maintenance",
-      "Form and data operations support",
-      "Security scan-report fixes",
-      "Production reliability under SPARK live delivery"
+      "Live site: alfaisaliah.com",
+      "Saudi investment & operating group digital presence",
+      "Portfolio / JV / venture content publishing",
+      "Enterprise Umbraco CMS under SPARK",
+      "Non-clinical investment holding platform"
     ],
     "caseStudy": {
-      "flowDiagrams": [],
-      "images": [],
-      "problem": "Clinic digital platforms require continuous CMS reliability and security hygiene.",
+      "problem": "AFG needed CMS/digital presence for a Saudi investment operating group — not a clinic system.",
       "challenges": [
-        "Remediating scan findings without disrupting live content",
-        "Keeping confidential clinic detail out of public materials"
+        "Correct industry positioning (investment, not healthcare clinic)",
+        "Enterprise CMS reliability for multi-sector portfolio storytelling"
       ],
-      "architecture": "Umbraco CMS clinic platform with hardened forms/data ops.",
+      "architecture": "Umbraco/enterprise CMS for Al Faisaliah Group (alfaisaliah.com).",
       "database": "Microsoft SQL Server",
       "api": "CMS form/data services.",
-      "performance": "Stability-focused maintenance and remediation.",
-      "businessValue": "More trustworthy clinic digital presence with safer public forms.",
+      "performance": "Stability-focused maintenance for live investment site.",
+      "businessValue": "Credible AFG investment-group presence communicating portfolio and partnership leadership.",
       "lessonsLearned": [
-        "Security scan follow-ups are part of healthcare CMS delivery",
-        "Clinic work should stay high-level in portfolio storytelling"
-      ]
+        "AFG must be labeled Al Faisaliah investment group — never clinic — in portfolio storytelling",
+        "Holding-company CMS still needs production security hygiene"
+      ],
+      "flowDiagrams": [],
+      "images": []
     },
-    "featured": false,
+    "featured": true,
     "order": 14,
-    "completedAt": null
+    "completedAt": null,
+    "liveDemoUrl": "https://www.alfaisaliah.com/"
   },
   {
     "id": "proj024",
-    "slug": "sar-digital-content",
-    "title": "SAR Digital Content Site",
+    "slug": "sar-saudi-railway",
+    "title": "SAR — Saudi Arabia Railways",
     "company": "SPARK",
-    "industry": "Corporate Content",
-    "clientRegion": "Saudi Arabia / GCC",
-    "duration": "",
-    "categories": [
-      "CMS",
-      "Content",
-      "HTML",
-      "Umbraco"
-    ],
-    "shortDescription": "Localized corporate/content site updates and HTML/CMS delivery for a Gulf/Saudi digital presence under SPARK live project work.",
-    "description": "SAR covers localized corporate/content site updates and HTML/CMS delivery for Gulf/Saudi audiences. Work included SAR and SAR HTML updates under SPARK live project delivery, keeping descriptions portfolio-safe.",
-    "businessProblem": "Corporate content sites need ongoing localized HTML/CMS updates to stay accurate and on-brand for Saudi/GCC audiences.",
-    "solution": "Delivered localized content and HTML/CMS updates for the SAR digital presence within SPARK’s live project workflow.",
-    "responsibilities": [
-      "Implemented SAR / SAR HTML content and layout updates",
-      "Supported localized corporate/content site delivery",
-      "Collaborated under SPARK live project cadence"
-    ],
-    "technicalHighlights": [
-      "Localized Gulf/Saudi content site updates",
-      "HTML/CMS delivery under live project constraints"
-    ],
-    "database": "Microsoft SQL Server / CMS content store",
-    "deploymentEnvironment": "Client CMS hosting (GCC)",
-    "results": "Kept SAR digital content current through focused HTML/CMS updates for localized corporate presence.",
-    "coverImage": "https://images.unsplash.com/photo-1467232004584-a241c7c54c85?w=1400&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80"
-    ],
-    "technologies": [
-      "Umbraco",
-      "HTML",
-      "CMS",
-      "ASP.NET Core",
-      "Localization"
-    ],
-    "architecture": "CMS/HTML content delivery for localized corporate pages with Umbraco-backed publishing where applicable.",
-    "modules": [
-      "Content Updates",
-      "HTML Delivery",
-      "Localization",
-      "Publishing"
-    ],
-    "features": [
-      "Localized corporate/content site updates",
-      "SAR HTML/CMS delivery",
-      "Gulf/Saudi audience readiness"
-    ],
-    "caseStudy": {
-      "flowDiagrams": [],
-      "images": [],
-      "problem": "Localized corporate content needed reliable HTML/CMS update delivery.",
-      "challenges": [
-        "Maintaining localization quality under live update pressure"
-      ],
-      "architecture": "CMS/HTML content delivery for corporate pages.",
-      "database": "CMS content store",
-      "api": "CMS publishing workflows.",
-      "performance": "Fast iterative content updates.",
-      "businessValue": "Accurate localized digital content for Saudi/GCC audiences.",
-      "lessonsLearned": [
-        "Localization quality is part of every Gulf content delivery"
-      ]
-    },
-    "featured": false,
-    "order": 15,
-    "completedAt": null
-  },
-  {
-    "id": "proj025",
-    "slug": "mgc-enterprise-cms",
-    "title": "MGC Enterprise CMS",
-    "company": "SPARK",
-    "industry": "Enterprise Digital",
-    "clientRegion": "GCC / Middle East",
+    "industry": "Transportation / National Railways",
+    "clientRegion": "Saudi Arabia",
     "duration": "",
     "categories": [
       "CMS",
       "Umbraco",
-      "Enterprise"
+      "Saudi",
+      "Enterprise",
+      "Railway",
+      "PIF"
     ],
-    "shortDescription": "Gulf enterprise CMS site customization and maintenance under SPARK’s multi-site Umbraco delivery model.",
-    "description": "MGC is a Gulf enterprise CMS engagement delivered under SPARK’s multi-site model—Umbraco site customization and maintenance described at portfolio-safe level without confidential internals.",
-    "businessProblem": "Enterprise clients need CMS customization and maintenance that fits a multi-site agency delivery model without reinventing foundations per site.",
-    "solution": "Provided Umbraco customization and maintenance for MGC within SPARK’s shared multi-site CMS approach.",
+    "shortDescription": "SAR (Saudi Arabia Railways) — PIF-owned national railway (est. 2006): Haramain High-Speed, North Train, East Train; Umbraco mainstream website & CMS development and redevelopment.",
+    "description": "Saudi Arabia Railways (SAR) is the state-owned national railway company of Saudi Arabia, established in 2006 and owned by the Public Investment Fund (PIF). It manages and operates the Kingdom’s intercity passenger and freight rail networks, including the Haramain High-Speed Railway, the North Train, and the East Train. SPARK portfolio work covered development of the mainstream website/system on Umbraco and continued redevelopment of the complete SAR digital experience for passenger and corporate audiences — presented without confidential internals.",
+    "businessProblem": "As the Kingdom’s national railway operator, SAR needed a reliable mainstream website and CMS that could represent passenger and freight networks at national scale and evolve through redevelopment cycles.",
+    "solution": "Delivered and continue redeveloping SAR’s mainstream Umbraco-based website/CMS under SPARK live project delivery for the national railway brand (Haramain, North Train, East Train audiences).",
     "responsibilities": [
-      "Customized and maintained Umbraco site capabilities for MGC",
-      "Aligned delivery with SPARK multi-site platform practices"
+      "Contributed to SAR mainstream website and CMS system delivery",
+      "Supported ongoing redevelopment of the Saudi Railway digital presence",
+      "Implemented localized HTML/CMS updates under SPARK live cadence"
     ],
     "technicalHighlights": [
-      "Multi-site Umbraco customization",
-      "Enterprise CMS maintenance under shared SPARK model"
+      "National PIF-owned railway digital presence (SAR)",
+      "Coverage for Haramain High-Speed, North Train, East Train storytelling",
+      "Umbraco enterprise delivery + redevelopment cycles",
+      "Localized Gulf/Saudi content operations"
     ],
     "database": "Microsoft SQL Server",
-    "deploymentEnvironment": "Enterprise client hosting (GCC)",
-    "results": "Supported reliable enterprise CMS operations for MGC through SPARK multi-site delivery.",
-    "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1400&q=80",
+    "deploymentEnvironment": "Enterprise client hosting (Saudi Arabia)",
+    "results": "Supported SAR’s mainstream railway digital presence and ongoing redevelopment of the national website/CMS for passenger and freight audiences.",
+    "coverImage": "/uploads/brands/sar-cover.png",
     "gallery": [
-      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&q=80",
-      "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80",
-      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1200&q=80"
+      "/uploads/brands/sar-cover.png"
     ],
     "technologies": [
       "Umbraco",
       "ASP.NET Core",
+      "HTML",
+      "CMS",
       "SQL Server",
-      "C#"
+      "Localization"
     ],
-    "architecture": "Umbraco multi-site enterprise CMS customization atop shared SPARK platform patterns.",
+    "architecture": "Umbraco CMS mainstream website architecture for Saudi Arabia Railways, with ASP.NET Core services and localized content delivery.",
     "modules": [
+      "Mainstream Website",
+      "Passenger / Network Content",
       "Enterprise CMS",
-      "Site Customization",
-      "Maintenance"
+      "Localization",
+      "Publishing",
+      "Redevelopment"
     ],
     "features": [
-      "Umbraco site customization",
-      "Enterprise CMS maintenance",
-      "Multi-site SPARK delivery alignment"
+      "Saudi Arabia Railways mainstream website",
+      "National passenger & freight railway brand presence",
+      "Haramain / North Train / East Train content readiness",
+      "Complete CMS system delivery",
+      "Ongoing digital redevelopment"
     ],
     "caseStudy": {
-      "flowDiagrams": [],
-      "images": [],
-      "problem": "Enterprise CMS sites need customization without breaking shared multi-site foundations.",
+      "problem": "National PIF-owned railway needed a mainstream website/CMS for intercity passenger and freight networks including Haramain High-Speed, North Train, and East Train.",
       "challenges": [
-        "Balancing client-specific needs with platform reuse"
+        "National-brand content accuracy",
+        "Redevelopment without disrupting live audiences"
       ],
-      "architecture": "Umbraco multi-site CMS under SPARK platform.",
+      "architecture": "Umbraco mainstream CMS for Saudi Arabia Railways (SAR).",
       "database": "Microsoft SQL Server",
-      "api": "CMS services as required.",
-      "performance": "Stable maintenance-focused delivery.",
-      "businessValue": "Consistent enterprise CMS operations with efficient multi-site reuse.",
+      "api": "CMS publishing workflows.",
+      "performance": "Iterative redevelopment under live constraints.",
+      "businessValue": "Credible national railway digital presence aligned to SAR’s role as Saudi Arabia’s state-owned rail operator.",
       "lessonsLearned": [
-        "Multi-site CMS success depends on disciplined customization boundaries"
-      ]
+        "National brands require careful redevelopment discipline",
+        "Localization quality is mandatory for Saudi public digital services"
+      ],
+      "flowDiagrams": [],
+      "images": []
     },
-    "featured": false,
-    "order": 16,
-    "completedAt": null
+    "featured": true,
+    "order": 15,
+    "completedAt": null,
+    "liveDemoUrl": "https://www.sar.com.sa/"
   },
   {
     "id": "proj026",
     "slug": "shahzad-oil-store",
-    "title": "Shahzad Oil Store Digital Site",
-    "company": "Client / Freelance",
-    "industry": "Oil & Retail Brand",
+    "title": "Shahzad Oil Store — Vehicle Oil Change Platform",
+    "company": "Personal Product",
+    "industry": "Automotive / Oil Change Services",
     "clientRegion": "Pakistan / Regional",
     "duration": "",
     "categories": [
-      "Website",
-      "Brand",
-      "Portfolio Site"
+      "Personal Product",
+      "Automotive",
+      "Operations",
+      "Web",
+      "Oil Change"
     ],
-    "shortDescription": "Business brand website/portfolio presence for an oil store company—content structure and digital brand delivery.",
-    "description": "Shahzad Oil Store digital site work focused on building a clear business brand website/portfolio presence for an oil store company—structuring content and brand messaging for a professional online footprint.",
-    "businessProblem": "A local oil store business needed a digital brand presence that presents services and company identity more professionally than informal channels alone.",
-    "solution": "Designed and built a business brand website/portfolio structure covering company presence, content organization, and digital brand presentation.",
+    "shortDescription": "Shahzad Oil Store (shahzadoil.linkeincloud.com) — personal vehicle oil-change platform for managing oil-change jobs, service records, and day-to-day store workflows.",
+    "description": "Shahzad Oil Store is a personal product for vehicle oil-change operations, live at https://shahzadoil.linkeincloud.com/. It helps the business handle oil-change jobs and related car service work — tracking jobs, organizing brand presence, and supporting day-to-day oil-store operations beyond a brochure-only site.",
+    "businessProblem": "An oil-change / lube-store business needed a live digital platform to organize vehicle oil-change work and present the brand professionally.",
+    "solution": "Built and shipped Shahzad Oil Store as a focused oil-change operations platform on the web — job/service workflows and brand presence at shahzadoil.linkeincloud.com.",
     "responsibilities": [
-      "Structured business brand website/portfolio content",
-      "Built digital presence pages for company identity and offerings",
-      "Iterated content structure for clarity and professionalism"
+      "Designed oil-change / automotive service workflow and content structure",
+      "Built and deployed the live Shahzad Oil Store web platform",
+      "Iterated product structure for clarity around vehicle oil-change handling"
     ],
     "technicalHighlights": [
-      "Brand website/portfolio content architecture",
-      "Business presence focused web delivery"
+      "Live vehicle oil-change platform",
+      "Job/service-oriented store operations UX",
+      "Web deployment on Linkei Cloud hosting"
     ],
-    "database": "Static / CMS content as applicable",
-    "deploymentEnvironment": "Web hosting",
-    "results": "Provided Shahzad Oil Store with a clearer digital brand presence and structured online content.",
-    "coverImage": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1400&q=80",
+    "database": "Application / content store as applicable",
+    "deploymentEnvironment": "Web hosting (Linkei Cloud)",
+    "results": "Live Shahzad Oil Store platform at shahzadoil.linkeincloud.com for vehicle oil-change operations and brand presence.",
+    "coverImage": "/uploads/brands/shahzad-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1200&q=80",
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&q=80"
+      "/uploads/brands/shahzad-cover.jpg"
     ],
     "technologies": [
       "HTML",
       "CSS",
       "JavaScript",
       "Web",
-      "Brand Content"
+      "Cloud Hosting"
     ],
-    "architecture": "Business brand website structured around company identity, offerings, and portfolio-style content presentation.",
+    "architecture": "Web application for oil-change store operations and brand presence, hosted at shahzadoil.linkeincloud.com.",
     "modules": [
       "Brand Home",
-      "Company Content",
-      "Offerings",
+      "Oil Change Jobs",
+      "Service Records",
+      "Store Operations",
       "Contact"
     ],
     "features": [
-      "Business brand website presence",
-      "Structured company and offerings content",
-      "Professional digital footprint for oil store brand"
+      "Live site: shahzadoil.linkeincloud.com",
+      "Vehicle oil-change job handling",
+      "Service-oriented store workflows",
+      "Professional oil-store brand presence"
     ],
     "caseStudy": {
-      "flowDiagrams": [],
-      "images": [],
-      "problem": "Oil store brand lacked a structured professional digital presence.",
+      "problem": "Oil-change store needed a live digital platform for vehicle service operations and brand.",
       "challenges": [
-        "Keeping content clear and brand-first without overbuilding"
+        "Keeping scope focused on oil-change operations",
+        "Clear brand-first presentation"
       ],
-      "architecture": "Brand website/portfolio content structure.",
-      "database": "Content as static/CMS pages",
-      "api": "N/A / simple web delivery",
-      "performance": "Lightweight brand site delivery.",
-      "businessValue": "Stronger first impression and clearer online company presence.",
+      "architecture": "Web product/site for oil-change operations hosted on Linkei Cloud.",
+      "database": "Content/store data as applicable",
+      "api": "Simple web delivery / app services as needed",
+      "performance": "Lightweight operational site delivery.",
+      "businessValue": "Live platform to organize oil-change work and strengthen local brand presence.",
       "lessonsLearned": [
-        "Small business sites win with clarity and brand focus over feature bloat"
-      ]
+        "Automotive service products win when workflow language matches the shop floor"
+      ],
+      "flowDiagrams": [],
+      "images": []
     },
-    "featured": false,
+    "featured": true,
     "order": 17,
-    "completedAt": null
+    "completedAt": null,
+    "liveDemoUrl": "https://shahzadoil.linkeincloud.com/"
   },
   {
     "id": "proj001",
@@ -1448,10 +1381,10 @@
       "Mobile",
       "Web Portal"
     ],
-    "shortDescription": "Healthcare platform connecting patients with home healthcare professionals across Saudi Arabia through a mobile app and ASP.NET MVC portal.",
-    "description": "HomeCare is a digital healthcare platform built for the Saudi Arabian market to connect patients with home healthcare professionals through a single, coordinated system. The solution combines a patient-facing mobile application with an ASP.NET MVC web portal for clinical and administrative teams. It supports the full care journey—from registration and service requests through appointments, treatment planning, billing, and medical history tracking—with a primary focus on physiotherapy (DPT) patients and home healthcare providers.",
-    "businessProblem": "Home healthcare delivery was fragmented across phone calls, paper records, and disconnected schedules, making it difficult to assign clinicians, track care progress, and keep patients informed. Providers needed a centralized platform to manage appointments, collaborate on diagnosis, and maintain accurate clinical and financial records.",
-    "solution": "HomeCare introduced a unified digital ecosystem where patients can register, request services, and communicate with doctors, while clinical teams manage assignment, diagnosis, treatment plans, and billing from dedicated portals. A collaborative diagnosis workflow enables doctors to review patient information together before recommending treatment, improving care quality and decision consistency.",
+    "shortDescription": "Saudi home-healthcare mobile + web platform — customers request care like Uber; a doctor comes to the home and provides treatment/solutions, with clinic portals, physiotherapy, reporting, and communication.",
+    "description": "HomeCare is a Saudi medical product that connects customers at home with clinicians through a mobile app (Uber-like care requests) and ASP.NET MVC clinic portals. The customer places an order for home care; a doctor goes to the patient and provides solutions on site. Clinical teams also manage assignments, physiotherapy (DPT), treatment planning, billing, medical history, reporting, and clinic–customer communication — closing the loop between home and clinic.",
+    "businessProblem": "Home healthcare in Saudi Arabia was fragmented across calls and paper. Customers needed an easy Uber-style way to request a doctor at home, and clinics needed connected mobile/web systems for assignment, care delivery, reporting, and communication.",
+    "solution": "Built a dual-channel platform (mobile app + ASP.NET MVC portals): customers order home care on demand; doctors go to the home and deliver solutions; admins handle assignment, diagnosis collaboration, physiotherapy plans, billing, history, notifications, and reporting.",
     "responsibilities": [
       "Served as Full Stack .NET Developer across web portal and related platform modules",
       "Built and enhanced ASP.NET MVC application features",
@@ -1468,12 +1401,10 @@
     ],
     "database": "Microsoft SQL Server",
     "deploymentEnvironment": "Internal server deployment",
-    "results": "Delivered a production-ready healthcare platform that streamlined home care operations, improved clinician collaboration, and gave patients a clearer digital path from request to treatment and follow-up.",
-    "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1400&q=80",
+    "results": "Delivered a Saudi production healthcare platform that connects home patients with clinicians, streamlines physiotherapy operations, and improves clinic–customer communication and reporting.",
+    "coverImage": "/uploads/brands/homecare-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1200&q=80",
-      "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&q=80"
+      "/uploads/brands/homecare-cover.jpg"
     ],
     "videoUrl": null,
     "gitHubUrl": null,
@@ -1504,14 +1435,14 @@
       "Mobile Application"
     ],
     "features": [
-      "Patient self-registration and profile management",
-      "Appointment scheduling and doctor assignment",
-      "Collaborative auto diagnosis workflow",
-      "Treatment planning and care coordination",
-      "Patient history and medical records management",
-      "Billing and payment tracking",
-      "Notifications for patients and care teams",
-      "Admin portal, doctor portal, and mobile application"
+      "Uber-like home care request: customer orders, doctor arrives at home",
+      "Mobile app for customers + clinic/admin web portals",
+      "On-site doctor visit and treatment solutions",
+      "Physiotherapy (DPT) focused care journeys",
+      "Doctor assignment and collaborative diagnosis",
+      "Treatment planning, billing, and medical history",
+      "Reporting and clinic–customer communication",
+      "Notifications for patients and care teams"
     ],
     "caseStudy": {
       "problem": "Home healthcare lacked a centralized digital system for patients, doctors, and administrators.",
@@ -1654,105 +1585,106 @@
   {
     "id": "proj003",
     "slug": "shifili-multihead-production-system",
-    "title": "Shifili Multihead Production System",
+    "title": "Shifili / Multihead — Embroidery Factory System (SEFAM)",
     "company": "Safe Tech",
-    "industry": "Textile Manufacturing",
+    "industry": "Textile Embroidery Manufacturing",
     "clientRegion": "Pakistan",
     "duration": "",
     "categories": [
       "Textile",
+      "Embroidery",
+      "Desktop",
+      "VB.NET",
       "Manufacturing",
       "Machine Integration",
-      "Quality"
+      "SEFAM"
     ],
-    "shortDescription": "Textile manufacturing platform with machine integration, fabric inspection, defect detection, roll tracking, warehouse control, and accounts integration.",
-    "description": "Shifili Multihead Production System is an enterprise textile manufacturing platform designed to digitize the shop floor and connect production reality to warehouse and commercial operations. The software communicates directly with industrial production machines to capture live output, support fabric inspection, detect defects, track rolls, manage grading, and synchronize production outcomes with warehouse, dispatch, and accounts workflows.",
-    "businessProblem": "Textile manufacturers struggled to convert machine output into reliable operational records. Manual inspection notes, delayed roll tracking, and disconnected warehouse or accounts processes created quality risk, inventory gaps, and weak production visibility.",
-    "solution": "The platform creates a closed-loop manufacturing system centered on machine integration and production intelligence. Live machine data feeds production monitoring, fabric inspection, and defect detection. Roll tracking and grade management convert quality outcomes into inventory-ready records, while warehouse, dispatch, and accounts integration extend production data into fulfillment and commercial control.",
+    "shortDescription": "Complete VB desktop embroidery factory system for Alam Embroidery / SEFAM (Bareeze, Mini, Maya, Chinar, Rang Ja) — Schiffli + multihead machines, shop↔factory, HR, cutting, packing, machine-head efficiency & Turkish OEM automation.",
+    "description": "Developed for Alam Embroidery factory serving Pakistan’s leading textile brands under SEFAM / CFM — Bareeze, Mini, Maya, Chinar, and Rang Ja. This is a complete desktop embroidery management system (VB) for fabric embroidery production: Schiffli machines and multihead machines (separate machine types, each with their own heads) connected for live performance and efficiency. The platform automated the full factory loop — HR, retail shops linked to factory production, cutting, packing, inventory, and machine-head analytics — in partnership with a Turkish machine OEM to fully automate shop-floor capture. Desktop application (no public web link).",
+    "businessProblem": "A major embroidery factory serving SEFAM brands needed one automated system spanning Schiffli and multihead machines, shop orders, factory production, cutting/packing, HR, and machine-head efficiency — instead of disconnected manual records.",
+    "solution": "Built a complete VB desktop management system for Alam Embroidery: dual machine lines (Schiffli + multihead) with head-level performance, shops connected to factory production, HR, cutting, packing, and end-to-end automation with a Turkish embroidery-machine partner.",
     "responsibilities": [
-      "Led application development for the production platform",
-      "Designed manufacturing workflows from machine capture to dispatch and accounts",
-      "Built backend modules for monitoring, inspection, grading, and inventory",
-      "Designed the SQL Server database structure",
-      "Delivered production and operational reporting",
-      "Integrated industrial machine data into the software stack"
+      "Led development of the complete embroidery factory desktop system (VB)",
+      "Designed workflows from shop orders through factory production, cutting, and packing",
+      "Integrated Schiffli and multihead machine data (separate head models) for performance/efficiency",
+      "Built HR and shop↔factory connected operations modules",
+      "Partnered with Turkish machine OEM to automate live machine capture",
+      "Delivered production, efficiency, and operational reporting"
     ],
     "technicalHighlights": [
-      "Direct industrial machine integration for live production capture",
-      "Fabric inspection and defect detection workflows",
-      "Roll tracking and grade management for quality-controlled inventory",
-      "Warehouse, dispatch, and accounts integration from production events"
+      "VB desktop application for embroidery factory (not a public website)",
+      "Schiffli machines vs multihead machines — separate head/performance models",
+      "Machine-head efficiency and performance analytics",
+      "Shops connected to factory production + cutting & packing",
+      "HR + complete factory management",
+      "Automation with Turkish embroidery machine OEM"
     ],
     "database": "Microsoft SQL Server",
-    "deploymentEnvironment": "On-premise / industrial plant environment with machine-connected services",
-    "results": "Transformed textile production from manual recording into a connected manufacturing system—improving machine visibility, inspection consistency, roll-level inventory accuracy, and downstream warehouse, dispatch, and accounts alignment.",
-    "coverImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=80",
+    "deploymentEnvironment": "On-premise desktop / factory plant (Alam Embroidery)",
+    "results": "Fully automated embroidery factory operations for SEFAM-brand production — live Schiffli/multihead efficiency, shop-to-factory continuity, and cutting/packing/HR in one VB desktop system.",
+    "coverImage": "/uploads/brands/shifili-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80",
-      "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=1200&q=80",
-      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1200&q=80",
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&q=80",
-      "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&q=80",
-      "https://images.unsplash.com/photo-1618220179428-22790b461013?w=1200&q=80"
+      "/uploads/brands/shifili-cover.jpg"
     ],
     "technologies": [
-      "ASP.NET MVC",
       "VB.NET",
-      "C#",
-      "JavaScript",
+      "Visual Basic",
+      "Desktop Application",
       "SQL Server",
       "Windows Services",
-      "Industrial Machine Integration"
+      "Industrial Machine Integration",
+      "Schiffli Machines",
+      "Multihead Embroidery Machines"
     ],
-    "architecture": "ASP.NET MVC application with SQL Server, supported by Windows Services that communicate with industrial textile machines. Production events flow through monitoring, fabric inspection, defect detection, roll and grade management, warehouse, dispatch, and accounts modules—creating an end-to-end manufacturing control loop.",
+    "architecture": "On-premise VB desktop application with SQL Server and machine-connected services. Schiffli and multihead embroidery lines feed head-level performance into production, shop, cutting, packing, HR, and efficiency modules — automated with Turkish OEM machine integration.",
     "modules": [
-      "Machine Integration",
-      "Production Monitoring",
-      "Fabric Inspection",
-      "Defect Detection",
-      "Roll Tracking",
-      "Grade Management",
-      "Color Management",
-      "Warehouse",
+      "Schiffli Machine Integration",
+      "Multihead Machine Integration",
+      "Machine Head Performance / Efficiency",
+      "Factory Production",
+      "Shop System (linked to factory)",
+      "Cutting",
+      "Packing",
+      "HR",
+      "Inventory / Warehouse",
       "Dispatch",
-      "Accounts Integration",
-      "Production Reports",
-      "Inventory",
-      "Cutting Department",
-      "Vendor Management",
-      "Billing"
+      "Accounts / Billing",
+      "Production & Efficiency Reports"
     ],
     "features": [
-      "Real-time machine integration and production monitoring",
-      "Fabric inspection and defect detection",
-      "Roll tracking with grade and quality classification",
-      "Warehouse and inventory synchronization from production output",
-      "Dispatch readiness linked to graded rolls and stock",
-      "Accounts integration for commercial follow-through",
-      "Production reporting for operational and management control"
+      "Complete embroidery factory management (desktop VB)",
+      "Built for Alam Embroidery / SEFAM brands (Bareeze, Mini, Maya, Chinar, Rang Ja)",
+      "Schiffli and multihead machines handled separately by head type",
+      "Live machine-head performance and efficiency",
+      "Retail shops connected to factory production",
+      "Cutting and packing workflows",
+      "HR and full operational automation",
+      "Turkish machine OEM partnership for shop-floor automation"
     ],
     "caseStudy": {
-      "problem": "Textile production, inspection, and commercial systems were disconnected from live machine activity.",
+      "problem": "SEFAM-serving embroidery factory needed automated Schiffli + multihead production linked to shops, cutting, packing, and HR.",
       "challenges": [
-        "Reliable machine-to-software communication on the shop floor",
-        "Accurate fabric inspection and defect classification",
-        "Keeping roll tracking, warehouse, dispatch, and accounts aligned"
+        "Two different machine families (Schiffli vs multihead) with different head models",
+        "Connecting retail shops to factory production in real time",
+        "Partnering with Turkish OEM for reliable machine automation"
       ],
-      "architecture": "ASP.NET MVC + Windows Services for machine data capture and manufacturing operations.",
+      "architecture": "VB desktop + SQL Server + machine services for Schiffli/multihead embroidery factory.",
       "database": "Microsoft SQL Server",
-      "api": "Service-based machine data ingestion with operational application modules.",
-      "performance": "Continuous machine statistics capture supporting live production monitoring.",
-      "businessValue": "Stronger quality control, roll-level inventory accuracy, and production-to-accounts visibility.",
+      "api": "Machine OEM data services and desktop operational modules (on-premise).",
+      "performance": "Continuous machine-head statistics for efficiency and production monitoring.",
+      "businessValue": "End-to-end automated embroidery operations for leading Pakistani textile brands.",
       "lessonsLearned": [
-        "Machine integration is the foundation of textile digitalization",
-        "Inspection and grading must connect directly to warehouse and dispatch"
+        "Schiffli and multihead must be modeled separately — heads and efficiency differ",
+        "Shop–factory connection is as critical as machine capture in embroidery ERP",
+        "OEM partnership unlocks true automation on the embroidery floor"
       ],
       "flowDiagrams": [],
       "images": []
     },
     "featured": true,
     "order": 20,
-    "completedAt": null
+    "completedAt": null,
+    "liveDemoUrl": null
   },
   {
     "id": "proj004",
@@ -1860,92 +1792,98 @@
   {
     "id": "proj005",
     "slug": "veterinary-erp",
-    "title": "Veterinary ERP",
-    "company": "Neogen",
-    "industry": "Veterinary Healthcare",
+    "title": "NaVetor — Cloud Veterinary Platform",
+    "company": "Patterson Veterinary / NaVetor",
+    "industry": "Veterinary Software / Animal Health",
     "clientRegion": "United States",
     "duration": "",
     "categories": [
-      "Healthcare",
-      "ERP",
+      "Veterinary",
+      "Cloud",
+      "AI",
+      "SaaS",
+      "Practice Management",
       "Angular",
       "ASP.NET Core"
     ],
-    "shortDescription": "Enterprise ERP for veterinary hospitals managing owners, animals, appointments, treatments, billing, and inventory.",
-    "description": "Veterinary ERP is an enterprise platform for veterinary hospitals and animal healthcare providers. It manages the full clinic lifecycle—pet owners, animals, breeds, appointments, treatments, medical records, billing, inventory, and administration—so care teams can operate from a single, consistent system of record.",
-    "businessProblem": "Veterinary practices needed a unified ERP to manage owners, animal profiles, clinical visits, treatment plans, billing, and inventory without fragmented tools. Inefficient workflows and disconnected records slowed care delivery and operational control.",
-    "solution": "The platform provides integrated modules for animal and owner management, clinical appointments and treatment planning, medical records, billing, inventory, reporting, and administration. An Angular frontend with ASP.NET Core REST APIs delivers a modern, maintainable enterprise experience backed by SQL Server.",
+    "shortDescription": "NaVetor (navetor.com) — Patterson-backed cloud veterinary practice software with Atlas AI assistant: scheduling, medical records, labs/imaging, inventory, payments, and mobile — integrations with IDEXX, Antech, Zoetis, and more.",
+    "description": "NaVetor (https://www.navetor.com/) is flexible cloud veterinary software from Patterson — now with Atlas, an AI assistant for smart automation and real-time practice insights without local server headaches. Portfolio work covered enterprise veterinary/clinical modules on Angular + ASP.NET Core (scheduling, medical records, inventory, billing/payments, labs & imaging workflows, mobile-ready ops) and production support for practice management delivery — presented without confidential internals.",
+    "businessProblem": "Veterinary practices needed intuitive cloud software that unifies workflow, medical records, labs/imaging, inventory, and payments — with AI assistance and integrations to tools they already use.",
+    "solution": "Delivered enterprise veterinary practice modules for the NaVetor cloud platform direction: Angular + ASP.NET Core services for clinical/ops workflows, inventory and billing surfaces, and production reliability — aligned to modern cloud veterinary practice management (Atlas AI, Patterson-backed ecosystem).",
     "responsibilities": [
-      "Served as Senior Full Stack Developer",
-      "Developed core enterprise ERP modules",
-      "Built and enhanced Angular frontend experiences",
-      "Designed and implemented REST APIs on ASP.NET Core",
-      "Improved application performance",
-      "Diagnosed and resolved production issues"
+      "Built enterprise veterinary modules on Angular + ASP.NET Core REST APIs",
+      "Supported clinical/ops workflows: animals, owners, appointments, treatments, billing, inventory",
+      "Improved application performance for clinic workloads",
+      "Resolved production issues across veterinary practice management features"
     ],
     "technicalHighlights": [
-      "Modern Angular SPA with ASP.NET Core API backend",
-      "REST-based service architecture for clinic operations",
-      "Performance improvements for enterprise clinic workloads",
-      "Production support for stability and continuity of care operations"
+      "Cloud veterinary practice management (NaVetor / Patterson)",
+      "Atlas AI assistant–era practice automation direction",
+      "Angular + ASP.NET Core enterprise modules",
+      "Integrations-ready labs, payments, inventory, and mobile workflows"
     ],
     "database": "Microsoft SQL Server",
-    "deploymentEnvironment": "Enterprise cloud / hosted application environment (client deployment)",
-    "results": "Delivered a cohesive veterinary ERP that improved clinic operations, record accuracy, and day-to-day efficiency for animal healthcare providers.",
-    "coverImage": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=1400&q=80",
+    "deploymentEnvironment": "Cloud / hosted veterinary SaaS environment",
+    "results": "Strengthened cloud veterinary practice software delivery — clinical ops, inventory, billing, and reporting modules for NaVetor-class practice management.",
+    "coverImage": "/uploads/brands/navetor-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=1200&q=80",
-      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&q=80"
+      "/uploads/brands/navetor-logo.png",
+      "/uploads/brands/navetor-cover.jpg"
     ],
     "technologies": [
       "Angular",
       "ASP.NET Core",
       "REST API",
       "C#",
-      "SQL Server"
+      "SQL Server",
+      "Cloud SaaS",
+      "Veterinary Practice Management",
+      "AI Assistants"
     ],
-    "architecture": "Angular frontend consuming ASP.NET Core REST APIs, with SQL Server as the persistent store for owners, animals, clinical, billing, inventory, and administrative data across veterinary hospital workflows.",
+    "architecture": "Angular frontend consuming ASP.NET Core REST APIs, with SQL Server for owners, patients/animals, clinical records, scheduling, billing, inventory, and administration — cloud veterinary practice management aligned to NaVetor product direction.",
     "modules": [
-      "Animal Registration",
-      "Owner Management",
-      "Breed Management",
+      "Workflow / Scheduling",
       "Medical Records",
-      "Appointments",
-      "Treatment Plans",
-      "Billing",
+      "Labs & Imaging",
       "Inventory",
-      "Reports",
-      "Administration"
+      "Payments / Billing",
+      "Mobile Apps",
+      "Client Messaging",
+      "Reports / Administration",
+      "AI Assistant (Atlas-class)"
     ],
     "features": [
-      "Animal registration and breed management",
-      "Pet owner management",
-      "Medical records and treatment plans",
-      "Appointment scheduling",
-      "Billing and inventory control",
-      "Operational reports and administration"
+      "Live product: navetor.com",
+      "Cloud veterinary practice software (Patterson-backed)",
+      "AI assistant–driven practice workflows",
+      "Scheduling, medical records, labs & imaging",
+      "Inventory and payments",
+      "Mobile-ready practice operations",
+      "Ecosystem integrations (labs, pharmacy, payments, communication)"
     ],
     "caseStudy": {
-      "problem": "Veterinary clinics needed one ERP for clinical, billing, and inventory operations.",
+      "problem": "Vet practices needed unified cloud software for clinical workflow, records, inventory, and payments — with AI and vendor integrations.",
       "challenges": [
-        "Balancing clinical completeness with performance",
-        "Sustaining production reliability across interconnected modules"
+        "Clinic-grade performance for daily veterinary workflows",
+        "Keeping medical, inventory, and billing modules coherent",
+        "Cloud delivery without exposing confidential product internals"
       ],
-      "architecture": "Angular SPA + ASP.NET Core REST APIs + SQL Server.",
+      "architecture": "Angular + ASP.NET Core + SQL Server cloud veterinary practice modules.",
       "database": "Microsoft SQL Server",
-      "api": "ASP.NET Core REST APIs for clinic operations.",
-      "performance": "Application performance improvements for enterprise clinic workloads.",
-      "businessValue": "Improved clinic efficiency and record accuracy for animal healthcare providers.",
+      "api": "ASP.NET Core REST APIs for practice management services.",
+      "performance": "Production support and performance improvements for clinic workloads.",
+      "businessValue": "Practices flow through the day with connected clinical, inventory, and payment operations on cloud veterinary software.",
       "lessonsLearned": [
-        "Veterinary workflows require strong owner–animal data relationships",
-        "Production support is critical in healthcare ERP"
+        "Veterinary SaaS wins when workflow, records, and payments stay in one cloud surface",
+        "AI assistants amplify value only when grounded in real practice data modules"
       ],
       "flowDiagrams": [],
       "images": []
     },
     "featured": true,
     "order": 22,
-    "completedAt": null
+    "completedAt": null,
+    "liveDemoUrl": "https://www.navetor.com/"
   },
   {
     "id": "proj008",
@@ -1960,7 +1898,7 @@
       "Case Management",
       "Document Management"
     ],
-    "shortDescription": "Enterprise legal operations platform helping law firms digitize clients, cases, hearings, documents, billing, and internal workflows.",
+    "shortDescription": "Law-firm operations platform — clients, cases, hearings, documents, billing, and payment tracking in one legal digital system.",
     "description": "IFP is an enterprise legal technology platform developed for law firms seeking to digitize legal operations and client management. The system centralizes clients, legal cases, court hearings, documents, appointments, advocates, billing, payment tracking, and internal workflows into one coordinated platform—giving legal teams a structured digital operating environment instead of fragmented files and manual follow-ups.",
     "businessProblem": "Law firms often manage clients, case files, hearings, documents, and billing through disconnected tools and manual processes. This creates visibility gaps, delayed coordination, weak document control, and inefficient financial follow-up across advocates and administrative teams.",
     "solution": "IFP provides a centralized legal operations system where firms manage the full matter lifecycle—from client onboarding and case creation through hearings, document control, appointments, billing, payments, dashboards, notifications, and reporting—supported by structured user management and operational workflows.",
@@ -2042,96 +1980,6 @@
     "completedAt": null
   },
   {
-    "id": "proj009",
-    "slug": "uk-base-cms",
-    "title": "UK Base CMS",
-    "company": "SD Solutions",
-    "industry": "Content Management",
-    "clientRegion": "United Kingdom",
-    "duration": "",
-    "categories": [
-      "CMS",
-      "Content Management",
-      "Publishing"
-    ],
-    "shortDescription": "Modern WordPress-style enterprise CMS enabling non-technical administrators to manage pages, media, SEO, blogs, forms, and publishing workflows.",
-    "description": "UK Base CMS is a modern enterprise Content Management System designed to give administrators WordPress-like control over digital content without requiring technical expertise. The platform supports page creation, content editing, media management, blogs, news, navigation, SEO, forms, user roles, permissions, and publishing workflows—enabling organizations to manage and publish website content through a structured administrative experience.",
-    "businessProblem": "Organizations needed a flexible CMS that empowered marketing and content teams to create, edit, and publish website content independently, while still preserving governance through roles, permissions, SEO controls, and structured publishing workflows.",
-    "solution": "UK Base CMS delivers an administration-first content platform where authorized users manage pages, blogs, news, media libraries, menus, forms, and SEO settings through governed publishing workflows. Role-based permissions protect sensitive actions while keeping day-to-day content operations accessible to non-technical administrators.",
-    "responsibilities": [
-      "Developed CMS modules for pages, media, blogs, and publishing workflows",
-      "Implemented backend business logic and content governance rules",
-      "Built ASP.NET Core MVC features for administration and content delivery",
-      "Designed SQL Server structures for content, media, and permissions",
-      "Enhanced SEO, forms, menus, and role-based access capabilities"
-    ],
-    "technicalHighlights": [
-      "WordPress-style content administration for non-technical users",
-      "Governed publishing workflows with roles and permissions",
-      "Media library, SEO, menus, forms, blogs, and news in one CMS",
-      "ASP.NET Core MVC architecture with SQL Server content storage"
-    ],
-    "database": "Microsoft SQL Server",
-    "deploymentEnvironment": "Enterprise web hosting environment",
-    "results": "Enabled content teams to manage and publish website experiences independently while retaining enterprise control through roles, permissions, SEO management, and structured publishing workflows.",
-    "coverImage": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1400&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1200&q=80",
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80"
-    ],
-    "technologies": [
-      "ASP.NET Core",
-      "MVC",
-      "SQL Server",
-      "JavaScript"
-    ],
-    "architecture": "ASP.NET Core MVC application with SQL Server as the content and permissions store. Administrative modules manage pages, blogs, news, media, menus, forms, SEO, roles, and publishing workflows, while the public-facing delivery layer renders published content to website visitors.",
-    "modules": [
-      "Pages",
-      "Blogs",
-      "News",
-      "Media Library",
-      "Menus",
-      "Forms",
-      "SEO",
-      "User Roles",
-      "Permissions",
-      "Publishing Workflow"
-    ],
-    "features": [
-      "Non-technical content editing and page management",
-      "Media library for assets and digital content",
-      "Blogs and news publishing",
-      "Navigation and menu management",
-      "SEO controls for pages and content entities",
-      "Forms and structured user input capture",
-      "Role-based permissions and governed publishing workflows"
-    ],
-    "caseStudy": {
-      "problem": "Organizations needed a modern CMS that non-technical teams could operate with enterprise governance.",
-      "challenges": [
-        "Balancing ease of use with permissions and publishing control",
-        "Supporting SEO, media, menus, and forms in one coherent CMS",
-        "Keeping administration intuitive while preserving technical reliability"
-      ],
-      "architecture": "ASP.NET Core MVC CMS with SQL Server content and security models.",
-      "database": "Microsoft SQL Server",
-      "api": "MVC application services supporting admin and content delivery workflows.",
-      "performance": "Optimized content retrieval and administrative operations.",
-      "businessValue": "Faster content publishing with stronger governance and SEO control.",
-      "lessonsLearned": [
-        "CMS success depends on administrator usability",
-        "Publishing workflows and permissions are core enterprise requirements"
-      ],
-      "flowDiagrams": [],
-      "images": []
-    },
-    "featured": true,
-    "order": 24,
-    "completedAt": null
-  },
-  {
     "id": "proj006",
     "slug": "pti-feed-management-system",
     "title": "PTI Feed Management System",
@@ -2206,94 +2054,98 @@
       "images": []
     },
     "featured": false,
-    "order": 25,
+    "order": 24,
     "completedAt": null
   },
   {
     "id": "proj007",
     "slug": "neogen-enterprise-product-portfolio",
-    "title": "Neogen Multi-Product Enterprise Engagement",
-    "company": "Neogen",
-    "industry": "Cross-Industry Enterprise Software",
-    "clientRegion": "International (including Morocco and other global clients)",
+    "title": "Neogen US — Multi-Product Biotech Engagement",
+    "company": "Neogen (US)",
+    "industry": "Biotech / Food & Animal Safety",
+    "clientRegion": "United States / International",
     "duration": "",
     "categories": [
-      "Healthcare",
-      "Banking",
-      "Manufacturing",
-      "Government",
-      "Financial Services"
+      "Biotech",
+      "Food Safety",
+      "Animal Safety",
+      "Hardware Integration",
+      "Installers",
+      "Enterprise"
     ],
-    "shortDescription": "Multi-product enterprise delivery across healthcare, banking, manufacturing, government, and financial platforms for international clients.",
-    "description": "At Neogen, I contributed to multiple enterprise products serving international clients across regulated and high-scale domains. Engagements spanned healthcare platforms, banking solutions, manufacturing systems, Morocco government projects, DFC initiatives, healthcare group systems, AGC-related solutions, and enterprise financial platforms—delivered to professional enterprise standards.",
-    "businessProblem": "International clients required reliable, domain-specific enterprise systems that could support complex operational, regulatory, and financial workflows. Delivery demanded consistent engineering quality across diverse products and industries rather than a single fixed platform.",
-    "solution": "Provided full-stack enterprise development across a portfolio of products, applying reusable engineering practices—modular design, API-driven architecture, performance improvement, and production support—to healthcare, banking, manufacturing, government, and financial platforms.",
+    "shortDescription": "Neogen (neogen.com) — Lansing, USA food & animal safety biotech; multi-product engagement: InstallShield installers, hardware–software communication for market devices, and enterprise .NET/Angular delivery.",
+    "description": "Neogen (https://www.neogen.com/) delivers data-driven solutions for food, beverage, animal, and agriculture safety — world-class testing for pathogens, allergens, mycotoxins, and more, headquartered in Lansing, MI. Multi-product US engagement covered InstallShield installers for fundamental biotech/hardware products used in the market, hardware–software communication across client sites, and enterprise software delivery (.NET / Angular) for related operational platforms — including international product work — without exposing confidential device protocols.",
+    "businessProblem": "Neogen’s multi-product biotech portfolio needed consistent engineering so field/lab devices stay connected to software, with installers and enterprise modules that scale internationally.",
+    "solution": "Provided full-stack and integration engineering across Neogen’s portfolio: installers for hardware, device–software communication bridges, and enterprise .NET/Angular delivery with production support for food and animal safety product lines.",
     "responsibilities": [
-      "Delivered features and modules across multiple enterprise products",
-      "Supported international client requirements and domain workflows",
-      "Strengthened application stability through performance work and production issue resolution",
-      "Collaborated across product teams on architecture-aligned implementation"
+      "Developed InstallShield installers for multiple Neogen hardware/biotech products",
+      "Implemented hardware–software communication workflows for market devices",
+      "Delivered features across multiple enterprise product lines",
+      "Supported international client requirements and production stability"
     ],
     "technicalHighlights": [
-      "Multi-domain enterprise delivery experience",
-      "Cross-product consistency in quality and maintainability",
-      "Production-focused engineering for international clients"
+      "Neogen food & animal safety biotech (neogen.com)",
+      "US multi-product hardware installer development",
+      "Device–software communication for field/lab products",
+      "Enterprise .NET/Angular delivery with production support"
     ],
     "database": "Microsoft SQL Server and product-specific enterprise data stores",
     "deploymentEnvironment": "Client and product-specific enterprise hosting environments",
-    "results": "Contributed to successful delivery and ongoing enhancement of multiple international enterprise products spanning healthcare, banking, manufacturing, government, and financial services.",
-    "coverImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=80",
+    "results": "Helped keep multiple Neogen US biotech hardware products connected to software through installers, integrations, and enterprise delivery across food and animal safety lines.",
+    "coverImage": "/uploads/brands/neogen-cover.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
-      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&q=80"
+      "/uploads/brands/neogen-logo.png",
+      "/uploads/brands/neogen-cover.jpg"
     ],
     "technologies": [
-      "Angular",
       "ASP.NET Core",
-      "REST API",
+      "Angular",
       "C#",
       "SQL Server",
+      "InstallShield",
+      "Hardware Integration",
+      "REST API",
       ".NET"
     ],
     "architecture": "Varied by product; generally enterprise n-tier / API-oriented architectures with SQL-backed systems tailored to healthcare, financial, manufacturing, and government requirements.",
     "modules": [
-      "Healthcare Platforms",
-      "Banking Solutions",
-      "Manufacturing Systems",
-      "Morocco Government Projects",
-      "DFC",
-      "Healthcare Groups",
-      "AGC",
-      "Enterprise Financial Platforms"
+      "Hardware Installers",
+      "Device Communication",
+      "Food Safety Product Lines",
+      "Animal Safety Product Lines",
+      "Enterprise Platforms",
+      "International Client Delivery"
     ],
     "features": [
-      "Healthcare platform operations",
-      "Banking and enterprise financial workflows",
-      "Manufacturing system support",
-      "Government project delivery (including Morocco)",
-      "Healthcare group and DFC-related solutions",
-      "AGC and related enterprise systems"
+      "Live company: neogen.com",
+      "Food & animal safety biotech portfolio engagement",
+      "Multi-product InstallShield installer development",
+      "Hardware–software communication for market devices",
+      "Enterprise software modules across Neogen lines",
+      "Production support for international deployments"
     ],
     "caseStudy": {
-      "problem": "International clients needed consistent enterprise quality across diverse regulated domains.",
+      "problem": "US food & animal safety biotech multi-product portfolios fail when hardware and software drift apart in the field.",
       "challenges": [
-        "Adapting quickly across industries and product architectures",
-        "Maintaining delivery speed and production quality"
+        "Diverse hardware SKUs and installer packaging",
+        "Reliable device communication under real client conditions",
+        "Consistent quality across many product lines"
       ],
-      "architecture": "Product-specific enterprise n-tier and API-oriented architectures.",
+      "architecture": "Product-specific enterprise stacks with shared installer/integration practices.",
       "database": "Microsoft SQL Server and product data stores",
-      "api": "REST and service-oriented patterns aligned to each product line.",
-      "performance": "Performance improvements and production issue resolution across products.",
-      "businessValue": "Reliable multi-domain delivery for international enterprise clients.",
+      "api": "REST and integration services per product line.",
+      "performance": "Production issue resolution across hardware-connected products.",
+      "businessValue": "Field biotech devices remain usable and connected to Neogen software ecosystems for food and animal safety.",
       "lessonsLearned": [
-        "Reusable engineering practices accelerate multi-product delivery",
-        "Production support is essential for regulated enterprise systems"
+        "Installer quality is a product feature in biotech hardware businesses",
+        "Reusable integration patterns beat one-off device scripts"
       ],
       "flowDiagrams": [],
       "images": []
     },
-    "featured": false,
-    "order": 26,
-    "completedAt": null
+    "featured": true,
+    "order": 25,
+    "completedAt": null,
+    "liveDemoUrl": "https://www.neogen.com/"
   }
 ]

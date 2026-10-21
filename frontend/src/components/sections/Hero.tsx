@@ -105,33 +105,23 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.97, y: 12 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.15 }}
-          className="relative mx-auto w-full max-w-md lg:max-w-none"
+          className="relative mx-auto w-full max-w-[280px] sm:max-w-[300px] lg:max-w-[320px]"
         >
-          <div
-            className="absolute -inset-3 rounded-[2rem] opacity-70 blur-2xl"
-            style={{
-              background:
-                'radial-gradient(circle at 40% 30%, color-mix(in oklab, var(--accent) 22%, transparent), transparent 62%)',
-            }}
-          />
-          <div
-            className="relative overflow-hidden rounded-[1.75rem] border border-[var(--border)] bg-[var(--bg-elevated)] shadow-[var(--shadow)]"
-            style={{ boxShadow: `0 0 0 1px var(--photo-ring), var(--shadow)` }}
-          >
-            <div className="relative aspect-[4/5] w-full overflow-hidden">
+          <div className="relative overflow-hidden bg-[var(--bg)]">
+            <div className="relative mx-auto aspect-[4/5] w-full max-w-[280px] overflow-hidden sm:max-w-[300px]">
               <img
                 src={photo}
                 alt={`${portfolio.profile.fullName} — professional portrait`}
-                className="profile-photo h-full w-full"
-                width={720}
-                height={900}
+                className="profile-photo profile-photo--hero h-full w-full"
+                width={480}
+                height={600}
                 fetchPriority="high"
               />
-              <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-[color-mix(in_oklab,var(--bg)_92%,#000)] via-[color-mix(in_oklab,var(--bg)_35%,transparent)] to-transparent px-5 pb-5 pt-24">
-                <p className="font-display text-lg font-semibold text-[var(--text)]">
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-[var(--bg)] via-[color-mix(in_oklab,var(--bg)_55%,transparent)] to-transparent px-4 pb-4 pt-16">
+                <p className="font-display text-base font-semibold text-[var(--text)]">
                   {portfolio.profile.firstName} {portfolio.profile.lastName}
                 </p>
-                <p className="mt-1 text-sm text-[var(--text-muted)]">
+                <p className="mt-1 text-xs text-[var(--text-muted)]">
                   {portfolio.profile.yearsExperience}+ years · {portfolio.profile.location}
                 </p>
               </div>

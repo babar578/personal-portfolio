@@ -46,7 +46,7 @@ export function Navbar() {
           <img
             src={avatar}
             alt=""
-            className="profile-photo h-9 w-9 rounded-full border border-[var(--border)] object-cover md:h-10 md:w-10"
+            className="profile-photo h-8 w-8 rounded-full bg-[var(--bg)] object-cover md:h-9 md:w-9"
             width={40}
             height={40}
           />

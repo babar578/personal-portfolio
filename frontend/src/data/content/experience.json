@@ -12,7 +12,7 @@
       "Delivered bilingual EN/AR Umbraco sites for finance, healthcare, and corporate Gulf clients (AJC, SPPC, Onco, Meem, Ithmaar, and more)",
       "Hardened public careers/contact forms with Google reCAPTCHA, privacy consent, and CV upload flows",
       "Integrated Mailchimp newsletter and Google Tag (gtag) conversion tracking for marketing operations",
-      "Applied SEO Toolkit, sitemap/robots, Block List, ModelsBuilder, and Surface Controller patterns across SparkUmb clients",
+      "Applied SEO Toolkit, sitemap/robots, Block List, ModelsBuilder, and Surface Controller patterns across SPARK clients",
       "Accelerated CMS/ERP delivery using Cursor, Copilot, and Claude while maintaining enterprise review standards",
       "Implemented CI/CD with Azure DevOps and GitHub Actions, improving release reliability"
     ],
@@ -34,27 +34,29 @@
   },
   {
     "id": "exp002",
-    "company": "Neogen (US-Based)",
+    "company": "Neogen (US Biotech)",
     "role": "Senior Software Engineer",
     "location": "Remote, Lahore, Pakistan",
     "startDate": "2024-11",
     "endDate": "2026-02",
     "isCurrent": false,
-    "description": "Led development of medical ERP and enterprise integrations for healthcare operations, including secure APIs, billing automation, and hardware-software installers.",
+    "description": "US biotech (Neogen) multi-product delivery — hardware–software communication for market devices, InstallShield installers, medical/veterinary ERP modules, secure APIs, and billing automation.",
     "achievements": [
-      "Led development of medical ERP system for 200+ healthcare users with full security compliance",
-      "Implemented JWT-secured third-party API integrations with custom ASP.NET Core software installers",
-      "Integrated QuickBooks Online (QBO) and Stripe, automating billing workflows and reducing manual effort by 60%",
-      "Built InstallShield-based installers enabling hardware-software communication across 50+ client sites"
+      "Built InstallShield installers and hardware–software communication for Neogen biotech field devices across 50+ client sites",
+      "Delivered enterprise modules across multiple Neogen hardware + software product lines",
+      "Led medical/veterinary ERP development for 200+ healthcare users with security compliance",
+      "Integrated QuickBooks Online (QBO) and Stripe, automating billing workflows and reducing manual effort by 60%"
     ],
     "technologies": [
       "ASP.NET Core",
       "C#",
       "SQL Server",
+      "Angular",
       "JWT",
+      "InstallShield",
+      "Hardware Integration",
       "QuickBooks Online",
-      "Stripe",
-      "InstallShield"
+      "Stripe"
     ],
     "logo": null,
     "order": 2

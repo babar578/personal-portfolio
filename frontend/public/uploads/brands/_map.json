@@ -1,0 +1,32 @@
+{
+  "logos": {
+    "ajc": null,
+    "sppc": null,
+    "sar": null,
+    "meem": null,
+    "ithmaar": null,
+    "spark": "/uploads/brands/spark.jpg",
+    "onco": "/uploads/brands/onco.svg",
+    "afg": null,
+    "neogen": null,
+    "agc": "/uploads/brands/agc.png"
+  },
+  "covers": {
+    "ajc": "/uploads/brands/ajc-cover.svg",
+    "sppc": "/uploads/brands/sppc-cover.svg",
+    "sar": "/uploads/brands/sar-cover.svg",
+    "meem": "/uploads/brands/meem-cover.svg",
+    "ithmaar": "/uploads/brands/ithmaar-cover.svg",
+    "spark": "/uploads/brands/spark-cover.svg",
+    "onco": "/uploads/brands/onco-cover.svg",
+    "afg": "/uploads/brands/afg-cover.svg",
+    "neogen": "/uploads/brands/neogen-cover.svg",
+    "chatbot": "/uploads/brands/chatbot-cover.svg",
+    "eme": "/uploads/brands/eme-cover.svg",
+    "subtrack": "/uploads/brands/subtrack-cover.svg",
+    "shahzad": "/uploads/brands/shahzad-cover.svg",
+    "homecare": "/uploads/brands/homecare-cover.svg",
+    "aira": "/uploads/brands/aira-cover.svg",
+    "bxm": "/uploads/brands/bxm-cover.svg"
+  }
+}
